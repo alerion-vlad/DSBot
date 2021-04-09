@@ -1,0 +1,1986 @@
+[
+  {
+    "name": "Charge (Artanis)",
+    "commanders": ["Artanis"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Allows Honor Guards to intercept nearby enemies, dealing 8 damage to the charged target. Also increases the movement speed of Honor Guards. Ability can only be used once every 10 seconds."
+  },
+  {
+    "name": "Whirlwind",
+    "commanders": ["Artanis"],
+    "cost": 75,
+    "requirements": ["Tier 2"],
+    "description": "Honor Guards gain the Whirlwind ability, which damages nearby enemies while active."
+  },
+  {
+    "name": "Trillic Compression Mesh",
+    "commanders": ["Artanis"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Dragoons gain +20 life, double shield recharge rate, and allows shields to recharge in combat."
+  },
+  {
+    "name": "Singularity Charge",
+    "commanders": ["Artanis"],
+    "cost": 100,
+    "requirements": ["Tier 2"],
+    "description": "Dragoons gain +2 weapon range."
+  },
+  {
+    "name": "Gravitic Boosters",
+    "cost": 25,
+    "commanders": ["Artanis", "Karax", "Fenix"],
+    "requirements": ["Tier 2"],
+    "description": "Increases the movement speed of observers."
+  },
+  {
+    "name": "Double Graviton Beam",
+    "commanders": ["Artanis"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Phoenix Graviton Beam affects two enemies at once.."
+  },
+  {
+    "name": "Anion Pulse Crystals (Artanis)",
+    "commanders": ["Artanis"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Increases Phoenix's attack range by 2."
+  },
+  {
+    "name": "Psionic Storm",
+    "commanders": ["Artanis"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Allows High Templar to summon a storm of psionic energy, causing heavy damage to every unit in the target area."
+  },
+  {
+    "name": "Plasma Surge",
+    "commanders": ["Artanis"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Psionic Storm restores 36 shields to friendly units in the target area."
+  },
+  {
+    "name": "Khaydrian Amulet",
+    "commanders": ["Artanis"],
+    "cost": 100,
+    "requirements": [],
+    "description": "High Templar and High Archons start with full energy.."
+  },
+  {
+    "name": "Improved Barrier",
+    "commanders": ["Artanis"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Immortal Barrier absorbs twice as much damage."
+  },
+  {
+    "name": "Scarab Housing",
+    "commanders": ["Artanis"],
+    "cost": 200,
+    "requirements": [],
+    "description": "Reavers can hold twice as many scarabs."
+  },
+  {
+    "name": "Solarite Payload",
+    "commanders": ["Artanis"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Reavers gain +25% splash damage radius."
+  },
+  {
+    "name": "Disintegration",
+    "commanders": ["Artanis"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Tempests gain the ability to deal damage over time to an enemy."
+  },
+  {
+    "name": "Metabolic Boost",
+    "commanders": ["Kerrigan", "Zagara"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Increases the movement speed of Zerglings"
+  },
+  {
+    "name": "Hardened Carapace",
+    "commanders": ["Kerrigan", "Zagara"],
+    "cost": 50,
+    "requirements": ["Tier 2"],
+    "description": "Raptorlings gain +10 life."
+  },
+  {
+    "name": "Adrenal Glands",
+    "commanders": ["Kerrigan", "Zagara"],
+    "cost": 75,
+    "requirements": ["Tier 3"],
+    "description": "Increases the attack speed of Raptorlings by 40%"
+  },
+  {
+    "name": "Shredding Claws",
+    "commanders": ["Kerrigan", "Zagara"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Raptorling attacks remove their target's armor for 14 seconds."
+  },
+  {
+    "name": "Heroic Fortitude (Kerrigan)",
+    "commanders": ["Kerrigan"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Kerrigan gains +200% life and +100% life regeneration."
+  },
+  {
+    "name": "Fury",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": ["Tier 2"],
+    "description": "Kerrigan gains +10% attack speed every time she attacks, up to 50%."
+  },
+  {
+    "name": "Chain Reaction",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": ["Tier 2"],
+    "description": "Kerrigan hits 4 additional enemies for 10 damage when attacking."
+  },
+  {
+    "name": "Ability Efficiency",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": ["Tier 3"],
+    "description": "Kerrigan has reduced cost for her abilities."
+  },
+  {
+    "name": "Rapid Regeneration",
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cost": 25,
+    "description": "Brood Mutalisks regenerate life quickly while out of combat."
+  },
+  {
+    "name": "Muscular Augments",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Increases Hydralisk movement speed by 25% and their attack range by +1."
+  },
+  {
+    "name": "Frenzy",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Hydralisks gain the Frenzy ability, increasing attack speed by 50% for 14 seconds."
+  },
+  {
+    "name": "Ancillary Carapace",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Hydralisk gains +20 maximum life."
+  },
+  {
+    "name": "Vicious Glaive",
+    "commanders": ["Kerrigan", "Abathur"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Brood Mutalisk attacks bounce three additional times, hitting up to six targets. Bounces also travel farther."
+  },
+  {
+    "name": "Severing Glaive",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Brood Mutalisks deal full damage with each weapon bounce."
+  },
+  {
+    "name": "Seismic Spines",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Lurkers gain +3 weapon range."
+  },
+  {
+    "name": "Chitinous Plating",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Gives +2 armor to Torrasques."
+  },
+  {
+    "name": "Burrow Charge",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Torrasques gain the Burrow Charge ability."
+  },
+  {
+    "name": "Tissue Assimilation",
+    "commanders": ["Kerrigan"],
+    "cost": 100,
+    "requirements": ["Burrow Charge"],
+    "description": "Torrasques restore 10 life per attack, plus 2 for each additional target cleaved."
+  },
+  {
+    "name": "Porous Cartilage",
+    "commanders": ["Kerrigan"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Brood Lords move twice as fast, and gain +100 life."
+  },
+  {
+    "name": "Heroic Fortitude (Zagara)",
+    "commanders": ["Zagara"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Kerrigan gains +200% life and +100% life regeneration."
+  },
+  {
+    "name": "Centrifugal Hooks",
+    "commanders": ["Zagara"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Splitterlings gain increased movement speed."
+  },
+  {
+    "name": "Corrosive Acid",
+    "commanders": ["Zagara"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Splitterlings deal 100% extra damage to the primary target when exploding."
+  },
+  {
+    "name": "Rupture",
+    "commanders": ["Zagara"],
+    "cost": 200,
+    "requirements": ["Tier 3"],
+    "description": "Splitterling blast radius increased by 50%."
+  },
+  {
+    "name": "Medusa Blades",
+    "commanders": ["Zagara"],
+    "cost": 50,
+    "requirements": ["Tier 2"],
+    "description": "Zagara deals area damage while attacking."
+  },
+  {
+    "name": "Protective Cover",
+    "commanders": ["Zagara"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Aberrations grant 50% damage reduction to units positioned beneath them."
+  },
+  {
+    "name": "Virulent Spores",
+    "commanders": ["Zagara"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Scourge deal 50% of their attack damage in a small area upon death."
+  },
+  {
+    "name": "Artillery Ducts",
+    "commanders": ["Zagara"],
+    "cost": 50,
+    "requirements": ["Tier 3"],
+    "description": "Bile Launchers gain increased range."
+  },
+  {
+    "name": "Anaerobic Enhancement",
+    "commanders": ["Stukov"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Infested Civilians leap towards ground units."
+  },
+  {
+    "name": "Broodling Gestation",
+    "commanders": ["Stukov"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Infested Civilians spawn a broodling when they die."
+  },
+  {
+    "name": "Retinal Augmentation",
+    "commanders": ["Stukov"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Infested Marines gain +1 attack range."
+  },
+  {
+    "name": "Plagued Munitions",
+    "commanders": ["Stukov"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Infested Marines deal an extra 50 damage over 11 seconds to units they attack."
+  },
+  {
+    "name": "Saturated Cultures",
+    "commanders": ["Stukov"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Infested Diamondback Fungal Snare cooldown is reduced by 15 seconds."
+  },
+  {
+    "name": "Acidic Enzymes",
+    "commanders": ["Stukov"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Volatile Infested and Infested Siege Tanks gain +15 damage vs Armored units."
+  },
+  {
+    "name": "Rapid Hibernation",
+    "commanders": ["Stukov"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Infested Banshees gain the ability to burrow, regenerating 20 life per second."
+  },
+  {
+    "name": "Braced Exoskeleton",
+    "commanders": ["Stukov"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Infested Banshees gain +100 life."
+  },
+  {
+    "name": "Viral Contamination",
+    "commanders": ["Stukov"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Infested Liberators gain +100% damage against their primary target. Splash damage remains the same."
+  },
+  {
+    "name": "Pneumatized Carapace",
+    "commanders": ["Stukov"],
+    "cost": 25,
+    "requirements": [],
+    "description": "Increases the movement speed of Overlords and Overseers."
+  },
+  {
+    "name": "Enhanced Mitochondria",
+    "commanders": ["Stukov"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Brood Queens gain +30% energy regeneration rate, and spawn with full energy."
+  },
+  {
+    "name": "Agressive Incubation",
+    "commanders": ["Stukov"],
+    "cost": 50,
+    "requirements": ["Tier 3"],
+    "description": "Infest Structure spawns 50% additional Broodlings."
+  },
+  {
+    "name": "Calcified Armor",
+    "commanders": ["Stukov"],
+    "cost": 125,
+    "requirements": ["Tier 2"],
+    "description": "Infested Bunkers gain +3 armor."
+  },
+  {
+    "name": "Infest Structure",
+    "units": ["Builder - Stukov"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 252,
+    "description": "Heals a friendly structure for 500 life, and spawns 40 broodlings over 14 seconds."
+  },
+  {
+    "name": "Contamination",
+    "units": ["Builder - Stukov"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 252,
+    "description": "Disables enemy structures (powerful structures are slowed). Lasts 20 seconds."
+  },
+  {
+    "name": "Shadow Charge",
+    "commanders": ["Vorazun"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Centurions gain the ability to intercept nearby enemies. Also increases their movement speed."
+  },
+  {
+    "name": "Darkcoil",
+    "commanders": ["Vorazun"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Centurions gain the ability to stun nearby enemies. Massive units are slowed. Also grants 100 shields for 7 seconds."
+  },
+  {
+    "name": "Blink",
+    "commanders": ["Vorazun"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Allows Stalkers to teleport to a nearby target location."
+  },
+  {
+    "name": "Phase Reactor",
+    "commanders": ["Vorazun"],
+    "cost": 100,
+    "requirements": ["Blink"],
+    "description": "Stalker Blink provides Cloak, and restores 80 shields over 4 seconds."
+  },
+  {
+    "name": "Stasis Calibration",
+    "commanders": ["Vorazun"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Oracle Stasis Ward victims may now be attacked."
+  },
+  {
+    "name": "Shadow Charge",
+    "commanders": ["Vorazun"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Centurions gain the ability to intercept nearby enemies. Also increases their movement speed."
+  },
+  {
+    "name": "Darkcoil",
+    "commanders": ["Vorazun"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Centurions gain the ability to stun nearby enemies. Massive units are slowed. Also grants 100 shields for 7 seconds."
+  },
+  {
+    "name": "Blink",
+    "commanders": ["Vorazun"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Allows Stalkers to teleport to a nearby target location."
+  },
+  {
+    "name": "Phase Reactor",
+    "commanders": ["Vorazun"],
+    "cost": 100,
+    "requirements": ["Blink"],
+    "description": "Stalker Blink provides Cloak, and restores 80 shields over 4 seconds."
+  },
+  {
+    "name": "Shadow Fury",
+    "commanders": ["Vorazun"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Dark Templar gain the ability to jump from target to target, dealing 20 (+15 vs. Light) damage with each jump. Hits 5 times."
+  },
+  {
+    "name": "Shadow Stride",
+    "commanders": ["Vorazun"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Allows Dark Templar to teleport to a nearby target location."
+  },
+  {
+    "name": "Void Stasis",
+    "commanders": ["Vorazun"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Dark Templar gain the ability to phase a unit or structure out of existence for 5 seconds."
+  },
+  {
+    "name": "Disruption Web",
+    "commanders": ["Vorazun"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Corsairs gain the ability to create a web of energy on the ground that prevents enemy structures and ground units from attacking for 1.25 seconds."
+  },
+  {
+    "name": "Stealth Drive",
+    "commanders": ["Vorazun"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Oracles and Corsairs become permanently cloaked."
+  },
+  {
+    "name": "Prismatic Range",
+    "commanders": ["Vorazun"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Void Ray weapon range increases as it continues to attack."
+  },
+  {
+    "name": "Mind Control",
+    "commanders": ["Vorazun"],
+    "cost": 50,
+    "requirements": ["Tier 3"],
+    "description": "Dark Archon gain the ability to take control of a targeted unit for 8 seconds. Heroic units are immune."
+  },
+  {
+    "name": "Argus Crystal",
+    "commanders": ["Vorazun"],
+    "cost": 100,
+    "requirements": ["Tier 3"],
+    "description": "Dark Archons start with full energy."
+  },
+  {
+    "name": "Charge (Sentinel)",
+    "commanders": ["Karax"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Allows Zealots to intercept nearby enemies. Also increases the movement speed of Zealots. Ability can only be used once every 7 seconds."
+  },
+  {
+    "name": "Reconstruction",
+    "commanders": ["Karax"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Sentinels revive upon death. 90 second cooldown."
+  },
+  {
+    "name": "Rapid Recharging",
+    "commanders": ["Karax"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Energizers and Shield Batteries gain +50% energy regeneration rate."
+  },
+  {
+    "name": "Advanced Repair Systems",
+    "commanders": ["Karax"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Reconstruction Beam affects additional targets, up to a maximum of 5."
+  },
+  {
+    "name": "Optimized Ordnance",
+    "commanders": ["Karax"],
+    "cost": 25,
+    "requirements": [],
+    "description": "Defensive Structures gain +25% weapon speed."
+  },
+  {
+    "name": "Reclamation",
+    "commanders": ["Karax"],
+    "cost": 125,
+    "requirements": ["Tier 3"],
+    "description": "Energizers gain the ability to take control of mechanical units."
+  },
+  {
+    "name": "Phasing Armor (Mirage)",
+    "commanders": ["Karax"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Mirages become invulnerable for 1.4 seconds when attacked. 5 second cooldown."
+  },
+  {
+    "name": "Anion Pulse-Crystals (Karax)",
+    "commanders": ["Karax"],
+    "cost": 125,
+    "requirements": ["Tier 3"],
+    "description": "Mirage gains +2 weapon range."
+  },
+  {
+    "name": "Shadow Cannon",
+    "commanders": ["Karax"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Immortals gain a powerful, single-target damage ability."
+  },
+  {
+    "name": "Fortification Barrier",
+    "commanders": ["Karax"],
+    "cost": 25,
+    "requirements": [],
+    "description": "Shield Batteries gain the ability to grant a target struture a barrier that absorbs up to 100 damage for 7 seconds."
+  },
+  {
+    "name": "Extended Thermal Lance",
+    "commanders": ["Karax"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Purifier Colossi gain +3 range"
+  },
+  {
+    "name": "Fire Beam",
+    "commanders": ["Karax"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Purifier Colossi ignite the ground when attacking, dealing an extra 150 damage over 4 seconds."
+  },
+  {
+    "name": "Repair Drones",
+    "commanders": ["Karax"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Carriers gain small mechanical drones which repair mechanical units."
+  },
+  {
+    "name": "Graviton Catapult",
+    "commanders": ["Karax"],
+    "cost": 150,
+    "requirements": ["Repair Drones"],
+    "description": "Makes the Support Carrier launch interceptors more quickly. Also increases interceptor attack speed by 25%."
+  },
+  {
+    "name": "Infernal Pre-Igniter",
+    "commanders": ["Swann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Improves the Hellion's Infernal Flamethrower to deal +5 damage vs. light units and the Hellbat's Napalm Spray to deal +12 damage vs. light units."
+  },
+  {
+    "name": "Infernal Plating",
+    "commanders": ["Swann"],
+    "cost": 100,
+    "requirements": ["Tier 3"],
+    "description": "Hellions and Hellbats gain +2 armor."
+  },
+  {
+    "name": "Ares-Class Targeting System (Swann)",
+    "commanders": ["Swann"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Goliaths gain +3 anti-air weapon range and +1 ground weapon range."
+  },
+  {
+    "name": "Multi-Lock Weapons System",
+    "commanders": ["Swann"],
+    "cost": 100,
+    "requirements": ["Tier 3"],
+    "description": "Goliaths can target ground and air units simultaneously."
+  },
+  {
+    "name": "Regenerative Bio-Steel",
+    "commanders": ["Swann"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Vehicles and Ships regain 2.8 life per second."
+  },
+  {
+    "name": "Maelstrom Rounds",
+    "commanders": ["Swann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Siege Tanks gain +40 attack damage while in Siege Mode. Splash damage remains the same."
+  },
+  {
+    "name": "Targeting Optics",
+    "commanders": ["Swann"],
+    "cost": 100,
+    "requirements": ["Tier 3"],
+    "description": "Cyclone Lock-On gains +3 Range."
+  },
+  {
+    "name": "Mag-Field Accelerator",
+    "commanders": ["Swann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Cyclone Lock-On gains +100% damage."
+  },
+  {
+    "name": "Pulse Amplifier",
+    "commanders": ["Swann"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Increases the damage of Gemini Missiles by 100% and Burst Lasers by 300% while the Wraith is moving."
+  },
+  {
+    "name": "Advanced Optics",
+    "commanders": ["Swann", "Raynor"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Vehicles and Ships gain +1 weapon range."
+  },
+  {
+    "name": "Displacement Field",
+    "commanders": ["Swann"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Wraiths move 20% faster and evade 20% of incoming attacks while cloaked."
+  },
+  {
+    "name": "Improved Nano-Repair",
+    "commanders": ["Swann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Science Vessel Nano-Repair no longer costs energy."
+  },
+  {
+    "name": "Defensive Matrix",
+    "commanders": ["Swann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Science Vessels gain the ability to surround targets with a temporary shield."
+  },
+  {
+    "name": "330mm Barrage Cannon",
+    "commanders": ["Swann"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Thors gain the 330mm Barrage Cannon ability."
+  },
+  {
+    "name": "Laser Drill Level 1",
+    "commanders": ["Swann"],
+    "cost": 100,
+    "requirements": ["Tier 2"],
+    "description": "Drakken Laser Drill gains +10 damage."
+  },
+  {
+    "name": "Laser Drill Level 2",
+    "commanders": ["Swann"],
+    "cost": 100,
+    "requirements": ["Tier 3"],
+    "description": "Drakken Laser Drill gains +10 damage."
+  },
+  {
+    "name": "Dissolving Acid",
+    "commanders": ["Dehaka"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Ravasaurs gain +15 damage vs Armored targets."
+  },
+  {
+    "name": "Enlarged Parotid Glands",
+    "commanders": ["Dehaka"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Ravasaurs gain +1 weapon range, and increased movement speed."
+  },
+  {
+    "name": "Glial Reconstruction",
+    "commanders": ["Dehaka"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Primal Roaches and Primal Igniters gain increased movement speed."
+  },
+  {
+    "name": "Muscular Augments",
+    "commanders": ["Dehaka"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Hydralisks gain +1 weapon range, and increased movement speed."
+  },
+  {
+    "name": "Concentrated Fire",
+    "commanders": ["Dehaka"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Primal Igniters gain +15 damage vs Light targets."
+  },
+  {
+    "name": "Slicing Glave",
+    "commanders": ["Dehaka"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Primal Mutalisks gain +100% damage vs. Air targets."
+  },
+  {
+    "name": "Shifting Carapace",
+    "commanders": ["Dehaka"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Primal Mutalisks gain 50% damage reduction while moving."
+  },
+  {
+    "name": "Primal Reconstitution",
+    "commanders": ["Dehaka"],
+    "cost": 150,
+    "requirements": ["Shifting Carapace"],
+    "description": "Primal Mutalisks revive on death after a short time. Cannot occur more than once every 43 seconds."
+  },
+  {
+    "name": "Tenderize",
+    "commanders": ["Dehaka"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Impalers tenderize their target, dealing 200 bonus damage over 7 seconds. Tenderized units which are Devoured by Dehaka will invoke 25% of the normal cooldown."
+  },
+  {
+    "name": "Aerial Burst Sacs",
+    "commanders": ["Dehaka"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Creeper Hosts may target air units, and Explosive Creepers gain increased movement speed."
+  },
+  {
+    "name": "Explosive Spores",
+    "commanders": ["Dehaka"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Primal Guardians gain the Explosive Spores ability, which deals 50 area damage after a brief delay."
+  },
+  {
+    "name": "Brutal Charge",
+    "commanders": ["Dehaka"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Primal Ultralisks gain the Brutal Charge ability, which rushes to a target point. and deals 25 area damage."
+  },
+  {
+    "name": "Impaling Strike",
+    "commanders": ["Dehaka"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Primal Ultralisk and Tyrannozor attacks have a 20% chance to stun."
+  },
+  {
+    "name": "Healing Adaptation",
+    "commanders": ["Dehaka"],
+    "cost": 25,
+    "requirements": ["Impaling Strike"],
+    "description": "Primal Ultralisks and Tyrannozors generate life quickly while out of combat."
+  },
+  {
+    "name": "Primordial Fury",
+    "commanders": ["Dehaka"],
+    "cost": 100,
+    "requirements": ["Exposive Spores"],
+    "description": "Primal Guardians temporarily gain 10% weapon speed each time they attack, stacking up to 50%."
+  },
+  {
+    "name": "Barrage of Spikes",
+    "commanders": ["Dehaka"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Tyrannozors gain the Barrage of Spikes ability, which deals 100 damage to all nearby enemies."
+  },
+  {
+    "name": "Tyrant's Protection",
+    "commanders": ["Dehaka"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Tyrannozors grant +2 armor to nearby allies."
+  },
+  {
+    "name": "KD9a Implosion Core",
+    "commanders": ["Tychus"],
+    "cost": 200,
+    "requirements": [],
+    "description": "Allows Tychus' Shredder Grenade to pull affected units to the center of its area of effect, stunning them for 1.4 seconds."
+  },
+  {
+    "name": "Vanadium Shell",
+    "commanders": ["Tychus"],
+    "cost": 500,
+    "requirements": [],
+    "description": "Increases the damage of Tychus' Shredder Grenade by 50."
+  },
+  {
+    "name": "Kel-Morian Ripper Rounds",
+    "commanders": ["Tychus"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Tychus' attacks decrease the armor of their targets by 5 for 1.4 seconds."
+  },
+  {
+    "name": "SureShot Networked Helmet",
+    "commanders": ["Tychus"],
+    "cost": 200,
+    "requirements": ["Tier 3"],
+    "description": "Increases Tychus' weapon damage by 20% for each outlaw in his immediate vicinity."
+  },
+  {
+    "name": "LarsCorp G7 Charges",
+    "commanders": ["Tychus"],
+    "cost": 250,
+    "requirements": [],
+    "description": "Increases the damage of Demolition Charge by 100%."
+  },
+  {
+    "name": "Moebius Restraint Matrix",
+    "commanders": ["Tychus"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Stuns and disables the detection of units hit by Demolition Charge."
+  },
+  {
+    "name": "Procyon Shade Suit",
+    "commanders": ["Tychus"],
+    "cost": 250,
+    "requirements": [],
+    "description": "Prevents Crooked Sam from taking any damage and increases his movement speed by 80% for 4 seconds after being attacked. Cannot occur more than once every 11 seconds."
+  },
+  {
+    "name": "Enhanced Hostilities Kit",
+    "commanders": ["Tychus"],
+    "cost": 200,
+    "requirements": ["Tier 3"],
+    "description": "Reduces the charge-up time of Demolition Charge by 2.1 seconds each time Crooked Sam attacks."
+  },
+  {
+    "name": "SA-55 Thunderbolt Missiles",
+    "commanders": ["Tychus"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Equips Sirius with missiles that deal 100 damage to 8 air targets. Warhound turrets deal 100 to 2 air targets."
+  },
+  {
+    "name": "Moebius M34 Terror Rounds",
+    "commanders": ["Tychus"],
+    "cost": 300,
+    "requirements": [],
+    "description": "Provides a 30% chance for Sirius to cast fear in a small area with each attack. Enemy units in the area will run around in fear for 1 second. Warhound Turrets have a 3% chance to cast Fear with each attack."
+  },
+  {
+    "name": "D99 Detonator",
+    "commanders": ["Tychus"],
+    "cost": 300,
+    "requirements": [],
+    "description": "When Sirius is defeated, he triggers an explosion, dealing 300 damage to enemy units in an area around him. Warhound Turrets deal 50 damage on death."
+  },
+  {
+    "name": "Umojan Turret Frame",
+    "commanders": ["Tychus"],
+    "cost": 150,
+    "requirements": ["Tier 3"],
+    "description": "Increases the life and weapon damage of Sirius' Warhound Turrets by 75%."
+  },
+  {
+    "name": "High Capacity Containers",
+    "commanders": ["Tychus"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Increases the radius of Oil Spill by 100%."
+  },
+  {
+    "name": "Hades Oil",
+    "commanders": ["Tychus"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Improves the damage dealt by the Enflame effect from Oil Spill to deal +35 per second vs. light units."
+  },
+  {
+    "name": "Wildflame Fuel Additives",
+    "commanders": ["Tychus"],
+    "cost": 200,
+    "requirements": [],
+    "description": "When units Enflamed by Oil Spill die, they explode, spreading Enflamed to enemy units in the area."
+  },
+  {
+    "name": "XCMC-670",
+    "commanders": ["Tychus"],
+    "cost": 350,
+    "requirements": ["Tier 3"],
+    "description": "Reduces all damage taken by Blaze to 30."
+  },
+  {
+    "name": "X-71 Impact Boots",
+    "commanders": ["Tychus"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Increases the stun duration and radius of Cannonball's Heavy Impact by 100%."
+  },
+  {
+    "name": "Critical Response System",
+    "commanders": ["Tychus"],
+    "cost": 600,
+    "requirements": [],
+    "description": "Allows Cannonball to become immune to damage for 3.6 seconds and restores all his life when he takes fatal damage. Cannot occur more than once every 43 seconds."
+  },
+  {
+    "name": "Redline Power Coils",
+    "commanders": ["Tychus"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Increases Cannonball's attack speed by 3% each attack, up to a maximum of 60%. Increases his attack damage by 3 each attack, up to a maximum of 60."
+  },
+  {
+    "name": "M.A.L.I.C.E. Ammunition",
+    "commanders": ["Tychus"],
+    "cost": 150,
+    "requirements": ["Tier 3"],
+    "description": "Provides a 30% chance that Cannonball will deal 4 times more damage with his attacks."
+  },
+  {
+    "name": "Umojan Signal Modulator",
+    "commanders": ["Tychus"],
+    "cost": 200,
+    "requirements": [],
+    "description": "Improves the healing rate of Rattlesnake's Revitalizers by 100%."
+  },
+  {
+    "name": "Moebius Aggression Blend",
+    "commanders": ["Tychus"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Units in range of a Revitalizer gain 15% additional attack speed."
+  },
+  {
+    "name": "Secret Stash Stimpack",
+    "commanders": ["Tychus"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Heals Rattlesnake for 3 life per second and increases his attack and movement speed for 11 seconds."
+  },
+  {
+    "name": "Hammer Munitions",
+    "commanders": ["Tychus"],
+    "cost": 450,
+    "requirements": ["Tier 3"],
+    "description": "Rattlesnake's attacks slow and deal 50% of their damage in an area of effect."
+  },
+  {
+    "name": "T-4 Cloudburst Shells",
+    "commanders": ["Tychus"],
+    "cost": 300,
+    "requirements": [],
+    "description": "Increases the damage of Ultrasonic Pulse by 50%."
+  },
+  {
+    "name": "Ultrasonic Booster",
+    "commanders": ["Tychus"],
+    "cost": 200,
+    "requirements": [],
+    "description": "Increases the radius of Ultrasonic Pulse by 50%."
+  },
+  {
+    "name": "Crystalline Amplifiers",
+    "commanders": ["Tychus"],
+    "cost": 350,
+    "requirements": [],
+    "description": "Increases the duration of Ultrasonic Pulse by 100%."
+  },
+  {
+    "name": "N3 Networking",
+    "commanders": ["Tychus"],
+    "cost": 200,
+    "requirements": ["Tier 3"],
+    "description": "All nearby Outlaws have their primary ability charge-up times and cooldowns reduced by 20%."
+  },
+  {
+    "name": "Psionic Motivator",
+    "commanders": ["Tychus"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Dominate fully restores the target's life, shields, and energy and increases its attack speed by 75%."
+  },
+  {
+    "name": "Neural Disruption Device",
+    "commanders": ["Tychus"],
+    "cost": 200,
+    "requirements": [],
+    "description": "Enemy units in an area around a dominated unit will attack each other for 2 seconds."
+  },
+  {
+    "name": "Psi Projector",
+    "commanders": ["Tychus"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Brings up to 5 enemy air units to the ground, allowing units to attack them as if they were ground units."
+  },
+  {
+    "name": "Type-88 Persuader",
+    "commanders": ["Tychus"],
+    "cost": 100,
+    "requirements": ["Tier 3"],
+    "description": "Increases the duration of Dominate by 100%."
+  },
+  {
+    "name": "Umojan Repair Nanites",
+    "commanders": ["Tychus"],
+    "cost": 300,
+    "requirements": [],
+    "description": "Increases the immediate heal and periodic heal of Lt. Nikara's Restorative Burst by 100%."
+  },
+  {
+    "name": "Procyon Serum",
+    "commanders": ["Tychus"],
+    "cost": 500,
+    "requirements": [],
+    "description": "Increases the healing rate of Lt. Nikara's super heal by 100%."
+  },
+  {
+    "name": "Procyon Twin Heal Beam Gauntlet",
+    "commanders": ["Tychus"],
+    "cost": 400,
+    "requirements": [],
+    "description": "Allows Lt. Nikara to cast Super Heal on two targets at the same time."
+  },
+  {
+    "name": "XM-77 Matrix Generator",
+    "commanders": ["Tychus"],
+    "cost": 300,
+    "requirements": ["Tier 3"],
+    "description": "Enables Lt. Nikara to surround a target friendly unit with a shield that can absorb 400 damage over 14 seconds."
+  },
+  {
+    "name": "Blood Shields",
+    "commanders": ["Alarak"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Supplicants gain +2 shield armor."
+  },
+  {
+    "name": "Soul Augmentation",
+    "commanders": ["Alarak"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Supplicants gain +25 shields."
+  },
+  {
+    "name": "Phasing Armor (Slayer)",
+    "commanders": ["Alarak"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Slayers become invulnerable for 1 seconds after being attacked. 5 second cooldown."
+  },
+  {
+    "name": "Cloaking Module",
+    "commanders": ["Alarak"],
+    "cost": 100,
+    "requirements": ["Tier 2"],
+    "description": "Havocs become permanently cloaked."
+  },
+  {
+    "name": "Detect Weakness",
+    "commanders": ["Alarak"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Havoc Target Lock grants an additional 15% bonus damage."
+  },
+  {
+    "name": "Bloodshard Resonance",
+    "commanders": ["Alarak"],
+    "cost": 150,
+    "requirements": ["Tier 3"],
+    "description": "Havoc Squad sight gains +3 radius, and Target Lock gains +3 range."
+  },
+  {
+    "name": "Fusion Mortars",
+    "commanders": ["Alarak"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Vanguards deal increased (+7) damage to armored units."
+  },
+  {
+    "name": "Matter Dispersion",
+    "commanders": ["Alarak"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Vanguards gain 50% splash damage radius."
+  },
+  {
+    "name": "Mind Blast",
+    "commanders": ["Alarak"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Ascendants gain Mind Blast, which deals 200 damage to an enemy."
+  },
+  {
+    "name": "Power Overwhelming",
+    "commanders": ["Alarak"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Ascendants gain 25% ability damage and +100 shields every time they use sacrifice."
+  },
+  {
+    "name": "Chaotic Attunement",
+    "commanders": ["Alarak"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Ascendent Psionic Orb travels 25% further."
+  },
+  {
+    "name": "Aerial Tracking",
+    "commanders": ["Alarak"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Wrathwalkers may attack air units."
+  },
+  {
+    "name": "Rapid Power Cycling",
+    "commanders": ["Alarak"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Wrathwalker attacks requires less time to charge up, and gains 17% Weapon Speed."
+  },
+  {
+    "name": "Imposing Presence",
+    "commanders": ["Alarak"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Alarak stuns enemy units for 1.4 seconds when attacking. Heroic units are slowed."
+  },
+  {
+    "name": "Telekinesis",
+    "commanders": ["Alarak"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Alarak Destruction Wave knockback is doubled."
+  },
+  {
+    "name": "Jet Pack Overdrive",
+    "commanders": ["Han and Horner"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Allows the reaper to fly for 7 seconds. While flying, the Reaper can attack air units."
+  },
+  {
+    "name": "LD9 Cluster Charges",
+    "commanders": ["Han and Horner"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Reduces the cooldown of KD8 Charge by 7. When killed, the Reaper will throw multiple grenades towards the killing unit."
+  },
+  {
+    "name": "Tar Bombs",
+    "commanders": ["Han and Horner"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Hellions gain the Tar Bomb ability. Launches a tar bomb that deals 20 damage to the target unit. Nearby enemies have their movement speed reduced by 75% and attack range reduced by 3 for 4 seconds."
+  },
+  {
+    "name": "Aerosol Stim Emitters",
+    "commanders": ["Han and Horner"],
+    "cost": 100,
+    "requirements": ["Tar Bombs"],
+    "description": "Hellions and Hellbats transform 75% faster. When Hellions are killed, nearby allied units gain 25% movement speed and 15% attack speed for 11 seconds."
+  },
+  {
+    "name": "Immolation Fluid",
+    "commanders": ["Han and Horner"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Hellbat attacks cause enemies to burn for an additional 50 damage over 4 seconds."
+  },
+  {
+    "name": "Wildfire Explosives",
+    "commanders": ["Han and Horner"],
+    "cost": 100,
+    "requirements": ["Immolation Fluid"],
+    "description": "Hellbat movement speed is increased by 50%. When hellbats are killed, they ignite the surrounding area. Enemies in the fire run around in fear for 0.7 seconds."
+  },
+  {
+    "name": "Multi-Threaded Sensors",
+    "commanders": ["Han and Horner"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Theia Ravens can target 2 additional enemies with Analyze Weakness."
+  },
+  {
+    "name": "Black Market Launchers",
+    "commanders": ["Han and Horner"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Widow Mine Sentinel Missile range is increased by 50%, and can burrow and unburrow much faster."
+  },
+  {
+    "name": "Executioner Missiles",
+    "commanders": ["Han and Horner"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Reduces Sentinel Missile cooldown by 14 seconds. When killed the Widow Mine will launch a missile which deals 40 (+40 vs. Shields) area damage."
+  },
+  {
+    "name": "WILD Missiles",
+    "commanders": ["Han and Horner"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Deimos Vikings gain the WILD Missiles ability. Launches 5 rockets at the target unit. Each rocket deals 25 (40 vs armored) damage."
+  },
+  {
+    "name": "Shredder Rounds",
+    "commanders": ["Han and Horner"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Deimos Vikings attacks in assault mode pierce, dealing damage to nearby units behind the target. Transform time reduced by 75%."
+  },
+  {
+    "name": "Tactical Jump",
+    "commanders": ["Han and Horner"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Asteria Wraiths, Deimos Vikings, and Theia Ravens can use Tactical Jump, warping them to any visible location."
+  },
+  {
+    "name": "Unregistered Cloaking System",
+    "commanders": ["Han and Horner"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Asteria Wraith cloak becomes permanent."
+  },
+  {
+    "name": "Trigger Override",
+    "commanders": ["Han and Horner"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Asteria Wraith attack speed increases by 10% each attack, up to a maximum of 100%."
+  },
+  {
+    "name": "Napalm Payload",
+    "commanders": ["Han and Horner"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Strike Fighter Precision Strikes ignite the target location with napalm. Enemy units that touch the napalm take an additional 100 damage over 7 seconds."
+  },
+  {
+    "name": "Overcharged Reactor",
+    "commanders": ["Han and Horner"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Sovereign Battlecruiser</c> weapons systems are upgraded to a powerful particle cannon that deals 200 damage per attack."
+  },
+  {
+    "name": "Combat Shield",
+    "commanders": ["Raynor"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Marines get 50 life."
+  },
+
+  {
+    "name": "Concussive Shells",
+    "commanders": ["Raynor"],
+    "cost": 25,
+    "requirements": [],
+    "description": "Upgrades the Marauder weapons to slow down opponents."
+  },
+  {
+    "name": "Incinerator Gauntlets",
+    "commanders": ["Raynor"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Firebats gain +40% damage radius."
+  },
+  {
+    "name": "Juggernaut Plating",
+    "commanders": ["Raynor"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Firebats gain +100 life and +2 armor."
+  },
+  {
+    "name": "Stabilizer Medpacks",
+    "commanders": ["Raynor"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Medics heal faster, can heal mechanical units, and healed units take 25% less damage"
+  },
+  {
+    "name": "Replenishable Magazine",
+    "commanders": ["Raynor"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Vultures slowly replenish spider mines"
+  },
+  {
+    "name": "Cerberus Mines",
+    "commanders": ["Raynor"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Vulture spider mines gain 33% blast radius"
+  },
+  {
+    "name": "Phobos Weapon Systems",
+    "commanders": ["Raynor"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Viking gain 2 air attack range, and 1 ground attack range."
+  },
+  {
+    "name": "Ripwave Missiles",
+    "commanders": ["Raynor"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Viking anti-air missiles deal area damage."
+  },
+  {
+    "name": "Advanced Siege Tech",
+    "commanders": ["Raynor"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Siege Tanks transform faster, and gain +3 armor in Siege Mode."
+  },
+  {
+    "name": "Afterburners",
+    "commanders": ["Raynor"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Vehicles and ships gain +30% movespeed."
+  },
+  {
+    "name": "Cloaking Field",
+    "commanders": ["Raynor"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Enables the Banshee cloak ability. Cloak renders the Banshees invisible to the enemies unless the unit is revealed by detectors or effects. Cloaked Banshees also have their range increased by 2."
+  },
+  {
+    "name": "Shockwave Missile Battery",
+    "commanders": ["Raynor"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Fires multiple missile bursts dealing damage in a line."
+  },
+  {
+    "name": "Weapon Refit",
+    "commanders": ["Raynor"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Enables the Battlecruiser Yamato Cannon."
+  },
+  {
+    "name": "Super Stimpack",
+    "commanders": ["Nova"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Elite Marines gain an improved Stimpack which heals over time, in addition to increasing attack and move speed."
+  },
+  {
+    "name": "Laser Targeting System",
+    "commanders": ["Nova"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Elite Marines gain +2 vision range and +1 weapon range."
+  },
+  {
+    "name": "Suppression Shells",
+    "commanders": ["Nova"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Marauder Commando attacks temporarily slow attack and movement speeds. Has a reduced effect on heroic units. Massive units are immune."
+  },
+  {
+    "name": "Magrail Munitions",
+    "commanders": ["Nova"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Marauder Commandos gain an additional weapon that deals 90 damage to their target every 20 seconds."
+  },
+  {
+    "name": "Caduceus Reactor",
+    "commanders": ["Nova"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Nova gains +10 life regeneration rate."
+  },
+  {
+    "name": "Jump Jet Assault",
+    "commanders": ["Nova"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Hellbat Rangers gain the ability to leap towards nearby enemy ground units, stunning enemy units on impact. Also briefly grants +4 armor."
+  },
+  {
+    "name": "Infernal Pre-Igniter",
+    "commanders": ["Nova"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Improves the Hellion's Infernal Flamethrower to deal +5 damage to light units, and the Hellbat's Napalm Spray to deal +12 damage vs. light units."
+  },
+  {
+    "name": "EMP Round",
+    "commanders": ["Nova"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Spec Ops Ghosts gain the EMP round ability, which deals 100 damage to the shields and depletes the energy of enemy units in the target area. Cloaked units are revealed for 7 seconds after being hit."
+  },
+  {
+    "name": "Triple Tap",
+    "commanders": ["Nova"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Spec Ops Ghosts fire 2 additional shots that deal 85 damage each when using Snipe."
+  },
+  {
+    "name": "Ares-Class Targeting System (Strike Goliath)",
+    "commanders": ["Nova"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Strike Goliaths gain +3 anti-air range, and +1 ground weapon range."
+  },
+  {
+    "name": "Lockdown Missiles",
+    "commanders": ["Nova"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Strike Goliaths stun enemy mechanical air units for 2.1 seconds, and disable any detection. Heroic units are immune."
+  },
+  {
+    "name": "Advanced Cloaking Field",
+    "commanders": ["Nova"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Covert Banshees become permanently cloaked."
+  },
+  {
+    "name": "Ghost Visor",
+    "commanders": ["Nova"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Nova gains detection, allowing her to see and track cloaked and burrowed enemy units."
+  },
+  {
+    "name": "Graduating Range",
+    "commanders": ["Nova"],
+    "cost": 125,
+    "requirements": ["Tier 3"],
+    "description": "Heavy Siege Tanks gain +1 weapon range every 2 seconds while in Siege Mode, up to a maximum of +5 additional range."
+  },
+  {
+    "name": "Smart Servos",
+    "commanders": ["Nova"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Raid Liberators transform before modes four times faster."
+  },
+  {
+    "name": "Metal-bolic Boost",
+    "commanders": ["Stetmann"],
+    "cost": 50,
+    "requirements": ["Metal-bolic Boost"],
+    "description": "Mecha Zerglings get +60% movement speed."
+  },
+  {
+    "name": "Hardened Egonergy Shield",
+    "commanders": ["Stetmann"],
+    "cost": 75,
+    "requirements": ["Metal-bolic Boost"],
+    "description": "Mecha Zerglings reduce incoming damage to a maximum of 10. Drains 10 Egonergy per use."
+  },
+  {
+    "name": "Synthetic Adrenal Pumps",
+    "commanders": ["Stetmann"],
+    "cost": 75,
+    "requirements": ["Tier 3", "Hardened Egonergy Shield"],
+    "description": "Mecha Zerglings gain +100% attack speed. Drains 1 Egonergy per second."
+  },
+  {
+    "name": "Egonergy Enhanced Explosives",
+    "commanders": ["Stetmann"],
+    "cost": 125,
+    "requirements": ["Egonergy Efficient Barrier"],
+    "description": "Mecha Banelings adds their current Egonergy to its damage when it explodes."
+  },
+  {
+    "name": "Anti-Centripetal Rocket Servos",
+    "commanders": ["Stetmann"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Mecha Banelings gain +15% movement speed, and may leap onto enemy units."
+  },
+  {
+    "name": "Egonergy Efficient Barrier",
+    "commanders": ["Stetmann"],
+    "cost": 100,
+    "requirements": ["Anti-Centripetal Rocket Servos"],
+    "description": "Mecha Baneling's Egonergy Impact Barrier absorbs twice as much damage per point of egonergy."
+  },
+  {
+    "name": "Hydra-lic Augments",
+    "commanders": ["Stetmann"],
+    "cost": 25,
+    "requirements": [],
+    "description": "Mecha Hydralisks gain +50% movement speed."
+  },
+  {
+    "name": "Erudition Missile Launchers",
+    "commanders": ["Stetmann"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Mecha Hydralisks get a stronger anti-air attack, which may be enhanced by Egonergy."
+  },
+  {
+    "name": "Tyr-Class Targeting System",
+    "commanders": ["Stetmann"],
+    "cost": 100,
+    "requirements": ["Tier 3", "Erudition Missile Launchers"],
+    "description": "Mecha Hydralisks gain +3 range vs air units."
+  },
+  {
+    "name": "Focused Strike Algorithm",
+    "commanders": ["Stetmann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Mecha Lurkers gain the ability to deal 50 damage per second to a small area around a unit for 7 seconds, or until the unit is destroyed."
+  },
+  {
+    "name": "Extended Tunnel of TERROR Algorithm",
+    "commanders": ["Stetmann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Mecha Lurker's Tunnel of TERROR Algorithm gains +6 range."
+  },
+  {
+    "name": "Terraclean Solvent",
+    "commanders": ["Stetmann"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Mecha Corruptors gain the ability to emit a stream that deals devastating damage to ground units over time."
+  },
+  {
+    "name": "Wide Area Cluster Busters",
+    "commanders": ["Stetmann"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Mecha Corruptor's Cluster Busters gain 100% radius."
+  },
+  {
+    "name": "UMI-C Charging Protocol",
+    "commanders": ["Stetmann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Mecha Infestors gain the ability to restore 150 life, 100 Egonergy, and 100 energy to a friendly unit. Restores an additional 600 life, 200 Egonergy, and 200 energy over 14 seconds. The unit’s ability cooldown rate is increased by 25%."
+  },
+  {
+    "name": "BONUS Ravager!",
+    "commanders": ["Stetmann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Mecha Infestor's Roaches Away! Also spawns a Mecha Ravager."
+  },
+  {
+    "name": "Electrostatic Surprise!",
+    "commanders": ["Stetmann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Allows the Mecha Ultralisks's Vector Burrow Charge ability to stun mechanical in a large area."
+  },
+  {
+    "name": "Mecha Mooch Module",
+    "commanders": ["Stetmann"],
+    "cost": 125,
+    "requirements": ["Chitanium Plating"],
+    "description": "Grants the Mecha Ultralisk the ability to absorb 25 life from nearby enemy mechanical or friendly mechanical, and heal for that amount."
+  },
+  {
+    "name": "Stetmato Cannon",
+    "commanders": ["Stetmann"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Allows Mecha Battlecarrier Lord to blast targets with a devastating plasma cannon, causing 300 damage and delusions of grandeur."
+  },
+  {
+    "name": "Mecha Locuscepter Bays",
+    "commanders": ["Stetmann"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Allows the Mecha Battlecarrier Lord to build and launch 6 Mecha Locuscepters that automatically attack enemy ground units."
+  },
+  {
+    "name": "Chitanium Plating",
+    "commanders": ["Stetmann"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Grants the Mecha Ultralisk +25% damage reduction."
+  },
+  {
+    "name": "Glial Reconstitution",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 25,
+    "description": "Increases the movement speed of Vile Roaches by 33%"
+  },
+  {
+    "name": "Tunneling Claws",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 50,
+    "description": "Allows Vile Roaches to move while burrowed. Increases HP regen rate of burrowed roaches by 100%."
+  },
+  {
+    "name": "Adaptive Plating",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 150,
+    "description": "Vile Roaches gain +6 armor when below 50% health."
+  },
+  {
+    "name": "Hydriodic Bile",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 75,
+    "description": "Vile Roaches gain +8 damage vs light units."
+  },
+  {
+    "name": "Bio-Mechanical Transfusion",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 100,
+    "description": "Swarm Queen Rapid Transfusion gains +10 healing, and may heal mechanical units."
+  },
+  {
+    "name": "Bloated Bile Ducts",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 150,
+    "description": "Ravager Corrosive Bile impact size is increased by 150%."
+  },
+  {
+    "name": "Potent Bile",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 125,
+    "description": "Ravager Corrosive Bile damage increased by 40."
+  },
+  {
+    "name": "Pressurized Glands",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 100,
+    "description": "Swarm Host Locusts may attack air units."
+  },
+  {
+    "name": "Rapid Regeneration",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 25,
+    "description": "Mutalisks regenerate 5 health per second when not in combat."
+  },
+  {
+    "name": "Vicious Glave",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 150,
+    "description": "Mutalisks attacks bounce three more times, hitting up to 6 targets. Increases glave's search radius from 3 to 4."
+  },
+  {
+    "name": "Sundering Glave",
+    "commanders": ["Abathur"],
+    "requirements": ["Vicious Glave"],
+    "cost": 125,
+    "description": "Mutalisk attacks deal +100% damage to armored enemies."
+  },
+  {
+    "name": "Pneumatized Carapace (Abathur)",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 25,
+    "description": "Increases the movement speed of overseers."
+  },
+  {
+    "name": "Prolonged Dispersion",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": 100,
+    "description": "Guardians gain +3 weapon range."
+  },
+  {
+    "name": "Corrosive Spray",
+    "commanders": ["Abathur"],
+    "requirements": ["Tier 3"],
+    "cost": 150,
+    "description": "Devourer attacks deal area damage."
+  },
+  {
+    "name": "Virulent Microbes",
+    "commanders": ["Abathur"],
+    "requirements": ["Tier 3"],
+    "cost": 75,
+    "description": "Vipers abilities gain +4 cast range."
+  },
+  {
+    "name": "Incapacitator Shells",
+    "commanders": ["Mengsk"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Allows the Aegis Guard's attacks to slow enemy units."
+  },
+  {
+    "name": "Neosteel Fortified Armor",
+    "commanders": ["Mengsk"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Increases the life and armor of Supply Bunkers, Missile Turrets, and Earthsplitter Ordnance."
+  },
+  {
+    "name": "Aim-assist Embrasures",
+    "commanders": ["Mengsk"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Further increases the range of units within Supply Bunkers by +1."
+  },
+  {
+    "name": "Dual Resuscitators",
+    "commanders": ["Mengsk"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Allows Imperial Intercessors to heal two targets at the same time."
+  },
+  {
+    "name": "Scatter Veil",
+    "commanders": ["Mengsk"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Allows Imperial Intercessors to permanently cloak and provides them with a shield that absorbs 100 damage."
+  },
+  {
+    "name": "Armament Stabilizers",
+    "commanders": ["Mengsk"],
+    "cost": 50,
+    "requirements": [],
+    "description": "Allows Shock Divisions to fire at air units at a reduced rate while being carried by an Imperial Intercessor. The Imperial Intercessor's abilities are disabled while the Shock Division is on board."
+  },
+  {
+    "name": "Smart Servos",
+    "commanders": ["Mengsk"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Reduces the transformation time of Shock Divisions, Blackhammers, and Sky Furies."
+  },
+  {
+    "name": "Aesir Turbines",
+    "commanders": ["Mengsk"],
+    "cost": 25,
+    "requirements": [],
+    "description": "Increases the movement speed of Sky Furies by 55%."
+  },
+  {
+    "name": "Bulwark Field",
+    "commanders": ["Mengsk"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Blackhammers provide your nearby ground units +3 armor."
+  },
+  {
+    "name": "Field-Assist Targeting System",
+    "commanders": ["Mengsk"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Allows Pride of Augustgrad to grant your nearby ground units +1 weapon range."
+  },
+  {
+    "name": "Hemispheric Accelerants",
+    "commanders": ["Mengsk"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Increases the range of Earthsplitter Ordnance's Bombardment ability by +25."
+  },
+  {
+    "name": "Garrison Level 1",
+    "commanders": ["Mengsk"],
+    "cost": 200,
+    "requirements": [],
+    "description": "Earthsplitter attack speed increased to fire once every 10.7 seconds."
+  },
+  {
+    "name": "Garrison Level 1",
+    "commanders": ["Mengsk"],
+    "cost": 250,
+    "requirements": [],
+    "description": "Earthsplitter attack speed increased to fire once every 7.2 seconds."
+  },
+  {
+    "name": "Garrison Level 1",
+    "commanders": ["Mengsk"],
+    "cost": 350,
+    "requirements": [],
+    "description": "Earthsplitter attack speed increased to fire once every 5.4 seconds."
+  },
+  {
+    "name": "Purifier Armaments",
+    "commanders": ["Fenix"],
+    "cost": 50,
+    "requirements": ["Tier 3"],
+    "description": "Fenix gains +15 Weapon damage."
+  },
+  {
+    "name": "Observation Protocol",
+    "commanders": ["Fenix"],
+    "cost": 50,
+    "requirements": ["Tier 3"],
+    "description": "Fenix Cybros Arbiter Suit gains detection allows Fenix to detect cloaked units."
+  },
+  {
+    "name": "Charge (Fenix)",
+    "commanders": ["Fenix"],
+    "cost": 75,
+    "requirements": [],
+    "description": "Allows Legionnaires to intercept nearby enemies, dealing 8 damage to the charged target. Permanently increases movement speed."
+  },
+  {
+    "name": "Psionic Projection",
+    "commanders": ["Fenix"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Adept attacks summon an invulnerable shade that attacks that will attack enemies for a short time, dealing 8 (11 vs. Light) damage."
+  },
+  {
+    "name": "Optimized Emitters",
+    "commanders": ["Fenix"],
+    "cost": 100,
+    "requirements": ["Tier 3"],
+    "description": "Conservator Protective Field duration increased by 100%."
+  },
+  {
+    "name": "Combat Sensor Array",
+    "commanders": ["Fenix"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Scouts and Mojo get +3 range against air, and +1 range against ground."
+  },
+  {
+    "name": "Cloaking Module (Disruptor)",
+    "commanders": ["Fenix"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Disruptors become permanently cloaked."
+  },
+  {
+    "name": "Purification Echo",
+    "commanders": ["Fenix"],
+    "cost": 150,
+    "requirements": ["Tier 3"],
+    "description": "Disruptor Purification Nova explodes after 1.4 seconds, dealing 75 (100 vs Shields) damage in a larger area."
+  },
+  {
+    "name": "Extended Thermal Lance",
+    "commanders": ["Fenix"],
+    "cost": 150,
+    "requirements": [],
+    "description": "Colossi get +3 range."
+  },
+  {
+    "name": "Graviton Catapult (Fenix)",
+    "commanders": ["Fenix"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Makes the Carrier launch interceptors more quickly."
+  },
+  {
+    "name": "Debilitation System",
+    "commanders": ["Fenix"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Talis' Ricochet Glaive bounces an additional 5 times and causes every enemy unit hit to take additional damage for 5 seconds."
+  },
+  {
+    "name": "Empowered Blades",
+    "commanders": ["Fenix"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Kaldalis deals 9 area damage with each attack. Each Legionnaire increases this damage by +3."
+  },
+  {
+    "name": "Gravimetric Overload",
+    "commanders": ["Fenix"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Taldarin's attacks store 25% of the damage dealt on the target. When that unit is killed, it explodes, dealing all of the stored damage to nearby enemies. Each Immortal increases this by +10%."
+  },
+  {
+    "name": "Purification Blast",
+    "commanders": ["Fenix"],
+    "cost": 200,
+    "requirements": [],
+    "description": "Warbringer fires a devastating blast that deals 150 damage to a target unit. Each Colossus increases this by 50 damage."
+  },
+  {
+    "name": "Suppression Procedure",
+    "commanders": ["Fenix"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Mojo fires a barrage of anti-matter missiles dealing 6 (12 vs armored) area damage and stunning nearby enemy units for 0.7 seconds. Each Scout increases this by +1 (+2 vs armored) damage."
+  },
+  {
+    "name": "Interdictors",
+    "commanders": ["Fenix"],
+    "cost": 200,
+    "requirements": [],
+    "description": "Ciolarion deploys 2 Interdictors that automatically bomb the enemy ground units for 12 area damage. Each Carrier increases this by +3 damage."
+  },
+  {
+    "name": "A Strong Heart",
+    "commanders": ["Fenix"],
+    "cost": 25,
+    "requirements": [],
+    "description": "Does nothing."
+  },
+  {
+    "name": "Covert Triage",
+    "commanders": ["Nova"],
+    "cost": 125,
+    "requirements": [],
+    "description": "Increases healing rate of Bio-Mechanical healing drone by 25% and cloaks units being healed by it."
+  }
+]

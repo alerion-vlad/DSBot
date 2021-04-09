@@ -1,0 +1,5899 @@
+[
+  {
+    "name": "Honor Guard",
+    "commanders": ["Artanis"],
+    "tier": 1,
+    "cost": 85,
+    "life": 100,
+    "shields": 50,
+    "speed": 2.25,
+    "armor": 1,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Solarite Reaper",
+        "range": "Melee",
+        "damage": {
+          "base": 16
+        },
+        "period": 1.2,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Charge (Honor Guard)", "Whirlwind"],
+    "upgrades": ["Charge (Artanis)", "Whirlwind"]
+  },
+  {
+    "name": "Dragoon",
+    "commanders": ["Artanis"],
+    "tier": 1,
+    "cost": 125,
+    "life": 100,
+    "shields": 80,
+    "speed": 2.95,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Phase Disruptor",
+        "range": "6",
+        "damage": {
+          "base": 15,
+          "versus": {
+            "Armored": 30
+          }
+        },
+        "period": 1.76,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Trillic Compression Mesh", "Singularity Charge"]
+  },
+  {
+    "name": "High Templar",
+    "commanders": ["Artanis"],
+    "tier": 2,
+    "cost": 255,
+    "life": 40,
+    "shields": 40,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 1.88,
+    "armor": 0,
+    "types": ["Light", "Biological", "Psionic"],
+    "weapons": [
+      {
+        "name": "Psi Blast",
+        "range": 6,
+        "damage": {
+          "base": 4
+        },
+        "period": 1.75,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Feedback", "Psionic Storm"],
+    "upgrades": ["Psionic Storm", "Plasma Surge", "Khaydrian Amulet"]
+  },
+  {
+    "name": "High Archon",
+    "commanders": ["Artanis"],
+    "tier": 2,
+    "cost": 390,
+    "life": 10,
+    "shields": 350,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 2.81,
+    "armor": 0,
+    "types": ["Psionic", "Massive"],
+    "weapons": [
+      {
+        "name": "Psionic Shockwave",
+        "range": 3,
+        "damage": {
+          "base": 25,
+          "versus": {
+            "Biological": 35
+          }
+        },
+        "period": 1.75,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 3,
+          "versus": {
+            "Biological": 4
+          }
+        }
+      }
+    ],
+    "abilities": ["Feedback", "Psionic Storm"],
+    "upgrades": ["Psionic Storm", "Plasma Surge", "Khaydrian Amulet"]
+  },
+  {
+    "name": "Phoenix",
+    "commanders": ["Artanis"],
+    "tier": 2,
+    "cost": 125,
+    "life": 120,
+    "shields": 60,
+    "speed": 4.25,
+    "armor": 0,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Ion Cannons",
+        "range": 5,
+        "count": 2,
+        "damage": {
+          "base": 7,
+          "versus": {
+            "Light": 12
+          }
+        },
+        "period": 1.1,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Light": 1
+          }
+        }
+      }
+    ],
+    "abilities": ["Graviton Beam (Artanis)"],
+    "upgrades": ["Double Graviton Beam", "Anion Pulse-Crystals (Artanis)"]
+  },
+  {
+    "name": "Immortal (Artanis)",
+    "commanders": ["Artanis"],
+    "tier": 2,
+    "cost": 240,
+    "life": 200,
+    "shields": 100,
+    "speed": 2.25,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Phase Disruptors",
+        "range": 6,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 50
+          }
+        },
+        "period": 1.45,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 5
+          }
+        }
+      }
+    ],
+    "abilities": ["Barrier"],
+    "upgrades": ["Improved Barrier"]
+  },
+  {
+    "name": "Observer",
+    "commanders": ["Artanis", "Karax", "Fenix"],
+    "tier": 2,
+    "cost": 125,
+    "life": 40,
+    "shields": 20,
+    "speed": 1.88,
+    "armor": 0,
+    "types": ["Light", "Mechanical", "Detector"],
+    "weapons": [],
+    "abilities": ["Permanently Cloaked"],
+    "upgrades": ["Gravitic Boosters"]
+  },
+  {
+    "name": "Reaver",
+    "commanders": ["Artanis"],
+    "tier": 3,
+    "cost": 425,
+    "life": 200,
+    "shields": 150,
+    "speed": 2,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "Scarabs",
+        "range": 9,
+        "damage": {
+          "base": 100,
+          "versus": {
+            "Structure": 150
+          }
+        },
+        "period": 2,
+        "targets": ["Ground"],
+        "level": {
+          "base": 5,
+          "versus": {
+            "Structure": 10
+          }
+        }
+      }
+    ],
+    "abilities": ["Scarabs"],
+    "upgrades": ["Solarite Payload", "Scarab Housing"]
+  },
+  {
+    "name": "Purifier Tempest",
+    "commanders": ["Artanis"],
+    "tier": 3,
+    "cost": 390,
+    "life": 300,
+    "shields": 150,
+    "speed": 1.88,
+    "armor": 2,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "Resonance Coil",
+        "range": 10,
+        "damage": {
+          "base": 60
+        },
+        "period": 2.8,
+        "targets": ["Ground"],
+        "level": {
+          "base": 5
+        }
+      },
+      {
+        "name": "Kinetic Overload",
+        "range": 10,
+        "damage": {
+          "base": 60
+        },
+        "period": 2.8,
+        "targets": ["Air"],
+        "level": {
+          "base": 5
+        }
+      }
+    ],
+    "abilities": ["Disintegration"],
+    "upgrades": ["Disintegration"]
+  },
+  {
+    "name": "Infested Civilian",
+    "commanders": ["Stukov"],
+    "tier": 1,
+    "cost": 20,
+    "life": 35,
+    "speed": 1.75,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Infested Claws",
+        "range": 0,
+        "damage": {
+          "base": 8
+        },
+        "period": 0.86,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Anaerobic Enhancement", "Broodling Gestation"]
+  },
+  {
+    "name": "Volatile Infested",
+    "commanders": ["Stukov"],
+    "tier": 1,
+    "cost": 55,
+    "life": 35,
+    "speed": 175,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Volatile Burst",
+        "range": 0,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Structure": 80
+          }
+        },
+        "period": 0.71,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Structure": 8
+          }
+        }
+      }
+    ],
+    "abilities": ["Explode", "Disable Structure Attack"],
+    "upgrades": ["Anaerobic Enhancement", "Broodling Gestation"]
+  },
+  {
+    "name": "Infested Marine",
+    "commanders": ["Stukov"],
+    "tier": 1,
+    "cost": 40,
+    "life": 50,
+    "speed": 1.75,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Infested Rifle",
+        "range": 5,
+        "damage": {
+          "base": 6
+        },
+        "period": 0.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Plagued Munitions", "Retinal Augmentation"]
+  },
+  {
+    "name": "Infested Bunker",
+    "commanders": ["Stukov"],
+    "tier": 1,
+    "cost": 365,
+    "life": 400,
+    "speed": 2.8,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "Neosteel Claws",
+        "range": 0,
+        "damage": {
+          "base": 20
+        },
+        "period": 1.23,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      },
+      {
+        "name": "Infested Marines",
+        "range": 5,
+        "count": 6,
+        "damage": {
+          "base": 6
+        },
+        "period": 0.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Infested Marine Cargo"],
+    "upgrades": []
+  },
+  {
+    "name": "Infested Diamondback",
+    "commanders": ["Stukov"],
+    "tier": 2,
+    "cost": 190,
+    "life": 250,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Bile Cannons",
+        "range": 8,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 30
+          }
+        },
+        "period": 0.71,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      }
+    ],
+    "abilities": ["Fungal Snare"],
+    "upgrades": ["Saturated Cultures"]
+  },
+  {
+    "name": "Infested Liberator",
+    "commanders": ["Stukov"],
+    "tier": 2,
+    "cost": 250,
+    "life": 180,
+    "speed": 4.72,
+    "armor": 2,
+    "types": ["Armored", "Biological", "Mechanical"],
+    "weapons": [
+      {
+        "name": "H.A.L.O. Pathogens",
+        "range": 6,
+        "count": 6,
+        "damage": {
+          "base": 7
+        },
+        "period": 2.86,
+        "targets": ["Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Viral Swarm"],
+    "upgrades": ["Viral Contamination"]
+  },
+  {
+    "name": "Infested Banshee",
+    "commanders": ["Stukov"],
+    "tier": 2,
+    "cost": 180,
+    "life": 140,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 3.85,
+    "armor": 0,
+    "types": ["Light", "Biological", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Backlash Rockets",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 12
+        },
+        "period": 0.89,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Cloak (Infested Banshee)", "Burrow"],
+    "upgrades": ["Rapid Hibernation", "Braced Exoskeleton"]
+  },
+  {
+    "name": "Brood Queen",
+    "commanders": ["Stukov"],
+    "tier": 3,
+    "cost": 290,
+    "life": 120,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 5.25,
+    "armor": 0,
+    "types": ["Biological", "Psionic"],
+    "weapons": [
+      {
+        "name": "Acid Spores",
+        "range": 7,
+        "damage": {
+          "base": 10,
+          "versus": {
+            "Armored": 15
+          }
+        },
+        "period": 1.07,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 2
+          }
+        }
+      }
+    ],
+    "abilities": ["Ocular Symbiote", "Spawn Broodlings", "Fungal Growth"],
+    "upgrades": ["Enhanced Mitochondria"]
+  },
+  {
+    "name": "Apocalisk",
+    "commanders": ["Stukov"],
+    "tier": 3,
+    "cost": 975,
+    "life": 1500,
+    "speed": 2.62,
+    "armor": 5,
+    "types": [
+      "Armored",
+      "Biological",
+      "Mechanical",
+      "Massive",
+      "Heroic",
+      "Map Boss"
+    ],
+    "weapons": [
+      {
+        "name": "Apocalisk Blades",
+        "range": 1,
+        "damage": {
+          "base": 80
+        },
+        "period": 0.64,
+        "targets": ["Ground"],
+        "level": {
+          "base": 8
+        }
+      }
+    ],
+    "abilities": ["Burrow Charge (Apocalisk)", "Cluster Rockets"],
+    "upgrades": []
+  },
+  {
+    "name": "Infested Siege Tank",
+    "commanders": ["Stukov"],
+    "tier": 2,
+    "cost": 450,
+    "life": 200,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Tentacle",
+        "range": 7,
+        "damage": {
+          "base": 25,
+          "versus": {
+            "Armored": 30
+          }
+        },
+        "period": 1.32,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      },
+      {
+        "name": "Volatile Infested",
+        "range": 13,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Structure": 80
+          }
+        },
+        "period": 2.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Structure": 80
+          }
+        }
+      }
+    ],
+    "abilities": ["Root"],
+    "upgrades": ["Acidic Enzymes"]
+  },
+  {
+    "name": "Centurion",
+    "commanders": ["Vorazun"],
+    "tier": 1,
+    "cost": 90,
+    "life": 100,
+    "shields": 50,
+    "speed": 3.85,
+    "armor": 1,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Psi Blades",
+        "range": 0,
+        "count": 2,
+        "damage": {
+          "base": 8
+        },
+        "period": 0.86,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Shadow Charge", "Darkcoil"],
+    "upgrades": ["Shadow Charge", "Darkcoil"]
+  },
+  {
+    "name": "Stalker",
+    "commanders": ["Vorazun"],
+    "tier": 1,
+    "cost": 115,
+    "life": 80,
+    "shields": 80,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Particle Disruptors",
+        "range": 6,
+        "damage": {
+          "base": 13,
+          "versus": {
+            "Armored": 18
+          }
+        },
+        "period": 1.03,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 2
+          }
+        }
+      }
+    ],
+    "abilities": ["Blink"],
+    "upgrades": ["Blink", "Phase Reactor"]
+  },
+  {
+    "name": "Dark Templar",
+    "commanders": ["Vorazun"],
+    "tier": 2,
+    "cost": 160,
+    "life": 40,
+    "shields": 160,
+    "speed": 3.94,
+    "armor": 1,
+    "types": ["Light", "Biological", "Psionic"],
+    "weapons": [
+      {
+        "name": "Warp Blades",
+        "range": 0,
+        "damage": {
+          "base": 45
+        },
+        "period": 1.21,
+        "targets": ["Ground"],
+        "level": {
+          "base": 5
+        }
+      }
+    ],
+    "abilities": [
+      "Shadow Fury",
+      "Shadow Stride",
+      "Void Stasis",
+      "Permanently Cloaked"
+    ],
+    "upgrades": ["Shadow Fury", "Shadow Stride", "Void Stasis"]
+  },
+  {
+    "name": "Dark Archon",
+    "commanders": ["Vorazun"],
+    "tier": 2,
+    "cost": 340,
+    "life": 10,
+    "shields": 350,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 3.94,
+    "armor": 0,
+    "types": ["Psionic", "Massive"],
+    "weapons": [
+      {
+        "name": "Chaotic Torrent",
+        "range": 3,
+        "damage": {
+          "base": 18
+        },
+        "period": 1.25,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Confusion", "Mind Control"],
+    "upgrades": ["Mind Control", "Argus Crystal"]
+  },
+  {
+    "name": "Corsair",
+    "commanders": ["Vorazun"],
+    "tier": 2,
+    "cost": 160,
+    "life": 120,
+    "shields": 60,
+    "speed": 3.94,
+    "armor": 1,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Neutron Flare",
+        "range": 5,
+        "damage": {
+          "base": 5,
+          "versus": {
+            "Light": 10
+          }
+        },
+        "period": 0.39,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Light": 1
+          }
+        }
+      }
+    ],
+    "abilities": ["Disruption Web"],
+    "upgrades": ["Disruption Web", "Stealth Drive"]
+  },
+  {
+    "name": "Oracle",
+    "commanders": ["Vorazun"],
+    "tier": 2,
+    "cost": 175,
+    "life": 100,
+    "shields": 60,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 5.6,
+    "armor": 0,
+    "types": ["Light", "Mechanical", "Psionic", "Detector"],
+    "weapons": [
+      {
+        "name": "Pulsar Beam",
+        "range": 4,
+        "damage": {
+          "base": 15,
+          "versus": {
+            "Light": 25
+          }
+        },
+        "period": 0.61,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Light": 3
+          }
+        }
+      }
+    ],
+    "abilities": ["Stasis Ward", "Activate Pulsar Beam"],
+    "upgrades": ["Stealth Drive"]
+  },
+  {
+    "name": "Void Ray",
+    "commanders": ["Vorazun"],
+    "tier": 2,
+    "cost": 230,
+    "life": 150,
+    "shields": 100,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Prismatic Beam",
+        "range": 6,
+        "damage": {
+          "base": 6,
+          "versus": {
+            "Armored": 10
+          }
+        },
+        "period": 0.36,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      }
+    ],
+    "abilities": ["Prismatic Alignment"],
+    "upgrades": ["Prismatic Range"]
+  },
+  {
+    "name": "Shadow Guard",
+    "commanders": ["Vorazun"],
+    "tier": 3,
+    "cost": 200,
+    "life": 150,
+    "shields": 150,
+    "speed": 4.2,
+    "armor": 1,
+    "types": ["Light", "Biological", "Heroic", "Psionic"],
+    "weapons": [
+      {
+        "name": "Shadow Scythe",
+        "range": 0,
+        "damage": {
+          "base": 85
+        },
+        "period": 1.21,
+        "targets": ["Ground"],
+        "level": {
+          "base": 5
+        }
+      }
+    ],
+    "abilities": [
+      "Shadow Fury",
+      "Shadow Stride",
+      "Void Stasis",
+      "Permanently Cloaked"
+    ],
+    "upgrades": []
+  },
+  {
+    "name": "Sentinel",
+    "commanders": ["Karax"],
+    "tier": 1,
+    "cost": 100,
+    "life": 100,
+    "shields": 50,
+    "speed": 3.85,
+    "armor": 1,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Psi Blades",
+        "range": 0,
+        "count": 2,
+        "damage": {
+          "base": 8
+        },
+        "period": 0.86,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Charge (Sentinel)"],
+    "upgrades": ["Charge (Sentinel)", "Reconstruction"]
+  },
+  {
+    "name": "Energizer",
+    "commanders": ["Karax"],
+    "tier": 1,
+    "cost": 150,
+    "life": 40,
+    "shields": 40,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Light", "Mechanical", "Psionic"],
+    "weapons": [
+      {
+        "name": "Sanitization Beam",
+        "range": 6,
+        "damage": {
+          "base": 6
+        },
+        "period": 0.71,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Chrono Beam", "Reclamation"],
+    "upgrades": ["Reclamation", "Rapid Recharging"]
+  },
+  {
+    "name": "Annihilator",
+    "commanders": ["Karax"],
+    "tier": 2,
+    "cost": 275,
+    "life": 200,
+    "shields": 100,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Phase Disruptors",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 50
+          }
+        },
+        "period": 1.04,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 5
+          }
+        }
+      }
+    ],
+    "abilities": ["Shadow Cannon", "Barrier"],
+    "upgrades": ["Shadow Cannon"]
+  },
+  {
+    "name": "Mirage",
+    "commanders": ["Karax"],
+    "tier": 2,
+    "cost": 140,
+    "life": 120,
+    "shields": 60,
+    "speed": 5.95,
+    "armor": 0,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Ion Cannons",
+        "range": 5,
+        "count": 2,
+        "damage": {
+          "base": 7,
+          "versus": {
+            "Light": 12
+          }
+        },
+        "period": 0.79,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Light": 1
+          }
+        }
+      }
+    ],
+    "abilities": ["Graviton Beam"],
+    "upgrades": ["Phasing Armor (Mirage)", "Anion Pulse-Crystals (Karax)"]
+  },
+  {
+    "name": "Purifier Colossus",
+    "commanders": ["Karax"],
+    "tier": 3,
+    "cost": 450,
+    "life": 200,
+    "shields": 150,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "Incendiary Lance",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 15
+        },
+        "period": 0,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Extended Thermal Lance", "Fire Beam"]
+  },
+  {
+    "name": "Support Carrier",
+    "commanders": ["Karax"],
+    "tier": 3,
+    "cost": 450,
+    "life": 300,
+    "shields": 150,
+    "speed": 2.62,
+    "armor": 2,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "Interceptors",
+        "range": 8,
+        "count": 2,
+        "damage": {
+          "base": 5
+        },
+        "period": 2.14,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Build Interceptor"],
+    "upgrades": ["Repair Drones", "Graviton Catapult"]
+  },
+  {
+    "name": "Swarmling (Kerrigan)",
+    "commanders": ["Kerrigan"],
+    "tier": 1,
+    "cost": 25,
+    "life": 35,
+    "speed": 2.95,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Claws",
+        "range": 0,
+        "damage": {
+          "base": 7
+        },
+        "period": 0.7,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Shredding Claws", "Hardened Carapace"]
+  },
+  {
+    "name": "Queen",
+    "commanders": ["Kerrigan", "Zagara"],
+    "tier": 1,
+    "cost": 175,
+    "life": 175,
+    "energy_start": 25,
+    "energy_max": 200,
+    "speed": 0.94,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Psionic"],
+    "weapons": [
+      {
+        "name": "Acid Spines",
+        "range": 7,
+        "damage": {
+          "base": 9
+        },
+        "period": 1,
+        "targets": ["Air"],
+        "level": {
+          "base": 1
+        }
+      },
+      {
+        "name": "Talons",
+        "range": 5,
+        "count": 2,
+        "damage": {
+          "base": 4,
+          "versus": {
+            "Armored": 6
+          }
+        },
+        "period": 1,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      }
+    ],
+    "abilities": ["Transfusion"],
+    "upgrades": []
+  },
+  {
+    "name": "Hydralisk (Kerrigan)",
+    "commanders": ["Kerrigan"],
+    "tier": 2,
+    "cost": 85,
+    "life": 80,
+    "speed": 2.25,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Needle Spines",
+        "range": 5,
+        "damage": {
+          "base": 12
+        },
+        "period": 0.82,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Frenzy"],
+    "upgrades": ["Muscular Augments", "Frenzy", "Ancillary Carapace"]
+  },
+  {
+    "name": "Lurker (Kerrigan)",
+    "commanders": ["Kerrigan"],
+    "tier": 2,
+    "cost": 310,
+    "life": 200,
+    "speed": 2.95,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Spines",
+        "range": 8,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 30
+          }
+        },
+        "period": 2,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      }
+    ],
+    "abilities": ["Burrow (Lurker)"],
+    "upgrades": ["Seismic Spines"]
+  },
+  {
+    "name": "Brood Mutalisk",
+    "commanders": ["Kerrigan"],
+    "tier": 2,
+    "cost": 125,
+    "life": 120,
+    "speed": 4,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Glave Wurm",
+        "range": 5,
+        "damage": {
+          "base": 9
+        },
+        "period": 1.52,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Rapid Regeneration", "Vicious Glaive", "Severing Glaive"]
+  },
+  {
+    "name": "Torrasque",
+    "commanders": ["Kerrigan"],
+    "tier": 3,
+    "cost": 350,
+    "life": 500,
+    "speed": 2.95,
+    "armor": 2,
+    "types": ["Armored", "Biological", "Massive", "Frenzied"],
+    "weapons": [
+      {
+        "name": "Kaiser Blades",
+        "range": 1,
+        "damage": {
+          "base": 35
+        },
+        "period": 0.86,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": ["Burrow Charge", "Rebirth"],
+    "upgrades": ["Burrow Charge", "Chitinous Plating", "Tissue Assimilation"]
+  },
+  {
+    "name": "Brood Lord",
+    "commanders": ["Kerrigan"],
+    "tier": 3,
+    "cost": 325,
+    "life": 225,
+    "speed": 1.88,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Massive"],
+    "weapons": [
+      {
+        "name": "Broodling Strike",
+        "range": 9.5,
+        "damage": {
+          "base": 20
+        },
+        "period": 2.5,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Swarm Seeds"],
+    "upgrades": ["Porous Cartilage"]
+  },
+  {
+    "name": "Kerrigan",
+    "commanders": ["Kerrigan"],
+    "tier": 1,
+    "cost": 350,
+    "life": 600,
+    "energy_start": 100,
+    "energy_max": 100,
+    "speed": 2.25,
+    "armor": 2,
+    "types": ["Biological", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Energy Blast",
+        "range": 3,
+        "damage": {
+          "base": 40
+        },
+        "period": 1.5,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": [
+      "Leaping Strike",
+      "Leaping Evasion",
+      "Psionic Shift",
+      "Immobilization Wave",
+      "Mutating Carapace"
+    ],
+    "upgrades": [
+      "Heroic Fortitude",
+      "Chain Reaction",
+      "Fury",
+      "Ability Efficiency"
+    ]
+  },
+  {
+    "name": "Overseer",
+    "commanders": ["Kerrigan", "Zagara", "Abathur"],
+    "tier": 2,
+    "cost": 115,
+    "life": 200,
+    "speed": 1.88,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Detector"],
+    "weapons": [],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Swarmling (Zagara)",
+    "commanders": ["Zagara"],
+    "tier": 1,
+    "cost": 20,
+    "life": 35,
+    "speed": 2.95,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Claws",
+        "range": 0,
+        "damage": {
+          "base": 5
+        },
+        "period": 0.7,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": [
+      "Metabolic Boost",
+      "Hardened Carapace",
+      "Adrenal Glands",
+      "Shredding Claws"
+    ]
+  },
+  {
+    "name": "Splitterling",
+    "commanders": ["Zagara"],
+    "tier": 1,
+    "cost": 100,
+    "life": 30,
+    "speed": 2.95,
+    "armor": 0,
+    "types": ["Biological"],
+    "weapons": [
+      {
+        "name": "Volatile Burst",
+        "range": 0,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Structure": 80
+          }
+        },
+        "period": 1.4,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Structure": 5
+          }
+        }
+      }
+    ],
+    "abilities": ["Division", "Explode", "Disable Structure Attack"],
+    "upgrades": ["Corrosive Acid", "Rupture", "Centrifugal Hooks"]
+  },
+  {
+    "name": "Hunter Killer",
+    "commanders": ["Zagara"],
+    "tier": 3,
+    "cost": 140,
+    "life": 150,
+    "speed": 3.13,
+    "armor": 1,
+    "types": ["Light", "Biological", "Heroic"],
+    "weapons": [
+      {
+        "name": "Needle Spines",
+        "range": 6,
+        "damage": {
+          "base": 20
+        },
+        "period": 0.83,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Zagara",
+    "commanders": ["Zagara"],
+    "tier": 1,
+    "cost": 275,
+    "life": 600,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 2.5,
+    "armor": 2,
+    "types": ["Biological", "Heroic"],
+    "weapons": [
+      {
+        "name": "Acid Spines",
+        "range": 6,
+        "damage": {
+          "base": 30
+        },
+        "period": 1.5,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": ["Baneling Barrage"],
+    "upgrades": ["Heroic Fortitude", "Medusa Blades"]
+  },
+  {
+    "name": "Roach (Zagara)",
+    "commanders": ["Zagara"],
+    "tier": 2,
+    "cost": 70,
+    "life": 145,
+    "speed": 2.25,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Heroic"],
+    "weapons": [
+      {
+        "name": "Acid Saliva",
+        "range": 4,
+        "damage": {
+          "base": 16
+        },
+        "period": 2,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Rapid Regeneration", "Burrow (Roach)"],
+    "upgrades": []
+  },
+  {
+    "name": "Aberration",
+    "commanders": ["Zagara"],
+    "tier": 3,
+    "cost": 340,
+    "life": 275,
+    "speed": 2.95,
+    "armor": 0,
+    "types": ["Armored", "Biological", "Massive"],
+    "weapons": [
+      {
+        "name": "Pustulant Smash",
+        "range": 1.5,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 40
+          }
+        },
+        "period": 1.2,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 4
+          }
+        }
+      }
+    ],
+    "abilities": ["Incubate Splitterlings"],
+    "upgrades": ["Protective Cover"]
+  },
+  {
+    "name": "Corruptor",
+    "commanders": ["Zagara"],
+    "tier": 2,
+    "cost": 225,
+    "life": 200,
+    "speed": 3.38,
+    "armor": 2,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Parasite Spore",
+        "range": 6,
+        "damage": {
+          "base": 14,
+          "versus": {
+            "Armored": 28
+          }
+        },
+        "period": 1.9,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      }
+    ],
+    "abilities": ["Corruption", "Incubate Scourge"],
+    "upgrades": []
+  },
+  {
+    "name": "Scourge",
+    "commanders": ["Zagara"],
+    "tier": 2,
+    "cost": 65,
+    "life": 25,
+    "speed": 3.75,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Suicide",
+        "range": 0,
+        "damage": {
+          "base": 110
+        },
+        "period": 0.83,
+        "targets": ["Air"],
+        "level": {
+          "base": 5
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Virulent Spores"]
+  },
+  {
+    "name": "Hellbat (Swann)",
+    "commanders": ["Swann"],
+    "tier": 1,
+    "cost": 125,
+    "life": 235,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Light", "Biological", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Napalm Spray",
+        "range": 2,
+        "damage": {
+          "base": 18,
+          "versus": {
+            "Light": 30
+          }
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Light": 3
+          }
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Infernal Pre-Igniter", "Infernal Plating"]
+  },
+  {
+    "name": "Goliath",
+    "commanders": ["Swann"],
+    "tier": 1,
+    "cost": 140,
+    "life": 150,
+    "speed": 3.76,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Hellfire Missiles",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 8,
+          "versus": {
+            "Armored": 16
+          }
+        },
+        "period": 1.07,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 2
+          }
+        }
+      },
+      {
+        "name": "Autocannon",
+        "range": 6,
+        "damage": {
+          "base": 18
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": [
+      "Ares-Class Targeting System (Swann)",
+      "Multi-Lock Weapons System"
+    ]
+  },
+  {
+    "name": "Cyclone",
+    "commanders": ["Swann"],
+    "tier": 2,
+    "cost": 170,
+    "life": 200,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Typhoon Missile Pod",
+        "range": 5,
+        "damage": {
+          "base": 18
+        },
+        "period": 0.71,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Lock On"],
+    "upgrades": ["Targeting Optics", "Mag-Field Accelerator"]
+  },
+  {
+    "name": "Wraith",
+    "commanders": ["Swann"],
+    "tier": 2,
+    "cost": 145,
+    "life": 140,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 5.25,
+    "armor": 0,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Gemini Missiles",
+        "range": 5,
+        "count": 2,
+        "damage": {
+          "base": 5,
+          "versus": {
+            "Armored": 10
+          }
+        },
+        "period": 0.89,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 16
+          }
+        }
+      },
+      {
+        "name": "Burst Lasers",
+        "range": 5,
+        "damage": {
+          "base": 8
+        },
+        "period": 0.89,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Cloak (Wraith)"],
+    "upgrades": ["Pulse Amplifier", "Displacement Field"]
+  },
+  {
+    "name": "Science Vessel",
+    "commanders": ["Swann"],
+    "tier": 2,
+    "cost": 250,
+    "life": 200,
+    "shields": 50,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 2.8,
+    "armor": 1,
+    "types": ["Light", "Mechanical", "Psionic", "Detector"],
+    "weapons": [],
+    "abilities": ["Nano-Repair", "Irradiate", "Defensive Matrix"],
+    "upgrades": ["Improved Nano-Repair", "Defensive Matrix"]
+  },
+  {
+    "name": "A.R.E.S.",
+    "commanders": ["Swann"],
+    "tier": 3,
+    "cost": 275,
+    "life": 400,
+    "speed": 3.15,
+    "armor": 3,
+    "types": ["Armored", "Mechanical", "Heroic"],
+    "weapons": [
+      {
+        "name": "120mm Cannon",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 15
+        },
+        "period": 1.07,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Thor",
+    "commanders": ["Swann"],
+    "tier": 3,
+    "cost": 400,
+    "life": 400,
+    "speed": 2.62,
+    "armor": 2,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "Javelin Missile Launchers",
+        "range": 10,
+        "count": 4,
+        "damage": {
+          "base": 6,
+          "versus": {
+            "Light": 12
+          }
+        },
+        "period": 2.14,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Light": 2
+          }
+        }
+      },
+      {
+        "name": "Thor's Hammer",
+        "range": 7,
+        "count": 2,
+        "damage": {
+          "base": 30
+        },
+        "period": 0.91,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": ["330mm Barrage Cannon", "Retract Anti-Air Weaponry"],
+    "upgrades": ["330mm Barrage Cannon"]
+  },
+  {
+    "name": "Siege Tank (Swann)",
+    "commanders": ["Swann"],
+    "tier": 2,
+    "cost": 250,
+    "life": 160,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "90mm Cannons",
+        "range": 7,
+        "damage": {
+          "base": 15,
+          "versus": {
+            "Armored": 25
+          }
+        },
+        "period": 0.74,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      },
+      {
+        "name": "Crucio Shock Cannons",
+        "range": 13,
+        "damage": {
+          "base": 35,
+          "versus": {
+            "Armored": 50
+          }
+        },
+        "period": 2.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Armored": 5
+          }
+        }
+      }
+    ],
+    "abilities": ["Siege Mode (Siege Tank)"],
+    "upgrades": ["Maelstrom Rounds"]
+  },
+  {
+    "name": "Drakken Laser Drill",
+    "commanders": ["Swann"],
+    "tier": 1,
+    "cost": 200,
+    "life": 400,
+    "speed": 0,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Structure"],
+    "weapons": [
+      {
+        "name": "Ventorini Beam",
+        "range": 500,
+        "damage": {
+          "base": 20
+        },
+        "period": 1,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Laser Drill Level 1", "Laser Drill Level 2"]
+  },
+  {
+    "name": "Dehaka",
+    "commanders": ["Dehaka"],
+    "tier": 1,
+    "cost": 400,
+    "life": 655,
+    "speed": 4.2,
+    "armor": 1,
+    "types": ["Biological", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Claws",
+        "range": 1,
+        "damage": {
+          "base": 30
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 0
+        }
+      },
+      {
+        "name": "Mammoth Beam",
+        "range": 6,
+        "damage": {
+          "base": 30,
+          "versus": {
+            "Armored": 39
+          }
+        },
+        "period": 0.36,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 0,
+          "versus": {
+            "Armored": 0
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Essence",
+      "Leap",
+      "Intimidating Roar",
+      "Devour",
+      "Primal Regeneration",
+      "Keen Senses",
+      "Chitinous Plating",
+      "Massive",
+      "Colossal",
+      "Scorching Breath",
+      "Deadly Reach"
+    ],
+    "upgrades": []
+  },
+  {
+    "name": "Primal Wurm",
+    "commanders": ["Dehaka"],
+    "tier": 1,
+    "cost": 150,
+    "life": 500,
+    "speed": 0,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Structure", "Detector"],
+    "weapons": [
+      {
+        "name": "Viscous Bile",
+        "range": 7,
+        "damage": {
+          "base": 50
+        },
+        "period": 1.57,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": ["Bile Stream"],
+    "upgrades": []
+  },
+  {
+    "name": "Greater Primal Wurm",
+    "commanders": ["Dehaka"],
+    "tier": 3,
+    "cost": 0,
+    "life": 750,
+    "speed": 0,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Structure", "Detector"],
+    "weapons": [
+      {
+        "name": "Viscous Bile",
+        "range": 7,
+        "damage": {
+          "base": 70
+        },
+        "period": 1.57,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": ["Greater Bile Stream"],
+    "upgrades": []
+  },
+  {
+    "name": "Primal Zergling",
+    "commanders": ["Dehaka"],
+    "tier": 1,
+    "cost": 50,
+    "life": 90,
+    "speed": 4.9,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Claws",
+        "range": 0,
+        "damage": {
+          "base": 10
+        },
+        "period": 0.5,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Ravasaur",
+    "commanders": ["Dehaka"],
+    "tier": 1,
+    "cost": 90,
+    "life": 90,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Volatile Projection",
+        "range": 7,
+        "damage": {
+          "base": 15
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+      "Evolved Carapace",
+      "Evolved Adrenal Glands",
+      "Evolved Leeching"
+    ],
+    "upgrades": ["Dissolving Acid", "Enlarged Parotid Glands"]
+  },
+  {
+    "name": "Primal Roach",
+    "commanders": ["Dehaka"],
+    "tier": 1,
+    "cost": 80,
+    "life": 175,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Acid Saliva",
+        "range": 4,
+        "damage": {
+          "base": 16,
+          "versus": {}
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Glial Reconstitution"]
+  },
+  {
+    "name": "Primal Igniter",
+    "commanders": ["Dehaka"],
+    "tier": 2,
+    "cost": 225,
+    "life": 350,
+    "speed": 4.13,
+    "armor": 3,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Fire Breath",
+        "range": 2,
+        "damage": {
+          "base": 25
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": [
+      "Evolved Carapace",
+      "Evolved Adrenal Glands",
+      "Evolved Leeching"
+    ],
+    "upgrades": ["Glial Reconstitution", "Concentrated Fire"]
+  },
+  {
+    "name": "Primal Mutalisk",
+    "commanders": ["Dehaka"],
+    "tier": 2,
+    "cost": 265,
+    "life": 200,
+    "speed": 5.25,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Glave Wurm",
+        "range": 3,
+        "damage": {
+          "base": 14
+        },
+        "period": 1.09,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+      "Evolved Carapace",
+      "Evolved Adrenal Glands",
+      "Evolved Leeching"
+    ],
+    "upgrades": ["Slicing Glave", "Shifting Carapace", "Primal Reconstitution"]
+  },
+  {
+    "name": "Impaler",
+    "commanders": ["Dehaka"],
+    "tier": 2,
+    "cost": 425,
+    "life": 200,
+    "speed": 3.85,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Piercing Tentacle",
+        "range": 11,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Armored": 60
+          }
+        },
+        "period": 1.04,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Armored": 6
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Burrow",
+      "Evolved Carapace",
+      "Evolved Adrenal Glands",
+      "Evolved Leeching"
+    ],
+    "upgrades": ["Tenderize"]
+  },
+  {
+    "name": "Primal Host",
+    "commanders": ["Dehaka"],
+    "tier": 2,
+    "cost": 275,
+    "life": 160,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Spines",
+        "range": 3,
+        "damage": {
+          "base": 10
+        },
+        "period": 0.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Spawn Primal Locusts", "Burrow"],
+    "upgrades": []
+  },
+  {
+    "name": "Creeper Host",
+    "commanders": ["Dehaka"],
+    "tier": 3,
+    "cost": 500,
+    "life": 160,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Swooping Burst",
+        "range": 4,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Structure": 80
+          }
+        },
+        "period": 0.57,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Structure": 5
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Burrow",
+      "Spawn Explosive Creepers",
+      "Evolved Carapace",
+      "Evolved Incubation Sacs"
+    ],
+    "upgrades": ["Aerial Burst Sacs"]
+  },
+  {
+    "name": "Primal Ultralisk",
+    "commanders": ["Dehaka"],
+    "tier": 3,
+    "cost": 275,
+    "life": 625,
+    "speed": 4.13,
+    "armor": 2,
+    "types": ["Armored", "Biological", "Massive"],
+    "weapons": [
+      {
+        "name": "Kaiser Blades",
+        "range": 1,
+        "damage": {
+          "base": 35
+        },
+        "period": 0.61,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4
+        }
+      }
+    ],
+    "abilities": ["Brutal Charge"],
+    "upgrades": ["Brutal Charge", "Impaling Strike", "Healing Adaptation"]
+  },
+  {
+    "name": "Primal Hydralisk",
+    "commanders": ["Dehaka"],
+    "tier": 1,
+    "cost": 95,
+    "life": 100,
+    "speed": 3.5,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Needle Spines",
+        "range": 5,
+        "damage": {
+          "base": 12
+        },
+        "period": 0.59,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Muscular Augments"]
+  },
+  {
+    "name": "Tyrannozor",
+    "commanders": ["Dehaka"],
+    "tier": 3,
+    "cost": 875,
+    "life": 1000,
+    "speed": 4.13,
+    "armor": 2,
+    "types": ["Armored", "Biological", "Massive"],
+    "weapons": [
+      {
+        "name": "Kaiser Blades",
+        "range": 1,
+        "damage": {
+          "base": 35
+        },
+        "period": 0.61,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4
+        }
+      },
+      {
+        "name": "Spike Burst",
+        "range": 5,
+        "count": 5,
+        "damage": {
+          "base": 15
+        },
+        "period": 1.43,
+        "targets": ["Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+      "Barrage of Spikes",
+      "Evolved Carapace",
+      "Evolved Adrenal Glands",
+      "Evolved Leeching",
+      "Spiked Hide"
+    ],
+    "upgrades": [
+      "Impaling Strike",
+      "Healing Adaptation",
+      "Tyrant's Protection",
+      "Barrage of Spikes"
+    ]
+  },
+  {
+    "name": "Primal Guardian",
+    "commanders": ["Dehaka"],
+    "tier": 3,
+    "cost": 350,
+    "life": 175,
+    "speed": 4.55,
+    "armor": 2,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Acid Spores",
+        "range": 9,
+        "damage": {
+          "base": 35
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4
+        }
+      }
+    ],
+    "abilities": [
+      "Explosive Spores",
+      "Evolved Carapace",
+      "Evolved Adrenal Glands",
+      "Evolved Leeching"
+    ],
+    "upgrades": ["Explosive Spores", "Primordial Fury"]
+  },
+  {
+    "name": "Tychus",
+    "commanders": ["Tychus"],
+    "tier": 1,
+    "cost": 650,
+    "life": 600,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Biological", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Sweet Talker",
+        "range": 5,
+        "damage": {
+          "base": 18
+        },
+        "period": 0.21,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Shredder Grenade"],
+    "upgrades": [
+      "KD9a Implosion Core",
+      "Vanadium Shell",
+      "Kel-Morian Ripper Rounds",
+      "SureShot Networked Helmet"
+    ]
+  },
+  {
+    "name": "Crooked Sam",
+    "commanders": ["Tychus"],
+    "tier": 1,
+    "cost": 650,
+    "life": 375,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Light", "Biological", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "The Negotiators",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 30
+        },
+        "period": 0.79,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": ["Demolition Charge"],
+    "upgrades": [
+      "LarsCorp G7 Charges",
+      "Moebius Retraint Matrix",
+      "Procyon Shade Suit",
+      "Enhanced Hostilities Kit"
+    ]
+  },
+  {
+    "name": "James \"Sirius\" Sykes",
+    "commanders": ["Tychus"],
+    "tier": 1,
+    "cost": 650,
+    "life": 650,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Big Tom",
+        "range": 7,
+        "damage": {
+          "base": 23
+        },
+        "period": 1.21,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Deploy Warhound Turret"],
+    "upgrades": [
+      "SA-55 Thunderbolt Missiles",
+      "Moebius M34 Terror Rounds",
+      "D99 Detonator",
+      "Umojan Turret Frame"
+    ]
+  },
+  {
+    "name": "Miles \"Blaze\" Lewis",
+    "commanders": ["Tychus"],
+    "tier": 1,
+    "cost": 650,
+    "life": 1000,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Brimstone Mk. 1 Flamethrower",
+        "range": 2.5,
+        "damage": {
+          "base": 36,
+          "versus": {
+            "Light": 53
+          }
+        },
+        "period": 1,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Light": 5
+          }
+        }
+      }
+    ],
+    "abilities": ["Oil Spill"],
+    "upgrades": [
+      "High Capacity Containers",
+      "Hades Oil",
+      "Wildflame Fuel Additives",
+      "XCMC-670"
+    ]
+  },
+  {
+    "name": "Rob \"Cannonball\" Boswell",
+    "commanders": ["Tychus"],
+    "tier": 1,
+    "cost": 650,
+    "life": 1000,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Biological", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Meteor Smasher",
+        "range": 1,
+        "damage": {
+          "base": 50
+        },
+        "period": 1.29,
+        "targets": ["Ground"],
+        "level": {
+          "base": 5
+        }
+      }
+    ],
+    "abilities": ["Heavy Impact"],
+    "upgrades": [
+      "X-71 Impact Boots",
+      "Critical Response System",
+      "Redline Power Coils",
+      "M.A.L.I.C.E. Ammunition"
+    ]
+  },
+  {
+    "name": "Kev \"Rattlesnake\" West",
+    "commanders": ["Tychus"],
+    "tier": 1,
+    "cost": 650,
+    "life": 625,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "K13 \"Rattler\" Grenade Launcher",
+        "range": 6,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Armored": 80
+          }
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Armored": 8
+          }
+        }
+      }
+    ],
+    "abilities": ["Deploy Revitalizer"],
+    "upgrades": [
+      "Umojan Signal Modulator",
+      "Moebius Aggression Blend",
+      "Secret Stash Stimpack",
+      "Hammer Munitions"
+    ]
+  },
+  {
+    "name": "Nux",
+    "commanders": ["Tychus"],
+    "tier": 1,
+    "cost": 650,
+    "life": 500,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Biological", "Psionic", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "AGR-17 Gauss Rifle",
+        "range": 7,
+        "damage": {
+          "base": 30
+        },
+        "period": 1.07,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": ["Ultrasonic Pulse"],
+    "upgrades": [
+      "T-4 Cloudburst Shells",
+      "Ultrasonic Booster",
+      "Crystalline Amplifiers",
+      "N3 Networking"
+    ]
+  },
+  {
+    "name": "Vega",
+    "commanders": ["Tychus"],
+    "tier": 1,
+    "cost": 650,
+    "life": 500,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Biological", "Psionic", "Heroic"],
+    "weapons": [
+      {
+        "name": "C-10b Canister Rifle",
+        "range": 7,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Light": 40
+          }
+        },
+        "period": 1.07,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Light": 4
+          }
+        }
+      }
+    ],
+    "abilities": ["Dominate"],
+    "upgrades": [
+      "Psionic Motivator",
+      "Neural Disruption Device",
+      "Psi Projector",
+      "Type-88 Persuader"
+    ]
+  },
+  {
+    "name": "Lt. Layna Nikara",
+    "commanders": ["Tychus"],
+    "tier": 1,
+    "cost": 650,
+    "life": 450,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Light", "Biological", "Heroic", "Map Boss"],
+    "weapons": [],
+    "abilities": ["Super Heal", "Reinvigorate Burst"],
+    "upgrades": [
+      "Umojan Repair Nanites",
+      "Procyon Serum",
+      "Procyon Twin Heal Beam Gauntlet",
+      "XM-77 Matrix Generator"
+    ]
+  },
+  {
+    "name": "Alarak",
+    "commanders": ["Alarak"],
+    "tier": 1,
+    "cost": 250,
+    "life": 200,
+    "shields": 200,
+    "speed": 3.5,
+    "armor": 2,
+    "shield_armor": 2,
+    "types": ["Biological", "Heroic"],
+    "weapons": [
+      {
+        "name": "Bane Blades",
+        "range": 2,
+        "damage": {
+          "base": 30
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3
+        }
+      },
+      {
+        "name": "Psionic Lightning",
+        "range": 2,
+        "damage": {
+          "base": 30
+        },
+        "period": 1.07,
+        "targets": ["Air"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": [
+      "Deadly Charge",
+      "Destruction Wave",
+      "Soul Absorption",
+      "Sacrifice (Alarak)",
+      "Empower Me",
+      "Overpowered"
+    ],
+    "upgrades": ["Imposing Presence", "Telekinesis"]
+  },
+  {
+    "name": "Supplicant",
+    "commanders": ["Alarak"],
+    "tier": 1,
+    "cost": 115,
+    "life": 75,
+    "shields": 125,
+    "armor": 0,
+    "speed": 4.2,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Blood Orb",
+        "range": 3,
+        "damage": {
+          "base": 5
+        },
+        "period": 1.18,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Devotion"],
+    "upgrades": ["Soul Augmentation", "Blood Shields"]
+  },
+  {
+    "name": "Slayer",
+    "commanders": ["Alarak"],
+    "tier": 1,
+    "cost": 130,
+    "life": 80,
+    "shields": 80,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Particle Disruptor",
+        "range": 6,
+        "damage": {
+          "base": 13,
+          "versus": {
+            "Armored": 18
+          }
+        },
+        "period": 1.03,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      }
+    ],
+    "abilities": ["Phase Blink"],
+    "upgrades": ["Phasing Armor (Slayer)"]
+  },
+  {
+    "name": "Havoc",
+    "commanders": ["Alarak"],
+    "tier": 1,
+    "cost": 125,
+    "life": 40,
+    "shields": 40,
+    "speed": 3.85,
+    "armor": 0,
+    "types": ["Light", "Mechanical"],
+    "weapons": [],
+    "abilities": ["Target Lock", "Squad Sight"],
+    "upgrades": ["Detect Weakness", "Cloaking Module", "Bloodshard Resonance"]
+  },
+  {
+    "name": "Vanguard",
+    "commanders": ["Alarak"],
+    "tier": 2,
+    "cost": 350,
+    "life": 200,
+    "shields": 100,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Scatter Cannons",
+        "range": 6,
+        "count": 8,
+        "damage": {
+          "base": 8,
+          "versus": {
+            "Armored": 15
+          }
+        },
+        "period": 2.68,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      }
+    ],
+    "abilities": ["Scatter Cannon"],
+    "upgrades": ["Fusion Mortars", "Matter Dispersion"]
+  },
+  {
+    "name": "Ascendent",
+    "commanders": ["Alarak"],
+    "tier": 2,
+    "cost": 310,
+    "life": 40,
+    "shields": 40,
+    "energy_start": 200,
+    "energy_max": 200,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Biological", "Psionic", "Light"],
+    "weapons": [
+      {
+        "name": "Agonizing Blast",
+        "range": 7,
+        "damage": {
+          "base": 9
+        },
+        "period": 1.25,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Psionic Orb", "Mind Blast", "Sacrifice (Ascendant)"],
+    "upgrades": ["Mind Blast", "Chaotic Attunement", "Power Overwhelming"]
+  },
+  {
+    "name": "Destroyer",
+    "commanders": ["Alarak"],
+    "tier": 2,
+    "cost": 275,
+    "life": 150,
+    "shields": 100,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Mechanical", "Armored"],
+    "weapons": [
+      {
+        "name": "Destruction Beam",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 6,
+          "versus": {
+            "Armored": 10
+          }
+        },
+        "period": 0.36,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      }
+    ],
+    "abilities": ["Destruction Beam"],
+    "upgrades": []
+  },
+  {
+    "name": "War Prism",
+    "commanders": ["Alarak"],
+    "tier": 2,
+    "cost": 100,
+    "life": 100,
+    "shields": 100,
+    "speed": 4.73,
+    "armor": 0,
+    "types": ["Armored", "Psionic", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Phase Blaster",
+        "range": 7,
+        "damage": {
+          "base": 10
+        },
+        "period": 1.43,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Wrathwalker",
+    "commanders": ["Alarak"],
+    "tier": 3,
+    "cost": 360,
+    "life": 200,
+    "shields": 150,
+    "speed": 2.8,
+    "armor": 1,
+    "types": ["Mechanical", "Massive", "Armored"],
+    "weapons": [
+      {
+        "name": "Charged Blast",
+        "range": 11,
+        "count": 0,
+        "damage": {
+          "base": 100,
+          "versus": {
+            "Structure": 175
+          }
+        },
+        "period": 2.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 10,
+          "versus": {
+            "Structure": 10
+          }
+        }
+      }
+    ],
+    "abilities": ["Charged Blast"],
+    "upgrades": ["Aerial Tracking", "Rapid Power Cycling"]
+  },
+  {
+    "name": "Tal'darim Mothership",
+    "commanders": ["Alarak"],
+    "tier": 3,
+    "cost": 1300,
+    "life": 1000,
+    "shields": 1000,
+    "speed": 2.62,
+    "armor": 2,
+    "types": ["Massive", "Armored", "Heroic", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Terminator Beam",
+        "range": 7,
+        "count": 6,
+        "damage": {
+          "base": 38
+        },
+        "period": 1.58,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": ["Thermal Lance"],
+    "upgrades": []
+  },
+  {
+    "name": "Reaper",
+    "commanders": ["Han and Horner"],
+    "tier": 1,
+    "cost": 60,
+    "life": 60,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "P-55 Scythe Gauss Pistol",
+        "range": 5,
+        "count": 2,
+        "damage": {
+          "base": 4
+        },
+        "period": 0.86,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      },
+      {
+        "name": "D9 Charge",
+        "range": 5,
+        "damage": {
+          "base": 20
+        },
+        "period": 1.29,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+      "KD8 Charge",
+      "Jet Pack Overdrive",
+      "Combat Drugs",
+      "My Significant Other (Han)"
+    ],
+    "upgrades": ["Jet Pack Overdrive", "LD9 Cluster Charges"]
+  },
+  {
+    "name": "Hellion",
+    "commanders": ["Han and Horner"],
+    "tier": 1,
+    "cost": 125,
+    "life": 90,
+    "speed": 5.95,
+    "armor": 0,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Infernal Grenades",
+        "range": 6,
+        "damage": {
+          "base": 15,
+          "versus": {
+            "Armored": 40
+          }
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 4
+          }
+        }
+      }
+    ],
+    "abilities": ["My Significant Other (Han)", "Tar Bombs", "Hellbat Mode"],
+    "upgrades": ["Tar Bombs", "Aerosol Stim Emitters"]
+  },
+  {
+    "name": "Hellbat",
+    "commanders": ["Han and Horner"],
+    "tier": 1,
+    "cost": 125,
+    "life": 235,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Light", "Biological", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Napalm Spray",
+        "range": 2,
+        "damage": {
+          "base": 18,
+          "versus": {
+            "Light": 30
+          }
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Light": 3
+          }
+        }
+      }
+    ],
+    "abilities": ["My Significant Other (Han)", "Hellion Mode"],
+    "upgrades": ["Immolation Fluid", "Wildfire Explosives"]
+  },
+  {
+    "name": "Assault Galleon",
+    "commanders": ["Han and Horner"],
+    "tier": 2,
+    "cost": 425,
+    "life": 500,
+    "speed": 2.63,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Polariton Torpedos",
+        "range": 10,
+        "damage": {
+          "base": 20
+        },
+        "period": 0.86,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+      "My Significant Other (Han)",
+      "Train Reaper",
+      "Train Hellion",
+      "Train Hellbat",
+      "Train Widow Mine",
+      "Install Drone Hangar"
+    ],
+    "upgrades": []
+  },
+  {
+    "name": "Widow Mine",
+    "commanders": ["Han and Horner"],
+    "tier": 2,
+    "cost": 165,
+    "life": 90,
+    "speed": 3.94,
+    "armor": 0,
+    "types": ["Light", "Mechanical"],
+    "weapons": [],
+    "abilities": [
+      "My Significant Other (Han)",
+      "Sentinel Missiles",
+      "Activate Mine"
+    ],
+    "upgrades": ["Executioner Missiles", "Black Market Launchers"]
+  },
+  {
+    "name": "Deimos Viking",
+    "commanders": ["Han and Horner"],
+    "tier": 2,
+    "cost": 360,
+    "life": 350,
+    "speed": 3.85,
+    "armor": 0,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Lanzer Torpedos",
+        "range": 9,
+        "count": 2,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 35
+          }
+        },
+        "period": 1.43,
+        "targets": ["Air"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 4
+          }
+        }
+      },
+      {
+        "name": "Gatling Cannon",
+        "range": 6,
+        "damage": {
+          "base": 18
+        },
+        "period": 0.71,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+      "My Significant Other (Horner)",
+      "Endurance Training",
+      "WILD Missiles",
+      "Tactical Jump"
+    ],
+    "upgrades": ["WILD Missiles", "Shredder Rounds", "Tactical Jump"]
+  },
+  {
+    "name": "Theia Raven",
+    "commanders": ["Han and Horner"],
+    "tier": 2,
+    "cost": 125,
+    "life": 140,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Light", "Mechanical", "Psionic", "Detector"],
+    "weapons": [],
+    "abilities": [
+      "My Significant Other (Horner)",
+      "Endurance Training",
+      "Analyze Weakness",
+      "Tactical Jump"
+    ],
+    "upgrades": ["Multi-Threaded Sensors", "Tactical Jump"]
+  },
+  {
+    "name": "Asteria Wraith",
+    "commanders": ["Han and Horner"],
+    "tier": 2,
+    "cost": 310,
+    "life": 400,
+    "energy_start": 200,
+    "energy_max": 200,
+    "speed": 5.25,
+    "armor": 0,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Burst Lasers",
+        "range": 5,
+        "damage": {
+          "base": 16
+        },
+        "period": 0.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+      "My Significant Other (Horner)",
+      "Endurance Training",
+      "Cloak (Asteria Wraith)",
+      "Tactical Jump"
+    ],
+    "upgrades": ["Unregistered Cloaking System", "Trigger Override"]
+  },
+  {
+    "name": "Sovereign Battlecruiser",
+    "commanders": ["Han and Horner"],
+    "tier": 3,
+    "cost": 925,
+    "life": 900,
+    "speed": 2.62,
+    "armor": 3,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "ATX Laser Battery",
+        "range": 6,
+        "damage": {
+          "base": 18
+        },
+        "period": 0.16,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      },
+      {
+        "name": "Mini Yamato Gun",
+        "range": 6,
+        "damage": {
+          "base": 200
+        },
+        "period": 1.43,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 20
+        }
+      }
+    ],
+    "abilities": [
+      "My Significant Other (Horner)",
+      "Endurance Training",
+      "Tactical Jump (Battlecruiser)"
+    ],
+    "upgrades": ["Overcharged Reactor"]
+  },
+  {
+    "name": "Strike Fighter",
+    "commanders": ["Han and Horner"],
+    "tier": 2,
+    "cost": 200,
+    "life": 50,
+    "speed": 8.4,
+    "armor": 2,
+    "types": ["Light", "Mechanical"],
+    "weapons": [],
+    "abilities": ["Precision Strike"],
+    "upgrades": ["Napalm Payload"]
+  },
+  {
+    "name": "Marine",
+    "commanders": ["Raynor"],
+    "tier": 1,
+    "cost": 50,
+    "life": 45,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Biological", "Light"],
+    "weapons": [
+      {
+        "name": "C-14 Gauss Rifle",
+        "range": 5,
+        "count": 0,
+        "damage": {
+          "base": 6
+        },
+        "period": 0.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Stimpack (Marine)", "Improved Stimpack"],
+    "upgrades": ["Combat Shield"]
+  },
+  {
+    "name": "Marauder",
+    "commanders": ["Raynor"],
+    "tier": 1,
+    "cost": 95,
+    "life": 125,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Punisher Grenades",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 10,
+          "versus": {
+            "Armored": 20
+          }
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 2
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Stimpack (Marauder)",
+      "Improved Stimpack",
+      "Concussive Shells"
+    ],
+    "upgrades": ["Concussive Shells"]
+  },
+  {
+    "name": "Firebat",
+    "commanders": ["Raynor"],
+    "tier": 1,
+    "cost": 90,
+    "life": 100,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Perdition Flamethrower",
+        "range": 4,
+        "damage": {
+          "base": 8,
+          "versus": {
+            "Light": 12
+          }
+        },
+        "period": 1,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Light": 2
+          }
+        }
+      }
+    ],
+    "abilities": ["Stimpack (Firebat)"],
+    "upgrades": ["Incinerator Gauntlets", "Juggernaut Plating"]
+  },
+  {
+    "name": "Medic",
+    "commanders": ["Raynor"],
+    "tier": 1,
+    "cost": 75,
+    "life": 60,
+    "shields": 0,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Light", "Biological"],
+    "weapons": [],
+    "abilities": ["Heal"],
+    "upgrades": ["Stabilizer Medpacks"]
+  },
+  {
+    "name": "Vulture",
+    "commanders": ["Raynor"],
+    "tier": 1,
+    "cost": 90,
+    "life": 75,
+    "speed": 5.95,
+    "armor": 1,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Fragmentation Grenade",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 10,
+          "versus": {
+            "Light": 25
+          }
+        },
+        "period": 1.21,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Light": 2
+          }
+        }
+      }
+    ],
+    "abilities": ["Deploy Spider Mine"],
+    "upgrades": [
+      "Replenishable Magazine",
+      "Cerberus Mines",
+      "Afterburners",
+      "Advanced Optics"
+    ]
+  },
+  {
+    "name": "Dusk Wings",
+    "commanders": ["Raynor"],
+    "tier": 2,
+    "cost": 200,
+    "life": 175,
+    "energy_start": 200,
+    "energy_max": 200,
+    "speed": 3.86,
+    "armor": 0,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Screecher Missiles",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 18
+        },
+        "period": 0.89,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Cloak", "Shockwave Missile Battery"],
+    "upgrades": ["Afterburners", "Advanced Optics"]
+  },
+  {
+    "name": "Banshee",
+    "commanders": ["Raynor"],
+    "tier": 2,
+    "cost": 180,
+    "life": 140,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 3.85,
+    "armor": 0,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Backlash Rockets",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 12,
+          "versus": {}
+        },
+        "period": 0.89,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Cloak (Banshee)", "Shockwave Missile Battery"],
+    "upgrades": [
+      "Cloaking Field",
+      "Shockwave Missile Battery",
+      "Afterburners",
+      "Advanced Optics"
+    ]
+  },
+  {
+    "name": "Viking",
+    "commanders": ["Raynor"],
+    "tier": 2,
+    "cost": 180,
+    "life": 125,
+    "speed": 3.85,
+    "armor": 0,
+    "types": ["Mechanical", "Armored"],
+    "weapons": [
+      {
+        "name": "Lanzer Torpedos",
+        "range": 9,
+        "count": 2,
+        "damage": {
+          "base": 10,
+          "versus": {
+            "Armored": 14
+          }
+        },
+        "period": 1.43,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      },
+      {
+        "name": "Gatling Cannon",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 12
+        },
+        "period": 0.71,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Assault Mode", "Fighter Mode"],
+    "upgrades": [
+      "Phobos Weapon systems",
+      "Ripwave Missiles",
+      "Afterburners",
+      "Advanced Optics"
+    ]
+  },
+  {
+    "name": "Siege Tank (Raynor)",
+    "commanders": ["Raynor"],
+    "tier": 2,
+    "cost": 230,
+    "life": 160,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "90mm Cannons",
+        "range": 7,
+        "damage": {
+          "base": 15,
+          "versus": {
+            "Armored": 25
+          }
+        },
+        "period": 0.74,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      },
+      {
+        "name": "Crucio Shock Cannons",
+        "range": 13,
+        "damage": {
+          "base": 35,
+          "versus": {
+            "Armored": 50
+          }
+        },
+        "period": 2.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Armored": 5
+          }
+        }
+      }
+    ],
+    "abilities": ["Siege Mode"],
+    "upgrades": ["Advanced Siege Tech", "Afterburners", "Advanced Optics"]
+  },
+  {
+    "name": "Battlecruiser",
+    "commanders": ["Raynor"],
+    "tier": 3,
+    "cost": 460,
+    "life": 550,
+    "speed": 2.62,
+    "armor": 3,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "ATS Laser Battery",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 8
+        },
+        "period": 0.16,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      },
+      {
+        "name": "ATA Laser Battery",
+        "range": 6,
+        "damage": {
+          "base": 5
+        },
+        "period": 0.16,
+        "targets": ["Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Yamato Cannon", "Tactical Jump (Battlecruiser)", "Hyperion"],
+    "upgrades": ["Yamato Cannon", "Afterburners", "Advanced Optics"]
+  },
+  {
+    "name": "Hyperion",
+    "commanders": ["Raynor"],
+    "tier": 3,
+    "cost": 2100,
+    "life": 2000,
+    "speed": 2.63,
+    "armor": 3,
+    "types": ["Massive", "Heroic", "Armored", "Mechanical", "Map Boss"],
+    "weapons": [
+      {
+        "name": "ATS Laser Battery",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 20
+        },
+        "period": 0.21,
+        "targets": ["Ground"],
+        "level": {
+          "base": 0
+        }
+      },
+      {
+        "name": "ATA Laser Battery",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 20
+        },
+        "period": 0.21,
+        "targets": ["Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+      "Yamato Cannon (Hyperion)",
+      "Hyperjump",
+      "Point Defense Drone",
+      "Advanced Targeting Systems"
+    ],
+    "upgrades": []
+  },
+  {
+    "name": "Nova",
+    "commanders": ["Nova"],
+    "tier": 1,
+    "cost": 150,
+    "life": 250,
+    "energy_start": 100,
+    "energy_max": 100,
+    "speed": 3.15,
+    "armor": 2,
+    "types": ["Biological", "Heroic"],
+    "weapons": [
+      {
+        "name": "C-20A Canister Rifle",
+        "range": 7,
+        "damage": {
+          "base": 30
+        },
+        "period": 1.07,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 0
+        }
+      },
+      {
+        "name": "Hellfire Shotgun",
+        "range": 4,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Light": 40
+          }
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": [
+      "Sniper Round",
+      "Penetrating Blast",
+      "Tactical Stealth Suit",
+      "Phase Reactor Suit",
+      "Assault Mode (Nova)",
+      "Stealth Mode"
+    ],
+    "upgrades": ["Caduceus Reactor", "Ghost Visor"]
+  },
+  {
+    "name": "Elite Marine",
+    "commanders": ["Nova"],
+    "tier": 1,
+    "cost": 105,
+    "life": 150,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "C-14 Gauss Rifle",
+        "range": 5,
+        "damage": {
+          "base": 9
+        },
+        "period": 0.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Super Stimpack"],
+    "upgrades": ["Super Stimpack", "Laser Targeting System"]
+  },
+  {
+    "name": "Marauder Commando",
+    "commanders": ["Nova"],
+    "tier": 1,
+    "cost": 190,
+    "life": 350,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Punisher Grenades",
+        "range": 6,
+        "damage": {
+          "base": 15,
+          "versus": {
+            "Armored": 30
+          }
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 4
+          }
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Magrail Munitions", "Suppression Shells"]
+  },
+  {
+    "name": "Spec Ops Ghost",
+    "commanders": ["Nova"],
+    "tier": 2,
+    "cost": 350,
+    "life": 350,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Biological", "Psionic"],
+    "weapons": [
+      {
+        "name": "C-10 Canister Rifle",
+        "range": 6,
+        "damage": {
+          "base": 15,
+          "versus": {
+            "Light": 30
+          }
+        },
+        "period": 1.07,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Light": 4
+          }
+        }
+      }
+    ],
+    "abilities": ["Snipe (Spec Ops Ghost)", "EMP Round", "Permanently Cloaked"],
+    "upgrades": ["EMP Round", "Triple Tap"]
+  },
+  {
+    "name": "Covert Banshee",
+    "commanders": ["Nova"],
+    "tier": 2,
+    "cost": 350,
+    "life": 350,
+    "speed": 3.85,
+    "armor": 0,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Backlash Rockets",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 18
+        },
+        "period": 0.89,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Rocket Barrage"],
+    "upgrades": ["Advanced Cloaking Field"]
+  },
+  {
+    "name": "Strike Goliath",
+    "commanders": ["Nova"],
+    "tier": 2,
+    "cost": 250,
+    "life": 450,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Autocannon",
+        "range": 6,
+        "damage": {
+          "base": 27
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3
+        }
+      },
+      {
+        "name": "Hellfire Missiles",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 12,
+          "versus": {
+            "Armored": 24
+          }
+        },
+        "period": 1.07,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 2
+          }
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": [
+      "Ares-Class Targeting System (Strike Goliath)",
+      "Lockdown Missiles"
+    ]
+  },
+  {
+    "name": "Hellbat Ranger",
+    "commanders": ["Nova"],
+    "tier": 2,
+    "cost": 350,
+    "life": 550,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Light", "Biological", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Napalm Spray",
+        "range": 2,
+        "damage": {
+          "base": 27,
+          "versus": {
+            "Light": 45
+          }
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3,
+          "versus": {
+            "Light": 3
+          }
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Jump Jet Assault", "Infernal Pre-Igniter"]
+  },
+  {
+    "name": "Raven Type-II",
+    "commanders": ["Nova"],
+    "tier": 2,
+    "cost": 525,
+    "life": 350,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Light", "Mechanical", "Psionic", "Detector"],
+    "weapons": [],
+    "abilities": [
+      "Railgun Turret",
+      "Bio-Mechanical Repair Drone",
+      "Predator Missile"
+    ],
+    "upgrades": ["Covert Triage"]
+  },
+  {
+    "name": "Holo Decoy",
+    "commanders": ["Nova"],
+    "tier": 3,
+    "cost": 575,
+    "life": 1000,
+    "speed": 3.15,
+    "armor": 2,
+    "types": ["Biological", "Psionic", "Heroic"],
+    "weapons": [
+      {
+        "name": "Monomolecular Blade",
+        "range": 0,
+        "damage": {
+          "base": 100
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": ["Dash Attack"],
+    "upgrades": []
+  },
+  {
+    "name": "Heavy Siege Tank",
+    "commanders": ["Nova"],
+    "tier": 2,
+    "cost": 350,
+    "life": 400,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "90mm Cannon",
+        "range": 7,
+        "damage": {
+          "base": 25,
+          "versus": {
+            "Armored": 40
+          }
+        },
+        "period": 0.74,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Armored": 5
+          }
+        }
+      },
+      {
+        "name": "Arclite Shock Cannon",
+        "range": 13,
+        "damage": {
+          "base": 55,
+          "versus": {
+            "Armored": 80
+          }
+        },
+        "period": 2.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 5,
+          "versus": {
+            "Armored": 7
+          }
+        }
+      }
+    ],
+    "abilities": ["Siege (Heavy Siege Tank)"],
+    "upgrades": ["Graduating Range"]
+  },
+  {
+    "name": "Raid Liberator",
+    "commanders": ["Nova"],
+    "tier": 3,
+    "cost": 525,
+    "life": 450,
+    "speed": 4.72,
+    "armor": 0,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Lexington Rockets",
+        "range": 9,
+        "count": 2,
+        "damage": {
+          "base": 13
+        },
+        "period": 1.29,
+        "targets": ["Air"],
+        "level": {
+          "base": 1
+        }
+      },
+      {
+        "name": "Concord Cannon",
+        "range": 13,
+        "damage": {
+          "base": 125
+        },
+        "period": 1.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 13
+        }
+      }
+    ],
+    "abilities": ["Defender Mode"],
+    "upgrades": ["Smart Servos"]
+  },
+  {
+    "name": "Mecha Zergling",
+    "commanders": ["Stetmann"],
+    "tier": 1,
+    "cost": 45,
+    "life": 35,
+    "energy_start": 50,
+    "energy_max": 50,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Mechanical", "Light"],
+    "weapons": [
+      {
+        "name": "Claws",
+        "range": 0,
+        "damage": {
+          "base": 5
+        },
+        "period": 0.5,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Recyclable (Mecha Zergling)", "Morph to Mecha Baneling"],
+    "upgrades": [
+      "Metal-bolic Boost",
+      "Hardened Egonergy Shield",
+      "Synthetic Adrenal Pumps"
+    ]
+  },
+  {
+    "name": "Mecha Baneling",
+    "commanders": ["Stetmann"],
+    "tier": 1,
+    "cost": 90,
+    "life": 30,
+    "energy_start": 50,
+    "energy_max": 50,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Mechanical"],
+    "weapons": [
+      {
+        "name": "Volatile Burst",
+        "range": 0,
+        "count": 0,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Structure": 80
+          }
+        },
+        "period": 0.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Structure": 8
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Explode",
+      "Disable Building Attack",
+      "Recyclable (Mecha Baneling)"
+    ],
+    "upgrades": [
+      "Anti-Centripetal Rocket Servos",
+      "Egonergy Efficient Barrier",
+      "Egonergy Enhanced Explosives"
+    ]
+  },
+  {
+    "name": "Mecha Hydralisk (Stetmann)",
+    "commanders": ["Stetmann"],
+    "tier": 1,
+    "cost": 110,
+    "life": 80,
+    "energy_start": 100,
+    "energy_max": 100,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Light", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Mecha Spine Needle",
+        "range": 6,
+        "damage": {
+          "base": 12
+        },
+        "period": 0.59,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      },
+      {
+        "name": "Erudition Missiles",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 6,
+          "versus": {
+            "Armored": 10
+          }
+        },
+        "period": 0.59,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Morph to Mecha Lurker",
+      "Juiced up Payload: On",
+      "Juiced up Payload: Off",
+      "Recyclable (Mecha Hydralisk)"
+    ],
+    "upgrades": [
+      "Hydra-lic Augments",
+      "Tyr-Class Targeting System",
+      "Erudition Missile Launchers"
+    ]
+  },
+  {
+    "name": "Gary",
+    "commanders": ["Stetmann"],
+    "tier": 2,
+    "cost": 300,
+    "life": 500,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Gary’s Little Helper",
+        "range": 7,
+        "count": 0,
+        "damage": {
+          "base": 30
+        },
+        "period": 0.71,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": [
+      "E-Gorb (Gary)",
+      "Remnant Recycler",
+      "Super Gary Transformation Sequence",
+      "Recycle Mecha Zergling",
+      "Recycle Mecha Hydralisk",
+      "Recycle Mecha Infestor",
+      "Recycle Mecha Corruptor",
+      "Recycle Mecha Ultralisk"
+    ],
+    "upgrades": []
+  },
+  {
+    "name": "Super Gary",
+    "commanders": ["Stetmann"],
+    "tier": 3,
+    "cost": 1100,
+    "life": 1000,
+    "speed": 4.13,
+    "armor": 3,
+    "types": ["Mechanical", "Heroic", "Armored", "Map Boss", "Detector"],
+    "weapons": [
+      {
+        "name": "Gary’s Bigger Helper",
+        "range": 7,
+        "count": 0,
+        "damage": {
+          "base": 45
+        },
+        "period": 0.71,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 4
+        }
+      }
+    ],
+    "abilities": [
+      "E-Gorb (Super Gary)",
+      "The Best Oil",
+      "Remnant Recycler",
+      "Recycle Mecha Zergling",
+      "Recycle Mecha Hydralisk",
+      "Recycle Mecha Infestor",
+      "Recycle Mecha Corruptor",
+      "Recycle Mecha Ultralisk"
+    ],
+    "upgrades": []
+  },
+  {
+    "name": "Mecha Lurker (Stetmann)",
+    "commanders": ["Stetmann"],
+    "tier": 2,
+    "cost": 375,
+    "life": 200,
+    "energy_start": 200,
+    "energy_max": 200,
+    "speed": 4.13,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Mecha Spine",
+        "range": 9,
+        "count": 0,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 30
+          }
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Tunnel of TERROR Algorithm",
+      "Focused Strike Algorithm",
+      "Recyclable (Mecha Lurker)",
+      "Burrow"
+    ],
+    "upgrades": [
+      "Extended Tunnel of TERROR Algorithm",
+      "Focused Strike Algorithm"
+    ]
+  },
+  {
+    "name": "Mecha Corruptor",
+    "commanders": ["Stetmann"],
+    "tier": 2,
+    "cost": 260,
+    "life": 200,
+    "energy_start": 200,
+    "energy_max": 200,
+    "speed": 4.13,
+    "armor": 2,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Mecha Parasite Spore",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 28
+        },
+        "period": 1.36,
+        "targets": ["Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+      "Cluster Busters",
+      "Terraclean Solvent",
+      "Morph to Mecha Battlecarrier Lord",
+      "Recyclable (Mecha Corruptor)"
+    ],
+    "upgrades": ["Terraclean Solvent", "Wide Area Cluster Busters"]
+  },
+  {
+    "name": "Mecha Overseer",
+    "commanders": ["Stetmann"],
+    "tier": 2,
+    "cost": 125,
+    "life": 200,
+    "speed": 2.62,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Detector"],
+    "weapons": [],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Mecha Infestor",
+    "commanders": ["Stetmann"],
+    "tier": 2,
+    "cost": 425,
+    "life": 90,
+    "energy_start": 400,
+    "energy_max": 400,
+    "speed": 3.5,
+    "armor": 0,
+    "types": ["Armored", "Mechanical", "Psionic"],
+    "weapons": [],
+    "abilities": [
+      "Roaches Away!",
+      "UMI-C Charging Protocol",
+      "Recyclable (Mecha Infestor)"
+    ],
+    "upgrades": ["UMI-C Charging Protocol", "BONUS Ravager!"]
+  },
+  {
+    "name": "Mecha Ultralisk",
+    "commanders": ["Stetmann"],
+    "tier": 3,
+    "cost": 450,
+    "life": 500,
+    "energy_start": 300,
+    "energy_max": 300,
+    "speed": 4.13,
+    "armor": 2,
+    "types": ["Armored", "Massive", "Mechanical", "Frenzied"],
+    "weapons": [
+      {
+        "name": "Mecha Kaiser Blades",
+        "range": 1,
+        "count": 0,
+        "damage": {
+          "base": 35
+        },
+        "period": 0.61,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": [
+      "Vectored Burrow Charge",
+      "Mecha Mooch Module",
+      "Recyclable (Mecha Ultralisk)"
+    ],
+    "upgrades": [
+      "Electrostatic Surprise!",
+      "Chitanium Plating",
+      "Mecha Mooch Module"
+    ]
+  },
+  {
+    "name": "Mecha Battlecarrier Lord",
+    "commanders": ["Stetmann"],
+    "tier": 3,
+    "cost": 725,
+    "life": 550,
+    "energy_start": 400,
+    "energy_max": 400,
+    "speed": 2.63,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "Mecha Broodling Strike",
+        "range": 9.5,
+        "damage": {
+          "base": 30
+        },
+        "period": 1.75,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3
+        }
+      },
+      {
+        "name": "Mecha Locuscepters",
+        "range": 2,
+        "count": 2,
+        "damage": {
+          "base": 8
+        },
+        "period": 2.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+      "Ready Mecha Broodling",
+      "Recyclable (Mecha Battlecarrier Lord)",
+      "Stetmato Cannon"
+    ],
+    "upgrades": ["Stetmato Cannon", "Mecha Locuscepter Bays"]
+  },
+  {
+    "name": "Vile Roach (Abathur)",
+    "commanders": ["Abathur"],
+    "tier": 1,
+    "cost": 75,
+    "life": 145,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Acid Saliva",
+        "range": 4,
+        "damage": {
+          "base": 16
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Burrow", "Roach Evolution: Vile", "Biomass (1)"],
+    "upgrades": [
+      "Glial Reconstitution",
+      "Tunneling Claws",
+      "Adaptive Plating",
+      "Hydriodic Bile"
+    ]
+  },
+  {
+    "name": "Swarm Queen",
+    "commanders": ["Abathur"],
+    "tier": 1,
+    "cost": 115,
+    "life": 150,
+    "shields": 0,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 2.25,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Psionic"],
+    "weapons": [
+      {
+        "name": "Claws",
+        "range": 5,
+        "count": 2,
+        "damage": {
+          "base": 4,
+          "versus": {
+            "Armored": 6
+          }
+        },
+        "period": 0.69,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      },
+      {
+        "name": "Acid Spine",
+        "range": 8,
+        "damage": {
+          "base": 9
+        },
+        "period": 0.69,
+        "targets": ["Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Rapid Transfusion", "Biomass (1)"],
+    "upgrades": ["Bio-Mechanical Transfusion"]
+  },
+  {
+    "name": "Ravager",
+    "commanders": ["Abathur"],
+    "tier": 2,
+    "cost": 175,
+    "life": 120,
+    "speed": 2.75,
+    "armor": 1,
+    "types": ["Biological"],
+    "weapons": [
+      {
+        "name": "Plasma Discharge",
+        "range": 6,
+        "damage": {
+          "base": 16
+        },
+        "period": 1.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Corrosive Bile", "Biomass (2)"],
+    "upgrades": ["Bloated Bile Ducts", "Potent Bile"]
+  },
+  {
+    "name": "Swarm Host",
+    "commanders": ["Abathur"],
+    "tier": 2,
+    "cost": 250,
+    "life": 120,
+    "speed": 2.25,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Acid Spit (Locust)",
+        "range": 2,
+        "damage": {
+          "base": 10
+        },
+        "period": 0.86,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Spawn Locust", "Biomass (2)"],
+    "upgrades": ["Pressurized Glands"]
+  },
+  {
+    "name": "Mutalisk (Abathur)",
+    "commanders": ["Abathur"],
+    "tier": 2,
+    "cost": 85,
+    "life": 120,
+    "speed": 4,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Glave Wurm",
+        "range": 3,
+        "damage": {
+          "base": 9
+        },
+        "period": 0.78,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+      "Upgrade to Guardian",
+      "Upgrade to Devourer",
+      "Upgrade to Leviathan (Mutalisk)",
+      "Biomass (1)"
+    ],
+    "upgrades": ["Rapid Regeneration", "Vicious Glave", "Sundering Glave"]
+  },
+  {
+    "name": "Guardian",
+    "commanders": ["Abathur"],
+    "tier": 3,
+    "cost": 235,
+    "life": 150,
+    "speed": 2.5,
+    "armor": 2,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Acid Spores",
+        "range": 9,
+        "damage": {
+          "base": 30
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": ["Upgrade to Leviathan (Guardian)", "Biomass (2)"],
+    "upgrades": ["Prolonged Dispersion"]
+  },
+  {
+    "name": "Devourer",
+    "commanders": ["Abathur"],
+    "tier": 2,
+    "cost": 285,
+    "life": 250,
+    "speed": 3.25,
+    "armor": 2,
+    "types": ["Armored", "Biological", "Massive"],
+    "weapons": [
+      {
+        "name": "Corrosive Acid",
+        "range": 6,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 30
+          }
+        },
+        "period": 1.43,
+        "targets": ["Air"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Corrosive Acid",
+      "Upgrade to Leviathan (Devourer)",
+      "Biomass (3)"
+    ],
+    "upgrades": ["Corrosive Spray"]
+  },
+  {
+    "name": "Viper",
+    "commanders": ["Abathur"],
+    "tier": 3,
+    "cost": 220,
+    "life": 150,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 2.953,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Psionic"],
+    "weapons": [
+      {
+        "name": "Acid Spit",
+        "range": 6,
+        "damage": {
+          "base": 10
+        },
+        "period": 1.07,
+        "targets": ["Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+      "Abduct",
+      "Disabling Cloud",
+      "Parasitic Bomb",
+      "Consumption",
+      "Upgrade to Leviathan (Viper)",
+      "Biomass (2)"
+    ],
+    "upgrades": ["Virulent Microbes"]
+  },
+  {
+    "name": "Brutalisk",
+    "commanders": ["Abathur"],
+    "tier": 3,
+    "cost": 650,
+    "life": 1500,
+    "speed": 3,
+    "armor": 2,
+    "types": ["Armored", "Biological", "Massive", "Heroic"],
+    "weapons": [
+      {
+        "name": "Brutalize",
+        "range": 0,
+        "damage": {
+          "base": 30
+        },
+        "period": 2.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3
+        }
+      },
+      {
+        "name": "Ferocious Spew",
+        "range": 6,
+        "damage": {
+          "base": 50
+        },
+        "period": 1.43,
+        "targets": ["Air"],
+        "level": {
+          "base": 5
+        }
+      }
+    ],
+    "abilities": ["Brutal Swipes"],
+    "upgrades": []
+  },
+  {
+    "name": "Leviathan",
+    "commanders": ["Abathur"],
+    "tier": 3,
+    "cost": 850,
+    "life": 1000,
+    "speed": 2,
+    "armor": 2,
+    "types": ["Massive", "Biological", "Heroic"],
+    "weapons": [
+      {
+        "name": "Tentacles",
+        "range": 3,
+        "damage": {
+          "base": 20
+        },
+        "period": 0.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      },
+      {
+        "name": "Bile Swarm",
+        "range": 6,
+        "count": 4,
+        "damage": {
+          "base": 9,
+          "versus": {
+            "Massive": 15
+          }
+        },
+        "period": 1.07,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Massive": 2
+          }
+        }
+      }
+    ],
+    "upgrades": [],
+    "abilities": []
+  },
+  {
+    "name": "Dominion Trooper",
+    "commanders": ["Mengsk"],
+    "tier": 1,
+    "cost": 45,
+    "life": 45,
+    "speed": 0,
+    "armor": 4.13,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Ferromag SMG",
+        "range": 5,
+        "damage": {
+          "base": 6
+        },
+        "period": 0.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+      "Equip B-2 High-Cal LMG",
+      "Equip CPO-7 Salamander Flamethrower",
+      "Equip Hailstorm Launcher"
+    ],
+    "upgrades": []
+  },
+  {
+    "name": "LMG Dominion Trooper",
+    "commanders": ["Mengsk"],
+    "tier": 1,
+    "cost": 65,
+    "life": 45,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "B-2 High-Cal LMG",
+        "range": 6,
+        "damage": {
+          "base": 12
+        },
+        "period": 0.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Flamethrower Dominion Trooper",
+    "commanders": ["Mengsk"],
+    "tier": 1,
+    "cost": 105,
+    "life": 145,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "CPO-7 Salamander Flamethrower",
+        "range": 2,
+        "damage": {
+          "base": 16,
+          "versus": {
+            "Light": 24
+          }
+        },
+        "period": 1,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Light": 2
+          }
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Hailstorm Dominion Trooper",
+    "commanders": ["Mengsk"],
+    "tier": 1,
+    "cost": 105,
+    "life": 45,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Ferromag SMG",
+        "range": 5,
+        "damage": {
+          "base": 6
+        },
+        "period": 0.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      },
+      {
+        "name": "Hailstorm Launcher",
+        "range": 10,
+        "count": 2,
+        "damage": {
+          "base": 8,
+          "versus": {
+            "Armored": 16
+          }
+        },
+        "period": 1.07,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 2
+          }
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Zergling (Mengsk)",
+    "commanders": ["Mengsk"],
+    "tier": 1,
+    "cost": 20,
+    "life": 35,
+    "speed": 6.58,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Claws",
+        "range": 0,
+        "damage": {
+          "base": 5
+        },
+        "period": 0.36,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Mutalisk (Mengsk)",
+    "commanders": ["Mengsk"],
+    "tier": 2,
+    "cost": 75,
+    "life": 120,
+    "speed": 5.25,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Glaive Wurm",
+        "range": 3,
+        "damage": {
+          "base": 9
+        },
+        "period": 1.09,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Ultralisk (Mengsk)",
+    "commanders": ["Mengsk"],
+    "tier": 3,
+    "cost": 275,
+    "life": 500,
+    "speed": 6.2,
+    "armor": 3,
+    "types": ["Armored", "Biological", "Massive", "Frenzied"],
+    "weapons": [
+      {
+        "name": "Kaiser Blades",
+        "range": 1,
+        "damage": {
+          "base": 35
+        },
+        "period": 0.61,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Imperial Intercessor",
+    "commanders": ["Mengsk"],
+    "tier": 2,
+    "cost": 125,
+    "life": 150,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 3.5,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [],
+    "abilities": [
+      "Heal (Imperial Intercessor)",
+      "Ignite Afterburners",
+      "Load Siege Tank"
+    ],
+    "upgrades": ["Dual Resuscitators", "Scatter Veil", "Armament Stabilizers"]
+  },
+  {
+    "name": "Imperial Witness",
+    "commanders": ["Mengsk"],
+    "tier": 2,
+    "cost": 250,
+    "life": 350,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Mechanical", "Detector"],
+    "weapons": [],
+    "abilities": ["Patriot Mode", "Indoctrinate"],
+    "upgrades": []
+  },
+  {
+    "name": "Aegis Guard",
+    "commanders": ["Mengsk"],
+    "tier": 1,
+    "cost": 450,
+    "life": 300,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Punisher Grenades",
+        "range": 6,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 40
+          }
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 5,
+          "versus": {
+            "Armored": 10
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Veterancy (Aegis Guard)",
+      "Aegis Barrier",
+      "Shrapnel",
+      "High-Grade Stimpacks"
+    ],
+    "upgrades": ["Incapacitator Shells"]
+  },
+  {
+    "name": "Emperor's Shadow",
+    "commanders": ["Mengsk"],
+    "tier": 2,
+    "cost": 525,
+    "life": 200,
+    "energy_start": 100,
+    "energy_max": 200,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Biological", "Psionic"],
+    "weapons": [
+      {
+        "name": "C-10 Canister Rifle",
+        "range": 6,
+        "damage": {
+          "base": 15,
+          "versus": {
+            "Light": 30
+          }
+        },
+        "period": 1.07,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 3.75,
+          "versus": {
+            "Light": 7.5
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Veterancy (Emperor's Shadow)",
+      "Pyrokinetic Immolation",
+      "EMP Blast",
+      "Labyrinth Cloak",
+      "Terrazine Infusion",
+      "Unleashed Potential"
+    ],
+    "upgrades": []
+  },
+  {
+    "name": "Pride of Augustgrad",
+    "commanders": ["Mengsk"],
+    "tier": 3,
+    "cost": 1600,
+    "life": 800,
+    "speed": 2.62,
+    "armor": 3,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "Laser Battery",
+        "range": 6,
+        "damage": {
+          "base": 9
+        },
+        "period": 0.16,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2.25
+        }
+      }
+    ],
+    "abilities": [
+      "Veterancy (Pride of Augustgrad)",
+      "Yamato Cannon (Pride of Augustgrad)",
+      "Tactical Jump (Pride of Augustgrad)",
+      "Experienced Command",
+      "Scorched Earth Tactics",
+      "Veteran Fire Control Team"
+    ],
+    "upgrades": ["Field-Assist Targeting System"]
+  },
+  {
+    "name": "Blackhammer",
+    "commanders": ["Mengsk"],
+    "tier": 3,
+    "cost": 700,
+    "life": 600,
+    "speed": 2.62,
+    "armor": 3,
+    "types": ["Armored", "Mechanical", "Massive"],
+    "weapons": [
+      {
+        "name": "Thor's Hammer",
+        "range": 7,
+        "count": 2,
+        "damage": {
+          "base": 45
+        },
+        "period": 0.91,
+        "targets": ["Ground"],
+        "level": {
+          "base": 11.25
+        }
+      },
+      {
+        "name": "Javelin Missile Launchers",
+        "range": 10,
+        "count": 4,
+        "damage": {
+          "base": 9,
+          "versus": {
+            "Light": 18
+          }
+        },
+        "period": 2.14,
+        "targets": ["Air"],
+        "level": {
+          "base": 2.25,
+          "versus": {
+            "Light": 4.5
+          }
+        }
+      },
+      {
+        "name": "Inferno Volley",
+        "range": 18,
+        "damage": {
+          "base": 8
+        },
+        "period": 0.34,
+        "targets": ["Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+      "Veterancy (Blackhammer)",
+      "Overwatch Mode",
+      "Suppression Ordnance",
+      "Anti-Air Artillery",
+      "Strength in Numbers",
+      "Retract Anti-Air Weaponry"
+    ],
+    "upgrades": ["Bulwark Field"]
+  },
+  {
+    "name": "Shock Division",
+    "commanders": ["Mengsk"],
+    "tier": 2,
+    "cost": 625,
+    "life": 350,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "90mm Cannons",
+        "range": 7,
+        "damage": {
+          "base": 25,
+          "versus": {
+            "Armored": 40
+          }
+        },
+        "period": 0.74,
+        "targets": ["Ground"],
+        "level": {
+          "base": 6.25,
+          "versus": {
+            "Armored": 10
+          }
+        }
+      },
+      {
+        "name": "Crucio Shock Cannons",
+        "range": 7,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Armored": 70
+          }
+        },
+        "period": 2.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 10,
+          "versus": {
+            "Armored": 17.5
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Veterancy (Shock Division)",
+      "Siege Mode (Shock Division)",
+      "Shock and Awe",
+      "Massive Bombardment",
+      "Overwhelming Force"
+    ],
+    "upgrades": ["Armament Stabilizers"]
+  },
+  {
+    "name": "Sky Fury",
+    "commanders": ["Mengsk"],
+    "tier": 2,
+    "cost": 425,
+    "life": 270,
+    "speed": 3.85,
+    "armor": 0,
+    "types": ["Armored", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Lanzer Torpedos",
+        "range": 9,
+        "count": 2,
+        "damage": {
+          "base": 15,
+          "versus": {
+            "Armored": 21,
+            "Massive": 71
+          }
+        },
+        "period": 0,
+        "targets": ["Ground"],
+        "level": {
+          "base": 5.25,
+          "versus": {
+            "Armored": 7.25,
+            "Massive": 17.75
+          }
+        }
+      },
+      {
+        "name": "Gatling Cannon",
+        "range": 6,
+        "damage": {
+          "base": 18,
+          "versus": {
+            "Massive": 68
+          }
+        },
+        "period": 0,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4.5,
+          "versus": {
+            "Massive": 17
+          }
+        }
+      }
+    ],
+    "abilities": [
+      "Veterancy (Sky Fury)",
+      "Fighter Mode (Sky Fury)",
+      "Assault Mode (Sky Fury)",
+      "Royal Munitions",
+      "Tactical Realignment",
+      "Evasive Maneuvers"
+    ],
+    "upgrades": ["Aesir Turbines"]
+  },
+  {
+    "name": "Legionnaire",
+    "commanders": ["Fenix"],
+    "tier": 1,
+    "cost": 150,
+    "life": 200,
+    "shields": 100,
+    "speed": 3.85,
+    "armor": 1,
+    "types": ["Mechanical", "Light"],
+    "weapons": [
+      {
+        "name": "Psi Blades",
+        "range": 0,
+        "count": 2,
+        "damage": {
+          "base": 16
+        },
+        "period": 0.86,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Charge (Legionaire)", "Kadalis"],
+    "upgrades": ["Charge (Fenix)"]
+  },
+  {
+    "name": "Kaldalis",
+    "commanders": ["Fenix"],
+    "tier": 1,
+    "cost": 425,
+    "life": 400,
+    "shields": 200,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 4.2,
+    "armor": 2,
+    "shield_armor": 1,
+    "types": ["Mechanical", "Heroic", "Map Boss", "Light"],
+    "weapons": [
+      {
+        "name": "Psi Blades",
+        "range": 0,
+        "count": 2,
+        "damage": {
+          "base": 18
+        },
+        "period": 0.57,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Engage", "Empowered Blades"],
+    "upgrades": ["Empowered Blades"]
+  },
+  {
+    "name": "Adept",
+    "commanders": ["Fenix"],
+    "tier": 1,
+    "cost": 100,
+    "life": 90,
+    "shields": 90,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 3.5,
+    "armor": 1,
+    "types": ["Mechanical", "Light"],
+    "weapons": [
+      {
+        "name": "Glaive Cannon",
+        "range": 4,
+        "count": 0,
+        "damage": {
+          "base": 16,
+          "versus": {
+            "Light": 22
+          }
+        },
+        "period": 1.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Light": 2
+          }
+        }
+      }
+    ],
+    "abilities": ["Talis"],
+    "upgrades": ["Psionic Projection"]
+  },
+  {
+    "name": "Talis",
+    "commanders": ["Fenix"],
+    "tier": 1,
+    "cost": 375,
+    "life": 180,
+    "shields": 180,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 3.85,
+    "armor": 2,
+    "shield_armor": 1,
+    "types": ["Mechanical", "Light", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Glaive Cannon",
+        "range": 4,
+        "count": 0,
+        "damage": {
+          "base": 25,
+          "versus": {
+            "Light": 35
+          }
+        },
+        "period": 1.61,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Light": 3
+          }
+        }
+      }
+    ],
+    "abilities": ["Psionic Projection (Talis)", "Ricochet Glaive"],
+    "upgrades": ["Debilitation System"]
+  },
+  {
+    "name": "Conservator",
+    "commanders": ["Fenix"],
+    "tier": 1,
+    "cost": 175,
+    "life": 40,
+    "shields": 40,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Mechanical", "Light", "Psionic"],
+    "weapons": [
+      {
+        "name": "Sanitization Beam",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 6
+        },
+        "period": 0.71,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Protective Field"],
+    "upgrades": ["Optimized Emitters"]
+  },
+  {
+    "name": "Immortal (Fenix)",
+    "commanders": ["Fenix"],
+    "tier": 2,
+    "cost": 225,
+    "life": 200,
+    "shields": 100,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Mechanical", "Armored"],
+    "weapons": [
+      {
+        "name": "Phase Disruptors",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 50
+          }
+        },
+        "period": 1.04,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 5
+          }
+        }
+      }
+    ],
+    "abilities": ["Barrier", "Taldarin"],
+    "upgrades": []
+  },
+  {
+    "name": "Taldarin",
+    "commanders": ["Fenix"],
+    "tier": 2,
+    "cost": 600,
+    "life": 400,
+    "shields": 200,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 3.5,
+    "armor": 2,
+    "shield_armor": 1,
+    "types": ["Mechanical", "Armored", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Phase Disruptors",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 30,
+          "versus": {
+            "Armored": 75
+          }
+        },
+        "period": 1.04,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3,
+          "versus": {
+            "Armored": 7
+          }
+        }
+      }
+    ],
+    "abilities": ["Barrier", "Graviton Disruptors"],
+    "upgrades": ["Gravimetric Overload"]
+  },
+  {
+    "name": "Scout",
+    "commanders": ["Fenix"],
+    "tier": 2,
+    "cost": 160,
+    "life": 150,
+    "shields": 100,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 3.94,
+    "armor": 0,
+    "types": ["Mechanical", "Armored"],
+    "weapons": [
+      {
+        "name": "Anti-Matter Missiles",
+        "range": 4,
+        "count": 2,
+        "damage": {
+          "base": 7,
+          "versus": {
+            "Armored": 14
+          }
+        },
+        "period": 0.89,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      },
+      {
+        "name": "Photon Blaster",
+        "range": 4,
+        "count": 0,
+        "damage": {
+          "base": 16,
+          "versus": {
+            "Light": 32
+          }
+        },
+        "period": 1.21,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Light": 3
+          }
+        }
+      }
+    ],
+    "abilities": ["Mojo"],
+    "upgrades": ["Combat Sensor Array"]
+  },
+  {
+    "name": "Mojo",
+    "commanders": ["Fenix"],
+    "tier": 2,
+    "cost": 450,
+    "life": 300,
+    "shields": 200,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 4.29,
+    "armor": 1,
+    "shield_armor": 1,
+    "types": ["Mechanical", "Heroic", "Armored", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Anti-Matter Missiles",
+        "range": 3,
+        "count": 2,
+        "damage": {
+          "base": 11,
+          "versus": {
+            "Armored": 22
+          }
+        },
+        "period": 0.89,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 2
+          }
+        }
+      },
+      {
+        "name": "Photon Blaster",
+        "range": 3,
+        "count": 0,
+        "damage": {
+          "base": 24,
+          "versus": {
+            "Light": 48
+          }
+        },
+        "period": 1.21,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Light": 4
+          }
+        }
+      }
+    ],
+    "abilities": ["Suppression Procedure", "Force Missiles"],
+    "upgrades": ["Suppression Procedure", "Combat Sensor Array"]
+  },
+  {
+    "name": "Disruptor",
+    "commanders": ["Fenix"],
+    "tier": 2,
+    "cost": 270,
+    "life": 100,
+    "shields": 100,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Mechanical", "Armored"],
+    "weapons": [
+      {
+        "name": "Phase Disruptor",
+        "range": 7,
+        "count": 0,
+        "damage": {
+          "base": 9
+        },
+        "period": 1.25,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Purification Nova"],
+    "upgrades": ["Cloaking Module (Disruptor)", "Purification Echo"]
+  },
+  {
+    "name": "Colossus",
+    "commanders": ["Fenix"],
+    "tier": 3,
+    "cost": 300,
+    "life": 200,
+    "shields": 150,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 3.15,
+    "armor": 1,
+    "types": ["Mechanical", "Massive", "Armored"],
+    "weapons": [
+      {
+        "name": "Incendiary Lance",
+        "range": 6,
+        "count": 2,
+        "damage": {
+          "base": 15,
+          "versus": {}
+        },
+        "period": 1.18,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Warbringer"],
+    "upgrades": ["Extended Thermal Lance"]
+  },
+  {
+    "name": "Warbringer",
+    "commanders": ["Fenix"],
+    "tier": 3,
+    "cost": 750,
+    "life": 400,
+    "shields": 300,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 3.5,
+    "armor": 2,
+    "shield_armor": 1,
+    "types": ["Mechanical", "Massive", "Armored", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Chrono Lance",
+        "range": 9,
+        "count": 2,
+        "damage": {
+          "base": 25
+        },
+        "period": 1.18,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Purification Blast", "Chronal Distortion"],
+    "upgrades": ["Purification Blast"]
+  },
+  {
+    "name": "Carrier (Fenix)",
+    "commanders": ["Fenix"],
+    "tier": 3,
+    "cost": 390,
+    "life": 300,
+    "shields": 150,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 2.62,
+    "armor": 2,
+    "types": ["Mechanical", "Armored", "Massive"],
+    "weapons": [
+      {
+        "name": "Interceptors",
+        "range": 8,
+        "count": 2,
+        "damage": {
+          "base": 5
+        },
+        "period": 2.14,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Hangar", "Clolarion"],
+    "upgrades": ["Graviton Catapult (Fenix)"]
+  },
+  {
+    "name": "Clolarion",
+    "commanders": ["Fenix"],
+    "tier": 3,
+    "cost": 950,
+    "life": 600,
+    "shields": 300,
+    "energy_start": 0,
+    "energy_max": 0,
+    "speed": 0,
+    "armor": 3,
+    "shield_armor": 1,
+    "types": ["Mechanical", "Armored", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Interceptors",
+        "range": 8,
+        "count": 2,
+        "damage": {
+          "base": 5
+        },
+        "period": 2.14,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      },
+      {
+        "name": "Interdictors",
+        "range": 8,
+        "count": 4,
+        "damage": {
+          "base": 12
+        },
+        "period": 2.14,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Hangar", "Solar Beam", "Interdictors"],
+    "upgrades": ["Interdictors"]
+  },
+  {
+    "name": "Fenix - Praetor (Fenix Zealot)",
+    "commanders": ["Fenix"],
+    "tier": 2,
+    "cost": 600,
+    "life": 500,
+    "shields": 500,
+    "energy_start": 500,
+    "energy_max": 500,
+    "speed": 4.2,
+    "armor": 3,
+    "shield_armor": 3,
+    "types": ["Mechanical", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Purifier Blades",
+        "range": 0,
+        "count": 0,
+        "damage": {
+          "base": 35
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": ["Thunderous Charge", "Whirlwind", "Shield Capacitor"],
+    "upgrades": ["Purifier Armaments"]
+  },
+  {
+    "name": "Fenix - Dragoon",
+    "commanders": ["Fenix"],
+    "tier": 2,
+    "cost": 600,
+    "life": 500,
+    "shields": 500,
+    "energy_start": 500,
+    "energy_max": 500,
+    "speed": 3.85,
+    "armor": 3,
+    "shield_armor": 3,
+    "types": ["Mechanical", "Armored", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Phase Disruptor",
+        "range": 9,
+        "count": 0,
+        "damage": {
+          "base": 55
+        },
+        "period": 1.07,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 5
+        }
+      }
+    ],
+    "abilities": ["Solar Cannon", "Solarite Flare", "Arsenal Overcharge"],
+    "upgrades": ["Purifier Armaments"]
+  },
+  {
+    "name": "Fenix - Arbiter",
+    "commanders": ["Fenix"],
+    "tier": 3,
+    "cost": 600,
+    "life": 500,
+    "shields": 500,
+    "energy_start": 500,
+    "energy_max": 500,
+    "speed": 3.15,
+    "armor": 3,
+    "shield_armor": 3,
+    "types": ["Armored", "Mechanical", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Warspace Cannon",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 35
+        },
+        "period": 1.07,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": ["Stasis Field", "Cloaking Field"],
+    "upgrades": ["Observation Protocol", "Purifier Armaments"]
+  }
+]

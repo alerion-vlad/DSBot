@@ -1,0 +1,2640 @@
+[
+  {
+    "name": "Charge (Honor Guard)",
+    "units": ["Honor Guard"],
+    "commanders": ["Artanis"],
+    "requirements": ["Charge (Artanis)"],
+    "cooldown": 10,
+    "description": "Allows Honor Guards to intercept nearby enemies, dealing 8 damage to the charged target. Also increases the movement speed of Honor Guards. Ability can only be used once every 10 seconds."
+  },
+  {
+    "name": "Whirlwind",
+    "units": ["Honor Guard"],
+    "commanders": ["Artanis"],
+    "requirements": ["Whirlwind"],
+    "cooldown": 14,
+    "description": "Deals 30 damage over 3 seconds to nearby enemies."
+  },
+  {
+    "name": "Feedback",
+    "units": ["High Templar", "High Archon"],
+    "commanders": ["Artanis"],
+    "requirements": [],
+    "cooldown": 5,
+    "cost": {
+      "energy": 50
+    },
+    "description": "Drains all energy from the target. Deals 1 damage per point of energy drained."
+  },
+  {
+    "name": "Psionic Storm",
+    "units": ["High Templar", "High Archon"],
+    "commanders": ["Artanis"],
+    "requirements": ["Psionic Storm"],
+    "cooldown": 10,
+    "cost": {
+      "energy": 75
+    },
+    "description": "Creates a storm of psionic energy that lasts 4 seconds, causing up to 80 damage to all units in the target area."
+  },
+  {
+    "name": "Graviton Beam (Artanis)",
+    "units": ["Phoenix"],
+    "commanders": ["Artanis"],
+    "requirements": [],
+    "cooldown": 28,
+    "description": "Makes the target unit float in the air, disabling its abilities. Effect lasts up to 10 seconds. Massive units are immune. Channeled ability."
+  },
+  {
+    "name": "Barrier (Artanis)",
+    "units": ["Immortal (Artanis)"],
+    "commanders": ["Artanis"],
+    "requirements": [],
+    "cooldown": 45,
+    "description": "Absorbs up to 200 damage. Lasts for 10 seconds."
+  },
+  {
+    "name": "Permanently Cloaked",
+    "units": ["Observer", "Dark Templar", "Shadow Guard"],
+    "commanders": ["Artanis", "Karax", "Fenix", "Vorazun"],
+    "requirements": [],
+    "description": "The unit is permanently cloaked."
+  },
+  {
+    "name": "Scarabs",
+    "units": ["Reaver"],
+    "commanders": ["Artanis"],
+    "requirements": [],
+    "duration": 8,
+    "description": "Reavers must construct ammunition to attack."
+  },
+  {
+    "name": "Disintegration",
+    "units": ["Tempest"],
+    "commanders": ["Artanis"],
+    "requirements": ["Disintegration"],
+    "cooldown": 84,
+    "description": "Deals 500 damage over 14 seconds."
+  },
+  {
+    "name": "Transfusion",
+    "units": ["Queen"],
+    "commanders": ["Kerrigan", "Zagara"],
+    "requirements": [],
+    "cooldown": 6,
+    "cost": {
+      "energy": 50
+    },
+    "description": "Instantly heals target biological unit or structure for 125 life."
+  },
+  {
+    "name": "Frenzy",
+    "units": ["Hydralisk"],
+    "commanders": ["Kerrigan"],
+    "requirements": ["Frenzy"],
+    "cooldown": 21,
+    "description": "Increases attack speed by 50% for 14 seconds."
+  },
+  {
+    "name": "Burrow Charge (Torrasque)",
+    "units": ["Torrasque"],
+    "commanders": ["Kerrigan"],
+    "requirements": ["Burrow Charge"],
+    "cooldown": 10,
+    "description": "Burrow and charge towards a unit. Upon unburrowing, all units in the vicinity are knocked back and dealt normal attack damage."
+  },
+  {
+    "name": "Burrow (Lurker)",
+    "units": ["Lurker"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cooldown": 3,
+    "description": "Burrows the lurker underground. Burrowed lurkers are unable to move, but are able to attack. They cannot be seen without detection."
+  },
+  {
+    "name": "Leaping Strike",
+    "units": ["Kerrigan"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cost": {
+      "energy": 50
+    },
+    "description": "Leaps, dealing 150 damage."
+  },
+  {
+    "name": "Leaping Evasion",
+    "units": ["Kerrigan"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cost": {
+      "energy": 50
+    },
+    "description": "Leaps, dealing 150 damage. When set to autocast, Kerrigan will use this ability to retreat."
+  },
+  {
+    "name": "Psionic Shift",
+    "units": ["Kerrigan"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cost": {
+      "energy": 50
+    },
+    "description": "Rushes forward, dealing 25 damage to enemies passed through."
+  },
+  {
+    "name": "Immobilization Wave",
+    "units": ["Kerrigan"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cooldown": 180,
+    "description": "Deals 10 (100 vs Air) damage to enemies in a large area around Kerrigan, and stuns them for 2 seconds. Heroic units are slowed."
+  },
+  {
+    "name": "Malignant Creep",
+    "units": ["Builder - Kerrigan"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cooldown": 168,
+    "description": "Drops in an invulnerable Creep Tumor. Zerg move faster on creep while in combat. The creep grants +10% weapon speed to Kerrigan's forces."
+  },
+  {
+    "name": "Assimilate",
+    "units": ["Builder - Kerrigan"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cooldown": 168,
+    "description": "Marks an enemy unit. After it dies, Kerrigan will convert it into 100 minerals."
+  },
+  {
+    "name": "Rebirth",
+    "units": ["Torrasque"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "duration": 7,
+    "description": "The Torrasque becomes an egg upon death. If the egg is not destroyed within 7 seconds, it will be reborn."
+  },
+  {
+    "name": "Swarm Seeds",
+    "units": ["Brood Lord"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "description": "The Brood Lord shoots Broodlings at its target. A broodling is a small creature that can attack ground units."
+  },
+  {
+    "name": "Mutating Carapace",
+    "units": ["Kerrigan"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "description": "Kerrigan gains +5 maximum life for each unit she destroys, up to +200."
+  },
+  {
+    "name": "Division",
+    "units": ["Splitterling"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "description": "Splitterlings split into two spawns on death."
+  },
+  {
+    "name": "Explode",
+    "units": ["Splitterling"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "description": "The Baneling detonates where it is standing, damaging nearby units and structures."
+  },
+  {
+    "name": "Disable Building Attack",
+    "units": ["Splitterling"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "description": "Prevents Banelings from automatically targeting structures."
+  },
+  {
+    "name": "Baneling Barrage",
+    "units": ["Zagara"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "cooldown": 14,
+    "cost": {
+      "energy": 125
+    },
+    "description": "Launches 4 Banelings towards the target point. Each Baneling explodes for 40 damage (80 vs structures)."
+  },
+  {
+    "name": "Incubate Scourge",
+    "units": ["Corruptor"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "description": "Corruptors spawn 2 Scourge when killed."
+  },
+  {
+    "name": "Incubate Splitterlings",
+    "units": ["Aberration"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "description": "Aberrations spawn 2 Splitterlings when killed."
+  },
+  {
+    "name": "Mass Frenzy",
+    "units": ["Builder - Zagara"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "cooldown": 336,
+    "description": "Friendly units gain 25% attack and 25% movement speed for 14 seconds."
+  },
+  {
+    "name": "Corruption",
+    "units": ["Corruptor"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "cooldown": 14,
+    "description": "Covers the target unit in Zerg slime, increasing the damage taken by 35% for 30 seconds."
+  },
+  {
+    "name": "Infested Marine Cargo",
+    "units": ["Infested Bunker"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "description": "Contains 6 Infested Marines, which attack from inside. Upon death, the marines will disembark."
+  },
+  {
+    "name": "Fungal Snare",
+    "units": ["Infested Diamondback"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 30,
+    "description": "Brings an air unit to the ground, and prevents it from moving."
+  },
+  {
+    "name": "Cloak (Stukov)",
+    "units": ["Infested Banshee"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 4,
+    "description": "Cloaks the unit, preventing enemy units from seeing or attacking it. A cloaked unit will only be revealed by detectors or effects. Also grants +2 weapon range. Drains 1.4 energy per second."
+  },
+  {
+    "name": "Burrow (Infested Banshee)",
+    "units": ["Infested Banshee"],
+    "commanders": ["Stukov"],
+    "requirements": ["Rapid Hibernation"],
+    "description": "Buries this unit underground. Burrowed units are unable to move or attack, but they cannot be seen without detection."
+  },
+  {
+    "name": "Root",
+    "units": ["Infested Siege Tank"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "description": "Roots into the ground, and deploys a cannon capable of launching explosive infested. Cannot move while rooted."
+  },
+  {
+    "name": "Viral Swarm",
+    "units": ["Infested Liberator"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 5,
+    "description": "Deals 50 splash damage to an enemy flyer over 2 seconds."
+  },
+  {
+    "name": "Burrow Charge (Apocalisk)",
+    "units": ["Apocalisk"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 7,
+    "description": "Burrow and charge to target location dealing 50 damage and stunning non-heroic enemies for 3 seconds."
+  },
+  {
+    "name": "Cluster Rockets",
+    "units": ["Apocalisk"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 10,
+    "description": "Fires a salvo of 5 missiles at target enemy air unit, dealing a total of 100 damage."
+  },
+  {
+    "name": "Ocular Symbiote",
+    "units": ["Brood Queen"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cost": {
+      "energy": 25
+    },
+    "description": "Empowers a friendly unit, increasing vision range by +5, and allowing it to detect cloaked and invisible enemies. Lasts until the unit dies."
+  },
+  {
+    "name": "Spawn Broodlings",
+    "units": ["Brood Queen"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cost": {
+      "energy": 100
+    },
+    "description": "Deals 300 damage, and propogates a pair of broodlings when the target dies."
+  },
+  {
+    "name": "Fungal Growth",
+    "units": ["Brood Queen"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cost": {
+      "energy": 75
+    },
+    "description": "Immobilizes enemy units and deals 80 damage over 3 seconds. Reveals cloaked and burrowed units."
+  },
+  {
+    "name": "Black Hole",
+    "units": ["Builder - Vorazun"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Tier 2"],
+    "cooldown": 240,
+    "description": "Stuns enemy units in the target area for 6 seconds."
+  },
+  {
+    "name": "Dark Pylon",
+    "units": ["Builder - Vorazun"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Tier 3"],
+    "cooldown": 60,
+    "description": "Permanently cloaks a unit. Your units deal +15% damage, and gain +15% energy regeneration, while cloaked."
+  },
+  {
+    "name": "Shadow Charge",
+    "units": ["Centurion"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Shadow Charge"],
+    "cooldown": 7,
+    "description": "Cloaks, and charges toward a unit."
+  },
+  {
+    "name": "Darkcoil",
+    "units": ["Centurion"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Darkcoil"],
+    "cooldown": 10,
+    "description": "Stuns nearby enemies for 2 seconds. Massive units are slowed. Also grants 100 shields for 7 seconds."
+  },
+  {
+    "name": "Blink",
+    "units": ["Stalker"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Blink"],
+    "cooldown": 7,
+    "description": "Teleports the stalker to a nearby target location. Ability can only be used once every 7 seconds."
+  },
+  {
+    "name": "Shadow Fury",
+    "units": ["Dark Templar", "Shadow Guard"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Shadow Fury"],
+    "cooldown": 10,
+    "description": "Jump from target to target, dealing 20 (+15 vs. Light) damage with each jump. Hits 5 times."
+  },
+  {
+    "name": "Shadow Stride",
+    "units": ["Dark Templar", "Shadow Guard"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Shadow Stride"],
+    "cooldown": 20,
+    "description": "Teleports the Dark Templar to a nearby target location."
+  },
+  {
+    "name": "Void Stasis",
+    "units": ["Dark Templar", "Shadow Guard"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Void Stasis"],
+    "cooldown": 15,
+    "description": "Disables an enemy for 5 seconds, rendering it invulnerable and removing any detection it provides."
+  },
+  {
+    "name": "Confusion",
+    "units": ["Dark Archon"],
+    "commanders": ["Vorazun"],
+    "requirements": [],
+    "cooldown": 10,
+    "cost": {
+      "energy": 75
+    },
+    "description": "Forces enemies in the target area to attack each other for 2 seconds."
+  },
+  {
+    "name": "Mind Control",
+    "units": ["Dark Archon"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Mind Control"],
+    "cooldown": 30,
+    "description": "Takes control of an enemy unit for 8 seconds."
+  },
+  {
+    "name": "Disruption Web",
+    "units": ["Corsair"],
+    "commanders": ["Vorazun"],
+    "requirements": ["Disruption Web"],
+    "cooldown": 20,
+    "description": "Prevents enemies in an area from attacking. Lasts 1.25 seconds."
+  },
+  {
+    "name": "Stasis Ward",
+    "units": ["Oracle"],
+    "commanders": ["Vorazun"],
+    "requirements": [],
+    "cooldown": 3,
+    "cost": {
+      "energy": 50
+    },
+    "description": "Places a cloaked Stasis Ward at the target location that lasts 170 seconds. Once activated by an enemy ground unit, the ward traps nearby enemies in stasis for 4 seconds. Trapped units cannot be attacked or affected by abilities."
+  },
+  {
+    "name": "Activate Pulsar Beam",
+    "units": ["Oracle"],
+    "commanders": ["Vorazun"],
+    "requirements": [],
+    "cooldown": 3,
+    "cost": {
+      "energy": 1.4
+    },
+    "description": "Charges the Oracle's Pulsar Beam and allows it to attack enemy ground units."
+  },
+  {
+    "name": "Prismatic Alignment",
+    "units": ["Void Ray"],
+    "commanders": ["Vorazun"],
+    "requirements": [],
+    "description": "Void Ray gains damage as it continues to attack, up to a maximum of +6 damage to Armored targets."
+  },
+  {
+    "name": "Charge (Sentinel)",
+    "units": ["Sentinel"],
+    "commanders": ["Karax"],
+    "requirements": ["Charge (Sentinel)"],
+    "cooldown": 7,
+    "description": "Allows Sentinels to intercept nearby enemies. Also increases the movement speed of Sentinels. Ability can only be used once every 7 seconds."
+  },
+  {
+    "name": "Chrono Beam",
+    "units": ["Energizer"],
+    "commanders": ["Karax"],
+    "requirements": [],
+    "cost": {
+      "energy": 3
+    },
+    "description": "Increases a friendly unit's attack speed by 25% and move speed by 50% for 7 seconds."
+  },
+  {
+    "name": "Reclamation",
+    "units": ["Energizer"],
+    "commanders": ["Karax"],
+    "requirements": ["Reclamation"],
+    "cooldown": 60,
+    "cost": {
+      "energy": 50
+    },
+    "description": "Takes control of a mechanical unit for 6 seconds."
+  },
+  {
+    "name": "Shadow Cannon",
+    "units": ["Annihilator"],
+    "commanders": ["Karax"],
+    "requirements": ["Shadow Cannon"],
+    "cooldown": 32,
+    "description": "Deals 200 damage to the target unit or structure."
+  },
+  {
+    "name": "Graviton Beam",
+    "units": ["Mirage"],
+    "commanders": ["Karax"],
+    "requirements": [],
+    "cooldown": 21,
+    "description": "Makes the target unit float in the air, disabling its abilities. Effect lasts up to 7 seconds."
+  },
+  {
+    "name": "Purifier Beam",
+    "units": ["Builder - Karax"],
+    "commanders": ["Karax"],
+    "requirements": ["Tier 2"],
+    "cooldown": 360,
+    "description": "Fires a beam that deals 750 damage (1500 vs Armored) over 10.7 seconds."
+  },
+  {
+    "name": "Build Interceptor",
+    "units": ["Support Carrier"],
+    "commanders": ["Karax"],
+    "requirements": [],
+    "description": "Builds interceptors that automatically attack the Carrier's target. Carriers may not attack without interceptors."
+  },
+  {
+    "name": "Lock On",
+    "units": ["Cyclone"],
+    "commanders": ["Swann"],
+    "requirements": [],
+    "cooldown": 4,
+    "description": "Locks the Cyclone's weapons on the target unit, dealing 500 damage over 14 seconds. Can move while firing. Cancels if target moves out of range."
+  },
+  {
+    "name": "Cloak (Wraith)",
+    "units": ["Wraith"],
+    "commanders": ["Swann"],
+    "requirements": [],
+    "cooldown": 4,
+    "cost": {
+      "energy": 3.4
+    },
+    "description": "Cloaks the unit, preventing enemy units from seeing or attacking it. A cloaked unit will only be revealed by detectors or effects. Drains 3.4 energy per second."
+  },
+  {
+    "name": "Nano-Repair",
+    "units": ["Science Vessel"],
+    "commanders": ["Swann"],
+    "requirements": [],
+    "description": "Restores 13 life per second to a mechanical unit. Drains 4 energy per second."
+  },
+  {
+    "name": "Irradiate",
+    "units": ["Science Vessel"],
+    "commanders": ["Swann"],
+    "requirements": [],
+    "cooldown": 10,
+    "cost": {
+      "energy": 25
+    },
+    "description": "Debilitates a biological enemy, causing it to deal 80 damage over 8 seconds to itself and nearby biological enemies."
+  },
+  {
+    "name": "Defensive Matrix",
+    "units": ["Science Vessel"],
+    "commanders": ["Swann"],
+    "requirements": ["Defensive Matrix"],
+    "cooldown": 14,
+    "cost": {
+      "energy": 50
+    },
+    "description": "Surrounds the target with a shield that absorbs 200 damage. Lasts 14 seconds."
+  },
+  {
+    "name": "Siege Mode (Siege Tank)",
+    "units": ["Siege Tank"],
+    "commanders": ["Swann", "Raynor"],
+    "requirements": [],
+    "cooldown": 3,
+    "description": "Deploys into Siege Mode. In this mode Siege Tanks have very long range and inflict area damage. Siege Tanks in this mode cannot move or attack targets at close range."
+  },
+  {
+    "name": "330mm Barrage Cannon",
+    "units": ["Thor"],
+    "commanders": ["Swann"],
+    "requirements": ["330mm Barrage Cannon"],
+    "cooldown": 40,
+    "description": "Stuns enemies in a small area. Deals 200 damage over 2 seconds in a larger area."
+  },
+  {
+    "name": "Retract Anti-Air Weaponry",
+    "units": ["Thor", "Blackhammer"],
+    "commanders": ["Swann", "Mengsk"],
+    "requirements": [],
+    "description": "Disables the Thor's anti-air weaponry, causing it to focus on attacking ground units."
+  },
+  {
+    "name": "Brutal Charge",
+    "units": ["Primal Ultralisk"],
+    "commanders": ["Dehaka"],
+    "requirements": ["Brutal Charge"],
+    "cooldown": 7,
+    "description": "Rushes to the target point, and deals 25 area damage."
+  },
+  {
+    "name": "Barrage of Spikes",
+    "units": ["Tyrannozor"],
+    "commanders": ["Dehaka"],
+    "requirements": ["Barrage of Spikes"],
+    "cooldown": 7,
+    "description": "Deals 100 damage to all nearby enemies."
+  },
+  {
+    "name": "Explosive Spores",
+    "units": ["Primal Guardian"],
+    "commanders": ["Dehaka"],
+    "requirements": ["Explosive Spores"],
+    "cooldown": 7,
+    "description": "Deals 50 area damage after a brief delay."
+  },
+  {
+    "name": "Spawn Primal Locusts",
+    "units": ["Primal Host"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "cooldown": 21,
+    "description": "Siege unit that attacks by spawning Primal Locust minions. Primal Locusts last 18 seconds."
+  },
+  {
+    "name": "Spawn Explosive Creepers",
+    "units": ["Creeper Host"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "cooldown": 21,
+    "description": "Siege unit that attacks by spawning Explosive Creeper minions. Creepers last 10 seconds."
+  },
+  {
+    "name": "Evolved Carapace",
+    "units": ["Mutation"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "description": "Grants +50% maximum life."
+  },
+  {
+    "name": "Evolved Adrenal Glands",
+    "units": ["Mutation"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "description": "Grants +20% weapon speed."
+  },
+  {
+    "name": "Evolved Leeching",
+    "units": ["Mutation"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "description": "20% of damage dealt will be returned as life."
+  },
+  {
+    "name": "Spiked Hide",
+    "units": ["Mutation"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "description": "Shoots a spine when attacked, dealing 10 damage."
+  },
+  {
+    "name": "Evolved Incubation Sacs",
+    "units": ["Mutation"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "description": "Spawns twice as many creepers."
+  },
+  {
+    "name": "Leap",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "cooldown": 14,
+    "description": "Leaps to a target location, dealing 25+50% Weapon Damage to all enemy ground units in the area. \n [Level 2] - Leap Range increased by 6, Damage increased to 25+75% weapon damage. \n [Level 3] - Each enemy hit, also grants Dehaka 1 armor for 1.4 seconds."
+  },
+  {
+    "name": "Intimidating Roar",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "cooldown": 43,
+    "description": "Dehaka intimidates nearby enemies, reducing their movement speed by 75% and attack speed by 25% for 7 seconds. \n [Level 2] - Enemies affected by Intimidating Roar also cannot use abilities that cost energy. \n [Level 3] - Enemies affected by Intimidating Roar also have armor reduced by 2."
+  },
+  {
+    "name": "Devour",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "description": "Dehaka instantly kills the target enemy to heal 5% Life and gain passive abilities based on the enemy type for 9 seconds. The cooldown is based on the amount of life the enemy has when killed. \n [Level 2] -  Passive bonuses last 14 seconds. Range increased by 3. \n [Level 3] - Cooldown reduced by 20%. Range increased by 3."
+  },
+  {
+    "name": "Primal Regeneration",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "description": "Dehaka passively heals all allied units nearby for [3/6/9] health per second."
+  },
+  {
+    "name": "Keen Senses",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": ["Level 5"],
+    "description": "Allows Dehaka to detect cloaked, burrowed, and hallucinated units."
+  },
+  {
+    "name": "Chitinous Plating",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": ["Level 5"],
+    "description": "Increases Dehaka's armor by 3."
+  },
+  {
+    "name": "Scorching Breath",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "cooldown": 43,
+    "requirements": ["Level 6"],
+    "description": "Dehaka's fiery breath scorches the earth, dealing weapon damage to all enemy ground units in its path."
+  },
+  {
+    "name": "Deadly Reach",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": ["Level 10"],
+    "description": "Allows Dehaka to attack air units."
+  },
+  {
+    "name": "Bile Stream",
+    "units": ["Primal Wurm"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "cooldown": 43,
+    "description": "Deals 250 damage to the target unit over 4 seconds."
+  },
+  {
+    "name": "Greater Bile Stream",
+    "units": ["Greater Primal Wurm"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "cooldown": 14,
+    "description": "Deals 350 damage to the target unit over 4 seconds."
+  },
+  {
+    "name": "Essence",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": [],
+    "description": "Dehaka gains 1 essence for every 5 minerals spent. Each point grants +0.7 life."
+  },
+  {
+    "name": "Massive",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": ["Level 6"],
+    "description": "Dehaka gains the Massive attribute."
+  },
+  {
+    "name": "Colossal",
+    "units": ["Dehaka"],
+    "commanders": ["Dehaka"],
+    "requirements": ["Level 6"],
+    "description": "Dehaka may walk over ground units."
+  },
+  {
+    "name": "Shredder Grenade",
+    "units": ["Tychus"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 40,
+    "description": "Deals 75 damage to enemy units in the target area."
+  },
+  {
+    "name": "Demolition Charge",
+    "units": ["Crooked Sam"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 50,
+    "description": "Marks a target unit, dealing 500 damage after 4 seconds."
+  },
+  {
+    "name": "Deploy Warhound Turret",
+    "units": ["James \"Sirius\" Sykes"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 15,
+    "description": "Deploy an automated defensive turret. Turrets gain the same gear bonuses as Sirius himself. Times out after 10 seconds."
+  },
+  {
+    "name": "Oil Spill",
+    "units": ["Miles \"Blaze\" Lewis"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 11,
+    "description": "Douses enemy units in oil, reducing attack and movement speed by 75% and preventing them from cloaking. When a unit under the effect of Oil Spill is hit by a fire attack, it takes 7 (+7 vs Light) damage per second over 7 seconds. Lasts 4 seconds."
+  },
+  {
+    "name": "Heavy Impact",
+    "units": ["Rob \"Cannonball\" Boswell"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 11,
+    "description": "Cannonball pulls himself to the target location, dealing 20 damage and stunning enemy units on impact."
+  },
+  {
+    "name": "Deploy Revitalizer",
+    "units": ["Kev \"Rattlesnake\" West"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 21,
+    "description": "Places a structure on the ground that heals your units for 2.8% of their life every second."
+  },
+  {
+    "name": "Ultrasonic Pulse",
+    "units": ["Nux"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 21,
+    "description": "Fires pulses of ultrasonic energy that lasts 6 seconds, causing 20 damage/second to enemy units in the target area."
+  },
+  {
+    "name": "Dominate",
+    "units": ["Vega"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 29,
+    "description": "Temporarily take control of target unit and increases its damage by 50%. Dominated units self-destruct after 5 seconds."
+  },
+  {
+    "name": "Super Heal",
+    "units": ["Lt. Layna Nikara"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "description": "Heals 30 health per second."
+  },
+  {
+    "name": "Reinvigorate Burst",
+    "units": ["Lt. Layna Nikara"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 43,
+    "description": "Instantly heals your nearby units for 200 life, plus 100 life over 7 seconds. Also increases their damage by 25%."
+  },
+  {
+    "name": "Devotion",
+    "units": ["Supplicant"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "description": "Can be sacrificed by Alarak or Ascendants."
+  },
+  {
+    "name": "Phase Blink",
+    "units": ["Slayer"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "cooldown": 6,
+    "description": "Teleports a short distance, and next attack deals double damage."
+  },
+  {
+    "name": "Target Lock",
+    "units": ["Havoc"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "description": "Marks an enemy causing it to take 15% increased damage."
+  },
+  {
+    "name": "Scatter Cannon",
+    "units": ["Vanguard"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "description": "Attacks deal damage to the target enemy ground unit and other enemies near it."
+  },
+  {
+    "name": "Psionic Orb",
+    "units": ["Ascendant"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "cooldown": 10,
+    "cost": {
+      "energy": 150
+    },
+    "description": "Launches an orb forward. Which deals 14 damage per second to enemies it passes through."
+  },
+  {
+    "name": "Mind Blast",
+    "units": ["Ascendant"],
+    "commanders": ["Alarak"],
+    "requirements": ["Mind Blast"],
+    "cooldown": 5,
+    "cost": {
+      "energy": 100
+    },
+    "description": "Deals 200 damage."
+  },
+  {
+    "name": "Sacrifice (Ascendant)",
+    "units": ["Ascendant"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "cooldown": 30,
+    "description": "Sacrifices a Supplicant, restoring all energy and granting +100 shields and +25% damage."
+  },
+  {
+    "name": "Destruction Beam",
+    "units": ["Destroyer"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "description": "Primary beam refracts to 3 additional targets, dealing 1.5 (4 vs Armored) to each."
+  },
+  {
+    "name": "Charged Blast",
+    "units": ["Wrathwalker"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "description": "Must charge up before each attack."
+  },
+  {
+    "name": "Thermal Lance",
+    "units": ["Mothership"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "cooldown": 5,
+    "description": "Deals 20 damage to all enemies in a line."
+  },
+  {
+    "name": "Squad Sight",
+    "units": ["Havoc"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "description": "Nearby allies gain +2 weapon range."
+  },
+  {
+    "name": "My Significant Other (Han)",
+    "units": ["Reaper", "Hellion", "Hellbat", "Widow Mine"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "description": "Gains bonus attack speed, based on the number of Horner's units, up to a maximum of 50%."
+  },
+  {
+    "name": "KD8 Charge",
+    "units": ["Reaper"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 7,
+    "description": "Explodes after a short delay, doing 10 area damage and knocking back nearby units."
+  },
+  {
+    "name": "Jet Pack Overdrive",
+    "units": ["Reaper"],
+    "commanders": ["Han and Horner"],
+    "requirements": ["Jet Pack Overdrive"],
+    "cooldown": 14,
+    "description": "Allows the reaper to fly for 7 seconds. While flying, the reaper can attack air units."
+  },
+  {
+    "name": "Combat Drugs",
+    "units": ["Reaper"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "description": "Regenerates life quickly while out of combat."
+  },
+  {
+    "name": "Hellbat Mode",
+    "units": ["Hellion"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 3,
+    "description": "Transforms the unit into a Hellbat."
+  },
+  {
+    "name": "Hellion Mode",
+    "units": ["Hellbat"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 3,
+    "description": "Transforms the unit into a Hellion."
+  },
+  {
+    "name": "Tar Bombs",
+    "units": ["Hellion"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 7,
+    "description": "Launches a tar bomb that deals 20 damage to the target unit. Nearby enemies have their movement speed reduced by 75% and attack speed reduced by 3 for 4 seconds."
+  },
+  {
+    "name": "Install Drone Hangar",
+    "units": ["Assault Galleon"],
+    "commanders": ["Han and Horner"],
+    "requirements": ["Tier 3"],
+    "description": "Retrofits the Assault Galleon with a Drone hangar bay that automatically builds and deploys Assault drones.\nCost: 150 Minerals"
+  },
+  {
+    "name": "Train Reaper",
+    "units": ["Assault Galleon"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "duration": 15,
+    "description": "Trains a Reaper. Raider."
+  },
+  {
+    "name": "Train Hellion",
+    "units": ["Assault Galleon"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "duration": 20,
+    "description": "Trains a Hellion. Fast Scout."
+  },
+  {
+    "name": "Train Hellbat",
+    "units": ["Assault Galleon"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "duration": 20,
+    "description": "Trains a Hellbat. Close range combat unit. Deals damage in a small frontal cone."
+  },
+  {
+    "name": "Train Widow Mine",
+    "units": ["Assault Galleon"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "duration": 25,
+    "description": "Trains a Widow Mine. Robotic Mine."
+  },
+  {
+    "name": "Sentinel Missiles",
+    "units": ["Widow Mine"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 29,
+    "description": "Attacks by launching missiles at enemy ground and air units that get too close. Missiles deal 125 (+35 vs. Shields) damage to their primary target, and 40 (+40 vs. Shields) splash damage to units nearby."
+  },
+  {
+    "name": "Activate Mine",
+    "units": ["Widow Mine"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 2,
+    "description": "Burrows the Widow Mine and readies its weapon. Cannot move while activated."
+  },
+  {
+    "name": "My Significant Other (Horner)",
+    "units": [
+      "Deimos Viking",
+      "Asteria Wraith",
+      "Theia Raven",
+      "Sovereign Battlecruiser"
+    ],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "description": "Gains additional life, based on the number of Han's units, up to a maximum of 50%."
+  },
+  {
+    "name": "Endurance Training",
+    "units": [
+      "Deimos Viking",
+      "Asteria Wraith",
+      "Theia Raven",
+      "Sovereign Battlecruiser"
+    ],
+    "requirements": [],
+    "commanders": ["Han and Horner"],
+    "description": "This unit regenerates 5.25 HP per second while out of combat."
+  },
+  {
+    "name": "Tactical Jump",
+    "units": ["Deimos Viking", "Asteria Wraith", "Theia Raven"],
+    "commanders": ["Han and Horner"],
+    "requirements": ["Tactical Jump"],
+    "cooldown": 43,
+    "description": "Warps to the target location. Aircraft is invulnerable while warping."
+  },
+  {
+    "name": "Tactical Jump (Battlecruiser)",
+    "units": ["Sovereign Battlecruiser"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 43,
+    "description": "Warps to the target location. Aircraft is invulnerable while warping."
+  },
+  {
+    "name": "WILD Missiles",
+    "units": ["Deimos Viking"],
+    "commanders": ["Han and Horner"],
+    "requirements": ["WILD Missiles"],
+    "cooldown": 14,
+    "description": "Launches 5 rockets at the target unit. Each rocket deals 25 (40 vs. Armored) damage."
+  },
+  {
+    "name": "Analyze Weakness",
+    "units": ["Theia Raven"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 2,
+    "description": "All Melee and Ranged attacks against Analyzed unit do 3 extra damage. Effect lasts as long as the Raven remains locked onto the target."
+  },
+  {
+    "name": "Cloak (Asteria Wraith)",
+    "units": ["Asteria Wraith"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 4,
+    "cost": {
+      "energy": 1.4
+    },
+    "description": "Cloaks the unit, preventing enemy units from seeing or attacking it. A cloaked unit will only be revealed by detectors or effects."
+  },
+  {
+    "name": "Precision Strike",
+    "units": ["Strike Fighter"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "description": "Deals 175 (+225 to Non-Heroic Structures) damage to enemy ground units in the target area."
+  },
+  {
+    "name": "Stimpack (Marine)",
+    "units": ["Marine"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 10,
+    "cost": {
+      "life": 10
+    },
+    "description": "Injects the unit with powerful stimulants that greatly increase attack and movement speeds for a few seconds. Injure the unit for 10 of the unit’s life."
+  },
+  {
+    "name": "Stimpack (Marauder)",
+    "units": ["Marauder"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 10,
+    "cost": {
+      "life": 20
+    },
+    "description": "Injects the unit with powerful stimulants that greatly increase attack and movement speeds for a few seconds. Injure the unit for 20 of the unit’s life."
+  },
+  {
+    "name": "Stimpack (Firebat)",
+    "units": [],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "cost": {
+      "life": 10
+    },
+    "description": "Injects the unit with powerful stimulants that greatly increase attack and movement speeds for a few seconds. Injure the unit for 10 of the unit’s life."
+  },
+  {
+    "name": "Improved Stimpack",
+    "units": ["Marine", "Marauder"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "description": "Rayor causes stim to cost less life, and provide increased attack speed"
+  },
+  {
+    "name": "Concussive Shells",
+    "units": ["Marauder"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "description": "Units hit by Marauder are temporarily slowed"
+  },
+  {
+    "name": "Heal",
+    "units": ["Medic"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "description": "Heals 12.6 life per second to a biological unit. Heals 3 life per 1 energy."
+  },
+  {
+    "name": "Spider Mine",
+    "units": ["Vulture"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 4,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Spider Mines pursue enemy units that come in range and detonante for heavy area damage. Buried spider mines could only be seen by enemy detectors. "
+  },
+  {
+    "name": "Cloak (Dusk Wings)",
+    "units": ["Duskwing"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 4,
+    "duration": 0,
+    "cost": {
+      "energy": 1.4,
+      "life": 0
+    },
+    "description": "Cloaks a unit, preventing enemy units from seeing or attacking it. Can only be seen by detectors or effects. Drains 1.4 energy per second."
+  },
+  {
+    "name": "Shockwave Missile Battery",
+    "units": ["Duskwing"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Fire multiple missile bursts dealing damage in a line."
+  },
+  {
+    "name": "Cloak (Banshee)",
+    "units": ["Banshee"],
+    "commanders": ["Raynor"],
+    "requirements": ["Cloaking Field"],
+    "cooldown": 4,
+    "duration": 0,
+    "cost": {
+      "energy": 1.4,
+      "life": 0
+    },
+    "description": "Cloaks a unit, preventing enemy units from seeing or attacking it. Can only be seen by detectors or effects. Drains 1.4 energy per second."
+  },
+  {
+    "name": "Shockwave Missile Battery",
+    "units": ["Banshee"],
+    "commanders": ["Raynor"],
+    "requirements": ["Shockwave Missile Battery"],
+    "cooldown": 0,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Fire multiple missile bursts dealing damage in a line."
+  },
+
+  {
+    "name": "Assault Mode",
+    "units": ["Viking"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 1,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Transforms the Viking into Assault Mode. In this mode he lands on the ground and can only attack ground targets."
+  },
+  {
+    "name": "Fighter Mode",
+    "units": ["Viking"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 1,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Transforms the Viking to Fighter Mode. In this mode Viking can fly but can only attack air units."
+  },
+  {
+    "name": "Siege Mode",
+    "units": ["Siege Tank"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 3,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Deploys this tank in Siege Mode. In this mode Siege Tanks have very long range and inflict area damage. Siege Tanks in this mode cannot move or attack close targets. "
+  },
+  {
+    "name": "Yamato Cannon",
+    "units": ["Battlecruiser"],
+    "commanders": ["Raynor"],
+    "requirements": ["Yamato Cannon"],
+    "cooldown": 43,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Blasts a target with a deadly plasma cannon, causing 300 damage to the target."
+  },
+  {
+    "name": "Tactical Jump",
+    "units": [],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 86,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "After 4 seconds warps to a target location. Battlecruiser is invulnerable while warping."
+  },
+  {
+    "name": "Yamato Cannon (Hyperion)",
+    "units": ["Hyperion"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 300,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Blasts a unit with a deadly plasma cannon, dealing 600 damage to it and nearby enemy units."
+  },
+  {
+    "name": "Hyperjump",
+    "units": ["Hyperion"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 43,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Hyperjump to a targeted location."
+  },
+  {
+    "name": "Point Defense Drone",
+    "units": ["Hyperion"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 7,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Uses laser attacks to shoot down enemy missiles. Cannot target special attacks. Times out after 7 seconds. Each shot consumes 10 energy."
+  },
+  {
+    "name": "Advanced Targeting Systems",
+    "units": ["Hyperion"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Advanced Targeting System on the Hyperion increases the attack damage dealt from all nearby friendly units by 2."
+  },
+  {
+    "name": "Deploy Spider Mine",
+    "units": ["Vulture"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 4,
+    "description": "Spider Mines pursue enemy units that come in range, and detonate for heavy area damage. Buried Spider Mines can only be seen by enemy Detectors."
+  },
+  {
+    "name": "Hyperion",
+    "units": ["Battlecruiser"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "description": "Morphs to Hyperion. Superheavy Battlecruiser.\nCost: 1640 Minerals"
+  },
+  {
+    "name": "Penetrating Blast",
+    "units": ["Nova"],
+    "commanders": ["Nova"],
+    "requirements": ["Assault Mode"],
+    "cooldown": 5,
+    "cost": {
+      "energy": 50
+    },
+    "description": "Deals 50 (100 vs Light) damage to enemy ground units in a wide arc."
+  },
+  {
+    "name": "Phase Reactor Suit",
+    "units": ["Nova"],
+    "commanders": ["Nova"],
+    "requirements": ["Assault Mode"],
+    "description": "Increases Nova's movement speed."
+  },
+  {
+    "name": "Stealth Mode",
+    "units": ["Nova"],
+    "commanders": ["Nova"],
+    "requirements": ["Assault Mode"],
+    "cooldown": 20,
+    "description": "Permanently cloaks Nova, and allows her to use Snipe."
+  },
+  {
+    "name": "Sniper Round",
+    "units": ["Nova"],
+    "commanders": ["Nova"],
+    "requirements": ["Stealth Mode"],
+    "cooldown": 10,
+    "cost": {
+      "energy": 25
+    },
+    "description": "Deals 200 damage to target enemy ground or air unit from long range."
+  },
+  {
+    "name": "Tactical Stealth Suit",
+    "units": ["Nova"],
+    "commanders": ["Nova"],
+    "requirements": ["Tier 2", "Stealth Mode"],
+    "description": "Allows Nova to remain permanently cloaked."
+  },
+  {
+    "name": "Assault Mode (Nova)",
+    "units": ["Nova"],
+    "commanders": ["Nova"],
+    "requirements": ["Tier 2", "Stealth Mode"],
+    "cooldown": 20,
+    "description": "Increases Nova's movement speed, and allows her to use Penetrating Blast."
+  },
+  {
+    "name": "Super Stimpack",
+    "units": ["Elite Marine"],
+    "commanders": ["Nova"],
+    "requirements": ["Super Stimpack"],
+    "cooldown": 10,
+    "description": "Increases attack speed by 50% for 10 seconds. Heals for 28 life over the duration."
+  },
+  {
+    "name": "Snipe (Spec Ops Ghost)",
+    "units": ["Spec Ops Ghost"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "cooldown": 20,
+    "description": "Deals 170 damage to a Biological target."
+  },
+  {
+    "name": "Permanently Cloaked (Spec Ops Ghost)",
+    "units": ["Spec Ops Ghost"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "description": "The Spec Ops Ghost is always cloaked."
+  },
+  {
+    "name": "EMP Round",
+    "units": ["Spec Ops Ghost"],
+    "commanders": ["Nova"],
+    "requirements": ["EMP Round"],
+    "cooldown": 30,
+    "description": "Deals 100 shield damage and drains energy of all enemy units in the area. Also reveals cloaked and burrowed targets for 10 seconds."
+  },
+  {
+    "name": "Rocket Barrage",
+    "units": ["Covert Banshee"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "cooldown": 20,
+    "description": "Deals 75 damage to enemy ground units in an area."
+  },
+  {
+    "name": "Railgun Turret",
+    "units": ["Raven Type-II"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "cooldown": 20,
+    "description": "Advanced automatic turret. Deals damage to all enemies in a line."
+  },
+  {
+    "name": "Bio-Mechanical Repair Drone",
+    "units": ["Raven Type-II"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "cooldown": 40,
+    "description": "Deploys a drone which restores life to nearby Biological and Mechanical units."
+  },
+  {
+    "name": "Predator Missile",
+    "units": ["Raven Type-II"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "cooldown": 30,
+    "description": "Deals 100 damage to enemies in a wide area."
+  },
+  {
+    "name": "Dash Attack",
+    "units": ["Holo Decoy"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "cooldown": 20,
+    "description": "Dashes forward and deals 50 damage to enemy ground units in a straight line."
+  },
+  {
+    "name": "Siege (Heavy Siege Tank)",
+    "units": ["Heavy Siege Tank"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "cooldown": 3,
+    "description": "Become stationary, unfurling a massive, long-range cannon."
+  },
+  {
+    "name": "Defender Mode",
+    "units": ["Raid Liberator"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "description": "Deploys into Defender Mode. Deals heavy single target damage to ground units, but cannot move."
+  },
+  {
+    "name": "Switch to F.A.S.T. Configuration",
+    "units": ["Builder - Stetmann"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 1,
+    "description": "Stetmann's units gain +100% increased movement speed."
+  },
+  {
+    "name": "Switch to H.U.G.S. Configuration",
+    "units": ["Builder - Stetmann"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 1,
+    "description": "Stetmann's units gain +10 life regeneration per second."
+  },
+  {
+    "name": "Switch to J.U.I.C.E. Configuration",
+    "units": ["Builder - Stetmann"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 1,
+    "description": "Stetmann's units gain +5 Egonergy regen per second."
+  },
+  {
+    "name": "Morph to Mecha Baneling",
+    "units": ["Mecha Zergling"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "Morphs to a Mecha Baneling. Suicide unit. Deals damage over a small area on death.\nCost: 45 minerals."
+  },
+  {
+    "name": "Morph to Mecha Lurker",
+    "units": ["Mecha Hydralisk"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "Morphs to a Mecha Lurker. Area damage ambusher. Must burrow to attack.\nCost: 250 minerals."
+  },
+  {
+    "name": "Morph to Mecha Battlecarrier Lord",
+    "units": ["Mecha Corruptor"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "Morphs to a Mecha Battlecarrier Lord. Flying heavy-assault unit.\nCost: 365 minerals."
+  },
+  {
+    "name": "Juiced up Payload: Off",
+    "units": ["Mecha Zergling"],
+    "commanders": ["Stetmann"],
+    "requirements": ["Erudition Missile Launchers"],
+    "description": "Switches to a less powerful missile armament, conserving Egonergy."
+  },
+  {
+    "name": "Juiced up Payload: On",
+    "units": ["Mecha Zergling"],
+    "commanders": ["Stetmann"],
+    "requirements": ["Erudition Missile Launchers"],
+    "description": "Doubles the anti-air damage of this unit. Drains 10 egonergy per attack."
+  },
+  {
+    "name": "Tunnel of TERROR Algorithm",
+    "units": ["Mecha Lurker"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 6,
+    "cost": {
+      "energy": 75
+    },
+    "description": "Tunnels to a nearby target location, dealing 60 damage to enemies along the way."
+  },
+  {
+    "name": "Focused Strike Algorithm",
+    "units": ["Mecha Lurker"],
+    "commanders": ["Stetmann"],
+    "requirements": ["Focused Strike Algorithm"],
+    "cost": {
+      "energy": 75
+    },
+    "description": "The Mecha Lurker concentrates its fire on a target unit, dealing 50 damage to a small area around that unit for 7 seconds or until the unit is destroyed."
+  },
+  {
+    "name": "E-Gorb (Gary)",
+    "units": ["Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 29,
+    "description": "Unleashes a travelling electrical orb that deals 70 damage per second to all enemies along its path."
+  },
+  {
+    "name": "E-Gorb (Super Gary)",
+    "units": ["Super Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 21,
+    "description": "Unleashes a travelling electrical orb that deals 70 damage per second to all enemies along its path. Can hold up to two charges."
+  },
+  {
+    "name": "Remnant Recycler",
+    "units": ["Gary", "Super Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When one of Stetmann's Mecha Zerg is destroyed and drops its Mecha Remnants near this unit, they are collected to be reconstructed."
+  },
+  {
+    "name": "The Best Oil",
+    "units": ["Super Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When Super Gary absorbs a Mecha Remnant, he gains +10% attack speed and +1 life per second for 21 seconds."
+  },
+  {
+    "name": "Recycle Mecha Zergling",
+    "units": ["Gary", "Super Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "Spawns a Mecha Zergling. Requires 4 Mecha Zergling Remnants."
+  },
+  {
+    "name": "Recycle Mecha Hydralisk",
+    "units": ["Gary", "Super Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "Spawns a Mecha Hydralisk. Requires 4 Mecha Hydralisk Remnants."
+  },
+  {
+    "name": "Recycle Mecha Corruptor",
+    "units": ["Gary", "Super Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "Spawns a Mecha Corruptor. Requires 4 Mecha Corruptor Remnants."
+  },
+  {
+    "name": "Recycle Mecha Infestor",
+    "units": ["Gary", "Super Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "Spawns a Mecha Infestor. Requires 4 Mecha Infestor Remnants."
+  },
+  {
+    "name": "Recycle Mecha Ultralisk",
+    "units": ["Gary", "Super Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "Spawns a Mecha Ultralisk. Requires 4 Mecha Ultralisk Remnants."
+  },
+  {
+    "name": "Stetmato Cannon",
+    "units": ["Mecha Battlecarrier Lord"],
+    "commanders": ["Stetmann"],
+    "requirements": ["Stetmato Cannon"],
+    "cooldown": 21,
+    "cost": {
+      "energy": 100
+    },
+    "description": "Blasts a unit with a devastating plasma cannon, causing 300 damage and delusions of grandeur."
+  },
+  {
+    "name": "Cluster Busters",
+    "units": ["Mecha Corruptor"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 7,
+    "cost": {
+      "energy": 100
+    },
+    "description": "Fires a barrage of missiles dealing 50 (+30 vs. Light) damage to enemy air units in a target area."
+  },
+  {
+    "name": "Terraclean Solvent",
+    "units": ["Mecha Corruptor"],
+    "commanders": ["Stetmann"],
+    "requirements": ["Terraclean Solvent"],
+    "cooldown": 14,
+    "cost": {
+      "energy": 75
+    },
+    "description": "Emits a solvent stream that deals 14 damage per second for 2.1 seconds, then increases to 70 damage per second."
+  },
+  {
+    "name": "Roaches Away!",
+    "units": ["Mecha Infestor"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cost": {
+      "energy": 200
+    },
+    "description": "Spawn 2 Mecha Roaches. Spawned units last 32 seconds."
+  },
+  {
+    "name": "UMI-C Charging Protocol",
+    "units": ["Mecha Infestor"],
+    "commanders": ["Stetmann"],
+    "requirements": ["UMI-C Charging Protocol"],
+    "cooldown": 11,
+    "cost": {
+      "energy": 75
+    },
+    "description": "The Mecha Infestor launches a mechanical nerve cord at a friendly unit, restoring 150 life, 50 Egonergy, and 50 energy instantly. An additional 600 life, 200 Egonergy, and 200 energy restores over 14 seconds. The unit's ability cooldown rate is increased by 25%."
+  },
+  {
+    "name": "Vectored Burrow Charge",
+    "units": ["Mecha Ultralisk"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 4,
+    "cost": {
+      "energy": 75
+    },
+    "description": "Burrow and charge towards a unit. Upon unburrowing, all enemy units in the vicinity are knocked back and take 50 damage."
+  },
+  {
+    "name": "Mecha Mooch Module",
+    "units": ["Mecha Ultralisk"],
+    "commanders": ["Stetmann"],
+    "requirements": ["Mecha Mooch Module"],
+    "cooldown": 1,
+    "cost": {
+      "energy": 5
+    },
+    "description": "Absorbs 25 health from a nearby enemy or friendly mechanical unit, healing for that amount."
+  },
+  {
+    "name": "Recyclable (Mecha Zergling)",
+    "units": ["Mecha Zergling"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When this unit is destroyed near an active Stetelite, Gary, or Super Gary, it will drop 1 Mecha Zergling Remnant."
+  },
+  {
+    "name": "Recyclable (Mecha Baneling)",
+    "units": ["Mecha Baneling"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When this unit is destroyed near an active Stetelite, Gary, or Super Gary, it will drop 2 Mecha Zergling Remnants."
+  },
+  {
+    "name": "Recyclable (Mecha Hydralisk)",
+    "units": ["Mecha Hydralisk"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When this unit is destroyed near an active Stetelite, Gary, or Super Gary, it will drop 1 Mecha Hydralisk Remnant."
+  },
+  {
+    "name": "Recyclable (Mecha Lurker)",
+    "units": ["Mecha Lurker"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When this unit is destroyed near an active Stetelite, Gary, or Super Gary, it will drop 2 Mecha Hydralisk Remnants."
+  },
+  {
+    "name": "Recyclable (Mecha Infestor)",
+    "units": ["Mecha Infestor"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When this unit is destroyed near an active Stetelite, Gary, or Super Gary, it will drop 1 Mecha Infestor Remnant."
+  },
+  {
+    "name": "Recyclable (Mecha Corruptor)",
+    "units": ["Mecha Corruptor"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When this unit is destroyed near an active Stetelite, Gary, or Super Gary, it will drop 1 Mecha Corruptor Remnant."
+  },
+  {
+    "name": "Recyclable (Mecha Battlecarrier Lord)",
+    "units": ["Mecha Battlecarrier Lord"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When this unit is destroyed near an active Stetelite, Gary, or Super Gary, it will drop 2 Mecha Corruptor Remnants."
+  },
+  {
+    "name": "Recyclable (Mecha Ultralisk)",
+    "units": ["Mecha Ultralisk"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "description": "When this unit is destroyed near an active Stetelite, Gary, or Super Gary, it will drop 1 Mecha Ultralisk Remnant."
+  },
+  {
+    "name": "Super Gary Transformation Sequence",
+    "units": ["Gary"],
+    "commanders": ["Stetmann"],
+    "requirements": ["Tier 3"],
+    "description": "Morphs into Super Gary. Reduces the Cooldown and increases the maximum charges of Gary's abilities.\nCost: 800 Minerals."
+  },
+  {
+    "name": "Ready Mecha Broodling",
+    "units": ["Mecha Battlecarrier Lord"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 2,
+    "cost": {
+      "energy": 5
+    },
+    "description": "Builds Mecha Broodlings that can attack ground units."
+  },
+  {
+    "name": "Roach Evolution: Vile",
+    "commanders": ["Abathur"],
+    "units": ["Vile Roach"],
+    "requirements": [],
+    "description": "Regenerates life quickly while burrowed. Attacks debilitate the target, slowing its attack and movement speeds."
+  },
+  {
+    "name": "Rapid Transfusion",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "units": ["Swarm Queen"],
+    "cooldown": 2,
+    "cost": {
+      "energy": 10
+    },
+    "description": "Restores 25 health over 1 second."
+  },
+  {
+    "name": "Corrosive Bile",
+    "commanders": ["Abathur"],
+    "units": ["Ravager"],
+    "requirements": [],
+    "cooldown": 7,
+    "description": "Launch a missile at the target location, dealing 60 damage to all units in the area upon impact."
+  },
+  {
+    "name": "Spawn Locust",
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "units": ["Ravager"],
+    "cooldown": 11,
+    "duration": 8,
+    "description": "Spawns 2 Locusts. Locusts have an 8 second life."
+  },
+  {
+    "name": "Upgrade to Guardian",
+    "commanders": ["Abathur"],
+    "requirements": ["Tier 3"],
+    "units": ["Ravager"],
+    "description": "Long range flyer.\nCost: 150 Minerals."
+  },
+  {
+    "name": "Upgrade to Devourer",
+    "units": ["Mutalisk"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "description": "Powerful anti-air flying unit.\nCost: 200 Minerals."
+  },
+  {
+    "name": "Upgrade to Leviathan (Devourer)",
+    "units": ["Devourer"],
+    "commanders": ["Abathur"],
+    "requirements": ["Tier 3"],
+    "description": "Massive Flyer. Deals and takes incredible amounts of damage.\nCost: 565 Minerals."
+  },
+  {
+    "name": "Upgrade to Leviathan (Viper)",
+    "units": ["Viper"],
+    "commanders": ["Abathur"],
+    "requirements": ["Tier 3"],
+    "description": "Massive Flyer. Deals and takes incredible amounts of damage.\nCost: 630 Minerals."
+  },
+  {
+    "name": "Upgrade to Leviathan (Mutalisk)",
+    "units": ["Mutalisk"],
+    "commanders": ["Abathur"],
+    "requirements": ["Tier 3"],
+    "description": "Massive Flyer. Deals and takes incredible amounts of damage.\nCost: 765 Minerals."
+  },
+  {
+    "name": "Upgrade to Leviathan (Guardian)",
+    "units": ["Mutalisk"],
+    "commanders": ["Abathur"],
+    "requirements": ["Tier 3"],
+    "description": "Massive Flyer. Deals and takes incredible amounts of damage.\nCost: 615 Minerals."
+  },
+  {
+    "name": "Corrosive Acid",
+    "units": ["Devourer"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 30,
+    "description": "Launches acid at all enemies in attack area, reducing armor by 3 and attack speed by 12.5%. Stacks up to three times. Lasts 11 seconds."
+  },
+  {
+    "name": "Abduct",
+    "units": ["Viper"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 11,
+    "description": "Pulls a target unit to the location of the Viper."
+  },
+  {
+    "name": "Disabling Cloud",
+    "units": ["Viper"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cost": {
+      "energy": 125
+    },
+    "description": "The viper creates a cloud that slows movement speed and prevent enemy units and structures from attacking and using energy-based abilities. Lasts for 5 seconds."
+  },
+  {
+    "name": "Parasitic Bomb",
+    "units": ["Viper"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "duration": 7,
+    "cost": {
+      "energy": 100
+    },
+    "description": "Creates a parasitic cloud that deals 120 damage over 7 seconds to the target and enemy air units nearby. If the target dies, the cloud remains in the air where the enemy died until it expires."
+  },
+  {
+    "name": "Consumption",
+    "units": ["Viper"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 30,
+    "description": "The ability drains up to 75 life from a friendly Zerg unit and grants the Viper 2 energy for each point of life drained."
+  },
+  {
+    "name": "Brutal Swipes",
+    "units": ["Brutalisk"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "description": "Attacks deal damage to enemies in front of the Brutalisk."
+  },
+  {
+    "name": "Equip B-2 High-Cal LMG",
+    "units": ["Dominion Trooper"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "Greatly improves weapon damage.\nCost: 20 Minerals."
+  },
+  {
+    "name": "Equip CPO-7 Salamander Flamethrower",
+    "units": ["Dominion Trooper"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "Improves life, and replaces weapon with a short ranged area damage flamethrower.\nCost: 60 Minerals."
+  },
+  {
+    "name": "Equip Hailstorm Launcher",
+    "units": ["Dominion Trooper"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "Adds an upgraded Anti-Air weapon.\nCost: 60 Minerals."
+  },
+  {
+    "name": "Heal (Imperial Intercessor)",
+    "units": ["Imperial Intercessor"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "cost": {
+      "energy": 3
+    },
+    "description": "Heals a friendly biological target. Heals 9 life per 3 energy."
+  },
+  {
+    "name": "Ignite Afterburners",
+    "units": ["Imperial Intercessor"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "cooldown": 11,
+    "description": "Increases this unit's movement speed by 70% for 6 seconds."
+  },
+  {
+    "name": "Load Siege Tank",
+    "units": ["Imperial Intercessor"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Armament Stabilizers"],
+    "description": "Loads a Shock Division, allowing it to fire at air unit with reduced weapon speed."
+  },
+  {
+    "name": "Patriot Mode",
+    "units": ["Imperial Witness"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "Grants the Imperial Witness the ability to Indoctrinate nearby allies, but removes the ability to move."
+  },
+  {
+    "name": "Indoctrinate",
+    "units": ["Imperial Witness"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Patriot Mode"],
+    "description": "Grants +20% weapon speed and +20% movement speed to your nearby units, but becomes immobile. Also increases Detection range."
+  },
+  {
+    "name": "Aegis Barrier",
+    "units": ["Aegis Guard"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 1"],
+    "description": "Grants a 300 point shield which refreshes every 43 seconds. Knocks back nearby ground enemies when depleted."
+  },
+  {
+    "name": "Shrapnel",
+    "units": ["Aegis Guard"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 2"],
+    "description": "Attacks deal 20% damage to enemies behind the target."
+  },
+  {
+    "name": "High-Grade Stimpacks",
+    "units": ["Aegis Guard"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 3"],
+    "cooldown": 21,
+    "description": "Increases attack speed by 200% for 7 seconds."
+  },
+  {
+    "name": "Labyrinth Cloak",
+    "units": ["Emperor's Shadow"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 1"],
+    "cooldown": 21,
+    "description": "Grants an undetectable cloak for 7 seconds."
+  },
+  {
+    "name": "Terrazine Infusion",
+    "units": ["Emperor's Shadow"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 2"],
+    "description": "Pyrokinetic Immolation gains +50% damage, and EMP Blast gains +100% stun duration."
+  },
+  {
+    "name": "Unleashed Potential",
+    "units": ["Emperor's Shadow"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 3"],
+    "description": "Pyrokinetic Immolation deals 50 damage to nearby enemies if the target dies, and EMP Blast deals damage equal to the amount of energy it drains."
+  },
+  {
+    "name": "Pyrokinetic Immolation",
+    "units": ["Emperor's Shadow"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "cooldown": 10,
+    "cost": {
+      "energy": 75
+    },
+    "description": "Immolates a target Biological enemy for 14 seconds, dealing 20 damage per second to themselves and nearby Biological enemies."
+  },
+  {
+    "name": "EMP Blast",
+    "units": ["Emperor's Shadow"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "cooldown": 6,
+    "cost": {
+      "energy": 75
+    },
+    "description": "Drains 100 shields, and depletes the energy of enemy units in an area. Mechanical units are stunned for 0.7 seconds. Cloaked units are revealed for 7 seconds."
+  },
+  {
+    "name": "Veterancy (Aegis Guard)",
+    "units": ["Aegis Guard"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "The Aegis Guard requires 450/900/1350 total EXP for each of its ranks. It gains +50 HP per Rank."
+  },
+  {
+    "name": "Veterancy (Emperor's Shadow)",
+    "units": ["Emperor's Shadow"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "The Emperor's Shadow requires 525/1050/1575 total EXP for each of its ranks.\nIt gains +50 HP and +25 starting energy for each rank."
+  },
+  {
+    "name": "Veterancy (Blackhammer)",
+    "units": ["Blackhammer"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "The Blackhammer requires 700/1400/2100 total EXP for each of its ranks.\nIt gains +150 HP per Rank."
+  },
+  {
+    "name": "Veterancy (Sky Fury)",
+    "units": ["Sky Fury"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "The Aegis Guard requires 425/850/1275 total EXP for each of its ranks.\nIt gains +70 HP per Rank."
+  },
+  {
+    "name": "Veterancy (Shock Division)",
+    "units": ["Shock Division"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "The Shock Division requires 625/1250/1875 total EXP for each of its ranks.\nIt gains +90 HP per Rank."
+  },
+  {
+    "name": "Veterancy (Pride of Augustgrad)",
+    "units": ["Pride of Augustgrad"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "The Pride of Augustgrad requires 1600/3200/4800 total EXP for each of its ranks.\nIt gains +200 HP per Rank."
+  },
+  {
+    "name": "Tactical Jump (Pride of Augustgrad)",
+    "units": ["Pride of Augustgrad"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "cooldown": 86,
+    "description": "Warps to the target location. Battlecruiser is invulnerable while warping."
+  },
+  {
+    "name": "Yamato Cannon (Pride of Augustgrad)",
+    "units": ["Pride of Augustgrad"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "cooldown": 86,
+    "description": "Blasts a target with a devastating Plasma Cannon, dealing 300 damage."
+  },
+  {
+    "name": "Experienced Command",
+    "units": ["Pride of Augustgrad"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 1"],
+    "description": "Yamato Cannon and Tactical Jump hold an additional charge."
+  },
+  {
+    "name": "Scorched Earth Tactics",
+    "units": ["Pride of Augustgrad"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 2"],
+    "description": "Yamato Cannon deals damage in an area around the target."
+  },
+  {
+    "name": "Veteran Fire Control Team",
+    "units": ["Pride of Augustgrad"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 3"],
+    "description": "Yamato Cannon fires 2 additional times, choosing new targets."
+  },
+  {
+    "name": "Overwatch Mode",
+    "units": ["Blackhammer"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "Deploys into Overwatch Mode. In this mode, Blackhammers inflict heavy area damage to air units. Blackhammers in this mode cannot move."
+  },
+  {
+    "name": "Suppression Ordnance",
+    "units": ["Blackhammer"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 1"],
+    "description": "Overwatch Mode gains +50% area size."
+  },
+  {
+    "name": "Anti-Air Artillery",
+    "units": ["Blackhammer"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 2"],
+    "description": "Overwatch Mode gains +2 range."
+  },
+  {
+    "name": "Strength in Numbers",
+    "units": ["Blackhammer"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 3"],
+    "description": "Overwatch Mode gains +33% attack speed."
+  },
+  {
+    "name": "Siege Mode (Shock Division)",
+    "units": ["Shock Division"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "Deploys into Siege Mode. In this mode Shock Divisions have very long range and inflict area damage. Shock Divisions in this mode cannot move or attack targets at close range."
+  },
+  {
+    "name": "Shock and Awe",
+    "units": ["Shock Division"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 1"],
+    "description": "Siege Mode attacks stun targets for 0.7 seconds. Can only occur once every 3.6 seconds on each unit. Massive units are slowed instead."
+  },
+  {
+    "name": "Massive Bombardment",
+    "units": ["Shock Division"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 2"],
+    "description": "Siege Mode gains +2 weapon and vision range."
+  },
+  {
+    "name": "Overwhelming Force",
+    "units": ["Shock Division"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 3"],
+    "description": "Siege Mode gains +40% splash damage radius."
+  },
+  {
+    "name": "Assault Mode (Sky Fury)",
+    "units": ["Sky Fury"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Fighter Mode"],
+    "description": "Transforms the Sky Fury to Assault Mode. In this mode, Sky Furies move on the ground and can only attack ground targets."
+  },
+  {
+    "name": "Fighter Mode (Sky Fury)",
+    "units": ["Sky Fury"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Assault Mode"],
+    "description": "Transforms the Sky Fury to Fighter Mode. In this mode, Sky Furies fly,but can only attack air targets."
+  },
+  {
+    "name": "Royal Munitions",
+    "units": ["Sky Fury"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 1"],
+    "description": "Attacks deal bonus damage to Massive targets."
+  },
+  {
+    "name": "Tactical Realignment",
+    "units": ["Sky Fury"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 2"],
+    "description": "After transforming, the unit gains 50% increased attack damage for 4 seconds. Cannot occur more than once every 11 seconds."
+  },
+  {
+    "name": "Phoenix Protocol",
+    "units": ["Sky Fury"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 3"],
+    "description": "When this unit takes fatal damage, the Sky Fury transforms to Fighter Mode, and temporarily gains a barrier that absorbs 400 damage for 11 seconds. Can only occur once every 64 seconds."
+  },
+  {
+    "name": "Veterancy",
+    "units": ["Builder - Mengsk"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "cooldown": 5,
+    "description": "Every mineral Mengsk earns is awarded as XP, split between each of his Royal Guards.<n/><n/>While no Royal Guards are in training, excess XP is stored as energy.<n/><n/>This ability can be used on a Royal Guard, granting it any stored XP."
+  },
+  {
+    "name": "Biomass (1)",
+    "units": ["Vile Roach", "Swarm Queen", "Mutalisk"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 180,
+    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Vile Roaches gain additional armor. Costs 1 charge to use."
+  },
+  {
+    "name": "Biomass (2)",
+    "units": ["Ravager", "Swarm Host", "Viper", "Guardian"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 180,
+    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Ravagers gain halved ability cooldowns. Locusts gain the Biomass bonus if their Swarm Host has the buff. Costs 2 charges to use."
+  },
+  {
+    "name": "Biomass (3)",
+    "units": ["Devourer"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 180,
+    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Costs 3 charges to use."
+  },
+  {
+    "name": "Rapid Regeneration",
+    "units": ["Roach (Zagara)"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "description": "The Roach regenerates life very quickly when burrowed."
+  },
+  {
+    "name": "Burrow (Roach)",
+    "units": ["Roach (Zagara)"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "description": "Buries the unit underground. Burrowed roaches are unable to be seen without detection, and cannot attack.."
+  },
+  {
+    "name": "Mend",
+    "units": ["Builder - Abathur"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 90,
+    "description": "Restores 100 life to all friendly units, and a further 50 over 7 seconds. "
+  },
+  {
+    "name": "Toxic Nest",
+    "units": ["Builder - Abathur"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 300,
+    "description": "Creates a nest which explodes for 125 damage when enemies are nearby. Nests respawn after exploding."
+  },
+  {
+    "name": "Reconstruction Beam",
+    "units": ["Builder - Karax"],
+    "commanders": ["Karax"],
+    "requirements": [],
+    "description": "Restores 10 life per second to 3 friendly mechanical units."
+  },
+  {
+    "name": "Structure Overcharge",
+    "units": ["Builder - Alarak"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "cooldown": 180,
+    "description": "Overcharges a Structure or Warp Prism. Deals 40 damage every 0.5 seconds to a random enemy, and absorbs up to 400 damage. Lasts 10 seconds."
+  },
+  {
+    "name": "Guardian Shell",
+    "units": ["Builder - Artanis"],
+    "commanders": ["Artanis"],
+    "requirements": [],
+    "cooldown": 90,
+    "description": "Permanently empowers a unit. Upon death, it will become temporarily invulnerable, then recover 50 life and shields."
+  },
+  {
+    "name": "Charge (Legionaire)",
+    "units": ["Legionnaire"],
+    "commanders": ["Fenix"],
+    "requirements": ["Charge"],
+    "cooldown": 7,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Allows Legionnaires to intercept nearby enemies, dealing 8 damage to the charged target. Permanently increases movement speed."
+  },
+  {
+    "name": "Kaldalis",
+    "units": ["Legionnaire"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "Upgrades a Legionnaire to Kaldalis.\nCost: 275 Minerals."
+  },
+  {
+    "name": "Engage",
+    "units": ["Kaldalis"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 4,
+    "description": "Kaldalis intercepts the target."
+  },
+  {
+    "name": "Empowered Blades",
+    "units": ["Kaldalis"],
+    "commanders": ["Fenix"],
+    "requirements": ["Empowered Blades"],
+    "description": "Kaldalis deals 9 area damage with each attack. Each Legionnaire increases this damage by +3."
+  },
+  {
+    "name": "Talis",
+    "units": ["Adept"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Upgrade an Adept to Talis.\nCost: 275 Minerals."
+  },
+  {
+    "name": "Psionic Projection (Talis)",
+    "units": ["Talis"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "Attacks summon an invulnerable shade that will attack for a short time 25(35 vs light) damage"
+  },
+  {
+    "name": "Ricochet Glaive",
+    "units": ["Talis"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 7,
+    "description": "An amplified glaive that ricochets 3 times, and hits enemy units for 25 (35 vs light) each. Each Adept increases this by 1.5 (2.5 vs light) damage."
+  },
+  {
+    "name": "Protective Field",
+    "units": ["Conservator"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 14,
+    "duration": 5,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Creates a shield reducing all incoming damage by 35% to friendly units. Lasts 5 seconds."
+  },
+  {
+    "name": "Barrier",
+    "units": ["Immortal (Fenix)", "Taldarin", "Annihilator"],
+    "commanders": ["Fenix", "Karax"],
+    "requirements": [],
+    "cooldown": 43,
+    "description": "Absorbs up to 100 damage. Lasts for 7 seconds."
+  },
+  {
+    "name": "Graviton Disruptors",
+    "units": ["Taldarin"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Attacks creates a gravity well that pulls nearby enemy units to the target."
+  },
+  {
+    "name": "Force Missiles",
+    "units": ["Mojo"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 0,
+    "duration": 0,
+    "cost": {
+      "energy": 0,
+      "life": 0
+    },
+    "description": "Attacks stun the target air unit for 0.7 seconds."
+  },
+  {
+    "name": "Suppression Procedure",
+    "units": ["Mojo"],
+    "commanders": ["Fenix"],
+    "requirements": ["Suppression Procedure"],
+    "cooldown": 4,
+    "description": "Mojo fires a barrage of anti-matter missiles dealing 6 (12 vs armored) area damage and stunning nearby enemy units for 0.7 seconds. Each Scout increases this by +1 (+2 vs armored) damage."
+  },
+  {
+    "name": "Thunderous Charge",
+    "units": ["Fenix - Praetor"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 10,
+    "cost": {
+      "energy": 100
+    },
+    "description": "Fenix charges to an area dealing 50 damage and stunning nearby enemies for 3 seconds."
+  },
+  {
+    "name": "Whirlwind",
+    "units": ["Fenix - Praetor"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 10,
+    "cost": {
+      "energy": 200
+    },
+    "description": "All nearby units take 70 damage per second for 3 seconds. Ignore armor. Fenix can move while this is active."
+  },
+  {
+    "name": "Shield Capacitor",
+    "units": ["Fenix - Praetor"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 20,
+    "cost": {
+      "energy": 300
+    },
+    "description": "Fully restores Fenix's shields."
+  },
+  {
+    "name": "Purification Nova",
+    "units": ["Disruptor"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 14,
+    "description": "Deals 150 (200 vs shields) damage in an area after a 1.1 second delay."
+  },
+  {
+    "name": "Solar Cannon",
+    "units": ["Fenix - Dragoon"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 10,
+    "cost": {
+      "energy": 125
+    },
+    "description": "Fires a penetrating beam that deals 100 damage to all enemy ground units in its path."
+  },
+  {
+    "name": "Solarite Flare",
+    "units": ["Fenix - Dragoon"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 5,
+    "cost": {
+      "energy": 125
+    },
+    "description": "Fires an air-bursting flare that deals 100 damage to enemy air units."
+  },
+  {
+    "name": "Arsenal Overcharge",
+    "units": ["Fenix - Dragoon"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 500,
+    "description": "Activating Arsenal Overcharge causes your damaging abilities to have no cooldown for 10 seconds."
+  },
+  {
+    "name": "Stasis Field",
+    "units": ["Fenix - Arbiter"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cooldown": 10,
+    "cost": {
+      "energy": 150
+    },
+    "description": "Places enemy units in target area in stasis for 5 seconds. Units in stasis cannot attack, move, be attacked, or be affected by spells."
+  },
+  {
+    "name": "Cloaking Field",
+    "units": ["Fenix - Arbiter"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "cost": {
+      "energy": 5
+    },
+    "description": "Enable Cloaking Field, cloaking friendly units near Fenix. Costs 15 energy per second to maintain."
+  },
+  {
+    "name": "Choronal Distortion",
+    "units": ["Warbringer"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "Attacks debilitate enemy units slowing attack and movement speeds by 75%. Heroic units are slowed by 20%."
+  },
+  {
+    "name": "Purification Blast",
+    "units": ["Warbringer"],
+    "commanders": ["Fenix"],
+    "requirements": ["Purification Blast"],
+    "cooldown": 4,
+    "description": "Fires a devastating blast that deals 150 damage to the target unit. Each Colossi increases this by 50 damage."
+  },
+  {
+    "name": "Hangar",
+    "units": ["Carrier", "Clolarion"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "Launches interceptors to attack."
+  },
+  {
+    "name": "Clolarion",
+    "units": ["Carrier"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "Upgrade a Carrier to Clolarion.\nCost: 560 Minerals."
+  },
+  {
+    "name": "Mojo",
+    "units": ["Scout"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "Upgrade a Scout to Mojo.\nCost: 290 Minerals."
+  },
+  {
+    "name": "Warbringer",
+    "units": ["Colossus"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "Upgrade a Colossus to Warbringer.\nCost: 450 Minerals."
+  },
+  {
+    "name": "Taldarin",
+    "units": ["Immortal"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "Upgrade an Immortal to Taldarin.\nCost: 375 Minerals."
+  },
+  {
+    "name": "Interdictors",
+    "units": ["Clolarion"],
+    "commanders": ["Fenix"],
+    "requirements": ["interdictors"],
+    "description": "Deploys 2 Interdictors that automatically bomb enemy ground units for 12 area damage. Each Carrier increases this by +3 damage."
+  },
+  {
+    "name": "Solar Beam",
+    "units": ["Clolarion"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "The damage of Ciolarion's Solar Beam Increases the longer it stays on a single target."
+  },
+  {
+    "name": "Deadly Charge",
+    "units": ["Alarak"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "cooldown": 12,
+    "description": "Rushes to an enemy, dealing 200 damage."
+  },
+  {
+    "name": "Soul Absorption",
+    "units": ["Alarak"],
+    "commanders": ["Alarak"],
+    "requirements": ["Tier 2"],
+    "description": "Heals 20 life and shields when a nearby biological unit dies."
+  },
+  {
+    "name": "Destruction Wave",
+    "units": ["Alarak"],
+    "commanders": ["Alarak"],
+    "requirements": ["Tier 2"],
+    "cooldown": 30,
+    "description": "Deals 50 damage in an area, and knocks all units in it backward."
+  },
+  {
+    "name": "Empower Me",
+    "units": ["Alarak"],
+    "commanders": ["Alarak"],
+    "requirements": ["Tier 3"],
+    "cooldown": 300,
+    "description": "Alarak gains additional attack and ability power for each nearby friendly unit. Alarak's Mechanical units grant him double the power. This effect lasts for 14 seconds."
+  },
+  {
+    "name": "Sacrifice (Alarak)",
+    "units": ["Alarak"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "description": "Sacrifices a Supplicant whenever near death, healing Alarak and bolstering his abilities. Deadly Charge's cooldown is reduced by 3 seconds, and it deals 50 damage to 4 nearby enemies when next used. Destruction Wave's cooldown is reduced by 1 second."
+  },
+  {
+    "name": "Overpowered",
+    "units": ["Alarak"],
+    "commanders": ["Alarak"],
+    "requirements": ["Tier 3"],
+    "description": "Attacks deal area damage while Empower Me is active"
+  }
+]

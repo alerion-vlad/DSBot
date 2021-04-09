@@ -1,0 +1,496 @@
+[
+  {
+    "name": "Swarmling (Kerrigan)",
+    "commanders": ["Kerrigan"],
+    "tier": 1,
+    "cost": 25,
+    "life": 35,
+    "speed": 2.95,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Claws",
+        "range": 0,
+        "damage": {
+          "base": 7
+        },
+        "period": 0.7,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Shredding Claws", "Hardened Carapace"]
+  },
+  {
+    "name": "Queen",
+    "commanders": ["Kerrigan", "Zagara"],
+    "tier": 1,
+    "cost": 175,
+    "life": 175,
+    "energy_start": 25,
+    "energy_max": 200,
+    "speed": 0.94,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Psionic"],
+    "weapons": [
+      {
+        "name": "Acid Spines",
+        "range": 7,
+        "damage": {
+          "base": 9
+        },
+        "period": 1,
+        "targets": ["Air"],
+        "level": {
+          "base": 1
+        }
+      },
+      {
+        "name": "Talons",
+        "range": 5,
+        "count": 2,
+        "damage": {
+          "base": 4,
+          "versus": {
+            "Armored": 6
+          }
+        },
+        "period": 1,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
+        }
+      }
+    ],
+    "abilities": ["Transfusion"],
+    "upgrades": []
+  },
+  {
+    "name": "Hydralisk",
+    "commanders": ["Kerrigan"],
+    "tier": 2,
+    "cost": 85,
+    "life": 80,
+    "speed": 2.25,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Needle Spines",
+        "range": 5,
+        "damage": {
+          "base": 12
+        },
+        "period": 0.82,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": ["Frenzy"],
+    "upgrades": ["Muscular Augments", "Frenzy", "Ancillary Carapace"]
+  },
+  {
+    "name": "Lurker",
+    "commanders": ["Kerrigan"],
+    "tier": 2,
+    "cost": 310,
+    "life": 200,
+    "speed": 2.95,
+    "armor": 1,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Spines",
+        "range": 8,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 30
+          }
+        },
+        "period": 2,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      }
+    ],
+    "abilities": ["Burrow"],
+    "upgrades": ["Seismic Spines"]
+  },
+  {
+    "name": "Brood Mutalisk",
+    "commanders": ["Kerrigan"],
+    "tier": 2,
+    "cost": 125,
+    "life": 120,
+    "speed": 4,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Glave Wurm",
+        "range": 5,
+        "damage": {
+          "base": 9
+        },
+        "period": 1.52,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Rapid Regeneration", "Vicious Glaive", "Severing Glaive"]
+  },
+  {
+    "name": "Torrasque",
+    "commanders": ["Kerrigan"],
+    "tier": 3,
+    "cost": 350,
+    "life": 500,
+    "speed": 2.95,
+    "armor": 2,
+    "types": ["Armored", "Biological", "Massive"],
+    "weapons": [
+      {
+        "name": "Kaiser Blades",
+        "range": 1,
+        "damage": {
+          "base": 35
+        },
+        "period": 0.86,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 3
+        }
+      }
+    ],
+    "abilities": ["Burrow Charge", "Rebirth"],
+    "upgrades": ["Burrow Charge", "Chitinous Plating", "Tissue Assimilation"]
+  },
+  {
+    "name": "Brood Lord",
+    "commanders": ["Kerrigan"],
+    "tier": 3,
+    "cost": 325,
+    "life": 225,
+    "speed": 1.88,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Massive"],
+    "weapons": [
+      {
+        "name": "Broodling Strike",
+        "range": 9.5,
+        "damage": {
+          "base": 20
+        },
+        "period": 2.5,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Swarm Seeds"],
+    "upgrades": ["Porous Cartilage"]
+  },
+  {
+    "name": "Kerrigan",
+    "commanders": ["Kerrigan"],
+    "tier": 1,
+    "cost": 350,
+    "life": 600,
+    "energy_start": 100,
+    "energy_max": 100,
+    "speed": 2.25,
+    "armor": 2,
+    "types": ["Biological", "Heroic", "Map Boss"],
+    "weapons": [
+      {
+        "name": "Energy Blast",
+        "range": 3,
+        "damage": {
+          "base": 40
+        },
+        "period": 1.5,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": [
+      "Leaping Strike",
+      "Leaping Evasion",
+      "Psionic Shift",
+      "Immobilization Wave",
+      "Mutating Carapace"
+    ],
+    "upgrades": [
+      "Heroic Fortitude",
+      "Chain Reaction",
+      "Fury",
+      "Ability Efficiency"
+    ]
+  },
+  {
+    "name": "Overseer",
+    "commanders": ["Kerrigan", "Zagara"],
+    "tier": 2,
+    "cost": 115,
+    "life": 200,
+    "speed": 1.88,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Detector"],
+    "weapons": [],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Swarmling (Zagara)",
+    "commanders": ["Zagara"],
+    "tier": 1,
+    "cost": 20,
+    "life": 35,
+    "speed": 2.95,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Claws",
+        "range": 0,
+        "damage": {
+          "base": 5
+        },
+        "period": 0.7,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": [
+      "Metabolic Boost",
+      "Hardened Carapace",
+      "Adrenal Glands",
+      "Shredding Claws"
+    ]
+  },
+  {
+    "name": "Splitterling",
+    "commanders": ["Zagara"],
+    "tier": 1,
+    "cost": 100,
+    "life": 30,
+    "speed": 2.95,
+    "armor": 0,
+    "types": ["Biological"],
+    "weapons": [
+      {
+        "name": "Volatile Burst",
+        "range": 0,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Structure": 80
+          }
+        },
+        "period": 1.4,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4,
+          "versus": {
+            "Structure": 5
+          }
+        }
+      }
+    ],
+    "abilities": ["Division", "Explode", "Disable Structure Attack"],
+    "upgrades": ["Corrosive Acid", "Rupture", "Centrifugal Hooks"]
+  },
+  {
+    "name": "Hunter Killer",
+    "commanders": ["Zagara"],
+    "tier": 3,
+    "cost": 140,
+    "life": 150,
+    "speed": 3.13,
+    "armor": 1,
+    "types": ["Light", "Biological", "Heroic"],
+    "weapons": [
+      {
+        "name": "Needle Spines",
+        "range": 6,
+        "damage": {
+          "base": 20
+        },
+        "period": 0.83,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": []
+  },
+  {
+    "name": "Zagara",
+    "commanders": ["Zagara"],
+    "tier": 1,
+    "cost": 275,
+    "life": 600,
+    "energy_start": 50,
+    "energy_max": 200,
+    "speed": 2.5,
+    "armor": 2,
+    "types": ["Biological", "Heroic"],
+    "weapons": [
+      {
+        "name": "Acid Spines",
+        "range": 6,
+        "damage": {
+          "base": 30
+        },
+        "period": 1.5,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": ["Baneling Barrage"],
+    "upgrades": ["Heroic Fortitude", "Medusa Blades"]
+  },
+  {
+    "name": "Roach",
+    "commanders": ["Zagara"],
+    "tier": 2,
+    "cost": 70,
+    "life": 145,
+    "speed": 2.25,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Heroic"],
+    "weapons": [
+      {
+        "name": "Acid Saliva",
+        "range": 4,
+        "damage": {
+          "base": 16
+        },
+        "period": 2,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": ["Rapid Regeneration", "Burrow"],
+    "upgrades": []
+  },
+  {
+    "name": "Aberration",
+    "commanders": ["Zagara"],
+    "tier": 3,
+    "cost": 350,
+    "life": 275,
+    "speed": 2.95,
+    "armor": 0,
+    "types": ["Armored", "Biological", "Massive"],
+    "weapons": [
+      {
+        "name": "Pustulant Smash",
+        "range": 1.5,
+        "damage": {
+          "base": 20,
+          "versus": {
+            "Armored": 40
+          }
+        },
+        "period": 1.2,
+        "targets": ["Ground"],
+        "level": {
+          "base": 2,
+          "versus": {
+            "Armored": 4
+          }
+        }
+      }
+    ],
+    "abilities": ["Incubate Splitterlings"],
+    "upgrades": ["Protective Cover"]
+  },
+  {
+    "name": "Corruptor",
+    "commanders": ["Zagara"],
+    "tier": 2,
+    "cost": 225,
+    "life": 200,
+    "speed": 3.38,
+    "armor": 2,
+    "types": ["Armored", "Biological"],
+    "weapons": [
+      {
+        "name": "Parasite Spore",
+        "range": 6,
+        "damage": {
+          "base": 14,
+          "versus": {
+            "Armored": 28
+          }
+        },
+        "period": 1.9,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 3
+          }
+        }
+      }
+    ],
+    "abilities": ["Corruption", "Incubate Scourge"],
+    "upgrades": []
+  },
+  {
+    "name": "Scourge",
+    "commanders": ["Zagara"],
+    "tier": 2,
+    "cost": 65,
+    "life": 25,
+    "speed": 3.75,
+    "armor": 0,
+    "types": ["Light", "Biological"],
+    "weapons": [
+      {
+        "name": "Suicide",
+        "range": 0,
+        "damage": {
+          "base": 110
+        },
+        "period": 0.83,
+        "targets": ["Air"],
+        "level": {
+          "base": 5
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Virulent Spores"]
+  }
+]

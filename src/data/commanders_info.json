@@ -1,0 +1,352 @@
+[
+  {
+    "commander": "Stetmann",
+    "upgrades": [
+      {
+        "name": "Mecha Melee Attacks",
+        "cost": "100/125/175"
+      },
+      {
+        "name": "Mecha Ground Plating",
+        "cost": "150/175/225"
+      },
+      {
+        "name": "Mecha Missile Attacks",
+        "cost": "125/150/200"
+      },
+      {
+        "name": "Mecha Flyer Attacks",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Mecha Flyer Plating",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Mengsk",
+    "upgrades": [
+      {
+        "name": "Dominion Weapons",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Dominion Armor",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Artanis",
+    "upgrades": [
+      {
+        "name": "Ground Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Ground Armor",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Shields",
+        "cost": "125/175/225"
+      },
+      {
+        "name": "Air Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Air Armor",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Swann",
+    "upgrades": [
+      {
+        "name": "Vehicle and Ship Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Vehicle and Ship Plating",
+        "cost": "125/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Mengsk",
+    "upgrades": [
+      {
+        "name": "Dominion Weapons",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Dominion Armor",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Vorazun",
+    "upgrades": [
+      {
+        "name": "Ground Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Ground Armor",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Shields",
+        "cost": "125/175/225"
+      },
+      {
+        "name": "Air Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Air Armor",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Karax",
+    "upgrades": [
+      {
+        "name": "Ground Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Ground Armor",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Shields",
+        "cost": "125/175/225"
+      },
+      {
+        "name": "Air Weapons",
+        "cost": "125/175/225"
+      },
+      {
+        "name": "Air Armor",
+        "cost": "125/175/225"
+      }
+    ]
+  },
+  {
+    "commander": "Abathur",
+    "upgrades": [
+      {
+        "name": "Ground Carapace",
+        "cost": "150/175/225"
+      },
+      {
+        "name": "Missile Attacks",
+        "cost": "125/150/200"
+      },
+      {
+        "name": "Flyer Attacks",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Air Weapons",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Raynor",
+    "upgrades": [
+      {
+        "name": "Infantry Weapons",
+        "cost": "100/125/175"
+      },
+      {
+        "name": "Infantry Armor",
+        "cost": "100/125/175"
+      },
+      {
+        "name": "Vehicle and Ship Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Vehicle and Ship Plating",
+        "cost": "125/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Alarak",
+    "upgrades": [
+      {
+        "name": "Protoss Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Protoss Armor",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Protoss Shields",
+        "cost": "150/200/250"
+      }
+    ]
+  },
+  {
+    "commander": "Fenix",
+    "upgrades": [
+      {
+        "name": "Ground Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Ground Armor",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Shields",
+        "cost": "125/175/225"
+      },
+      {
+        "name": "Air Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Air Armor",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Nova",
+    "upgrades": [
+      {
+        "name": "Infantry Weapons",
+        "cost": "100/125/175"
+      },
+      {
+        "name": "Infantry Armor",
+        "cost": "100/125/175"
+      },
+      {
+        "name": "Vehicle and Ship Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Vehicle and Ship Armor",
+        "cost": "125/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Han and Horner",
+    "upgrades": [
+      {
+        "name": "Weapons",
+        "cost": "150/225/300"
+      },
+      {
+        "name": "Armor",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Tychus",
+    "upgrades": [
+      {
+        "name": "Outlaw Weapons",
+        "cost": "150/225/300"
+      },
+      {
+        "name": "Outlaw Life and Armor",
+        "cost": "200/300/400"
+      }
+    ]
+  },
+  {
+    "commander": "Kerrigan",
+    "upgrades": [
+      {
+        "name": "Melee Attacks",
+        "cost": "100/125/175"
+      },
+      {
+        "name": "Ground Carapace",
+        "cost": "150/175/225"
+      },
+      {
+        "name": "Missile Attacks",
+        "cost": "125/150/200"
+      },
+      {
+        "name": "Flyer Attacks",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Flyer Carapace",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Zagara",
+    "upgrades": [
+      {
+        "name": "Weapon Attacks",
+        "cost": "150/225/300"
+      },
+      {
+        "name": "Ground Carapace",
+        "cost": "150/175/225"
+      },
+      {
+        "name": "Flyer Attacks",
+        "cost": "100/150/200"
+      },
+      {
+        "name": "Flyer Carapace",
+        "cost": "100/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Stukov",
+    "upgrades": [
+      {
+        "name": "Infantry Weapons",
+        "cost": "100/125/175"
+      },
+      {
+        "name": "Infantry Weapons",
+        "cost": "100/125/175"
+      },
+      {
+        "name": "Vehicle and Ship Weapons",
+        "cost": "150/200/250"
+      },
+      {
+        "name": "Weapon and Ship Plating",
+        "cost": "125/150/200"
+      }
+    ]
+  },
+  {
+    "commander": "Dehaka",
+    "upgrades": [
+      {
+        "name": "Primal Attacks",
+        "cost": "250/400/500"
+      },
+      {
+        "name": "Ground Carapace",
+        "cost": "150/225/300"
+      }
+    ]
+  }
+]
