@@ -1964,7 +1964,7 @@
     "name": "Primal Zergling",
     "commanders": ["Dehaka"],
     "tier": 1,
-    "cost": 50,
+    "cost": 40,
     "life": 90,
     "speed": 4.9,
     "armor": 0,
@@ -3677,7 +3677,10 @@
         "period": 1.43,
         "targets": ["Ground"],
         "level": {
-          "base": 0
+          "base": 0,
+          "versus": {
+            "Light": 40
+          }
         }
       }
     ],
