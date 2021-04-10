@@ -96,7 +96,11 @@ client.on("message", async (message) => {
   if (!c) {
     return;
   }
-  await c.execute(message, args);
+  try{
+    await c.execute(message, args);
+  } catch(e) {
+    console.log(e);
+  }
 });
 
 client.login(token);
