@@ -78,7 +78,7 @@ client.on("message", async (message) => {
     return;
   }
 
-  let prefix = "$";
+  let prefix = "!";
   const guild: any = await Guild.findOne({ id: message.guild?.id });
   if (guild) {
     prefix = guild.prefix;
