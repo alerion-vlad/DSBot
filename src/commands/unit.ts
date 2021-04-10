@@ -145,7 +145,13 @@ const unit = (message: Discord.Message, args: any) => {
       embed.addField("__**Abilities**__", abilityData.slice(0, 3));
       embed.addField("\u200b", abilityData[3]);
       embed.addField("\u200b", abilityData.slice(4, 11));
-    } else {
+    }
+    else if(unit.name === "Viper") {
+      embed.addField("__**Abilities**__", abilityData.slice(0, 3));
+      embed.addField("\u200b", abilityData[3]);
+      embed.addField("\u200b", abilityData.slice(4,5));
+    }
+    else {
       embed.addField("__**Abilities**__", abilityData);
     }
   }
