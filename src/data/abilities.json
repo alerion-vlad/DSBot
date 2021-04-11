@@ -31,26 +31,26 @@
     "units": ["High Templar", "High Archon"],
     "commanders": ["Artanis"],
     "requirements": ["Psionic Storm"],
-    "cooldown": 10,
+    "cooldown": 7,
     "cost": {
       "energy": 75
     },
-    "description": "Creates a storm of psionic energy that lasts 4 seconds, causing up to 80 damage to all units in the target area."
+    "description": "Creates a storm of psionic energy that lasts 3 seconds, causing up to 80 damage to all units in the target area."
   },
   {
     "name": "Graviton Beam (Artanis)",
     "units": ["Phoenix"],
     "commanders": ["Artanis"],
     "requirements": [],
-    "cooldown": 28,
-    "description": "Makes the target unit float in the air, disabling its abilities. Effect lasts up to 10 seconds. Massive units are immune. Channeled ability."
+    "cooldown": 20,
+    "description": "Makes the target unit float in the air, disabling its abilities. Effect lasts up to 7 seconds. Massive units are immune. Channeled ability."
   },
   {
     "name": "Barrier (Artanis)",
     "units": ["Immortal (Artanis)"],
     "commanders": ["Artanis"],
     "requirements": [],
-    "cooldown": 45,
+    "cooldown": 32,
     "description": "Absorbs up to 200 damage. Lasts for 10 seconds."
   },
   {
@@ -65,7 +65,7 @@
     "units": ["Reaver"],
     "commanders": ["Artanis"],
     "requirements": [],
-    "duration": 8,
+    "duration": 6,
     "description": "Reavers must construct ammunition to attack."
   },
   {

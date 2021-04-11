@@ -3,10 +3,10 @@
     "name": "Honor Guard",
     "commanders": ["Artanis"],
     "tier": 1,
-    "cost": 85,
+    "cost": 80,
     "life": 100,
     "shields": 50,
-    "speed": 2.25,
+    "speed": 3.15,
     "armor": 1,
     "types": ["Light", "Biological"],
     "weapons": [
@@ -16,7 +16,7 @@
         "damage": {
           "base": 16
         },
-        "period": 1.2,
+        "period": 0.86,
         "targets": ["Ground"],
         "level": {
           "base": 2
@@ -33,7 +33,7 @@
     "cost": 125,
     "life": 100,
     "shields": 80,
-    "speed": 2.95,
+    "speed": 4.13,
     "armor": 1,
     "types": ["Armored", "Mechanical"],
     "weapons": [
@@ -46,7 +46,7 @@
             "Armored": 30
           }
         },
-        "period": 1.76,
+        "period": 1.26,
         "targets": ["Ground", "Air"],
         "level": {
           "base": 2,
@@ -68,7 +68,7 @@
     "shields": 40,
     "energy_start": 50,
     "energy_max": 200,
-    "speed": 1.88,
+    "speed": 2.62,
     "armor": 0,
     "types": ["Light", "Biological", "Psionic"],
     "weapons": [
@@ -78,7 +78,7 @@
         "damage": {
           "base": 4
         },
-        "period": 1.75,
+        "period": 1.25,
         "targets": ["Ground"],
         "level": {
           "base": 1
@@ -97,7 +97,7 @@
     "shields": 350,
     "energy_start": 50,
     "energy_max": 200,
-    "speed": 2.81,
+    "speed": 3.94,
     "armor": 0,
     "types": ["Psionic", "Massive"],
     "weapons": [
@@ -110,7 +110,7 @@
             "Biological": 35
           }
         },
-        "period": 1.75,
+        "period": 1.25,
         "targets": ["Ground", "Air"],
         "level": {
           "base": 3,
@@ -130,7 +130,7 @@
     "cost": 125,
     "life": 120,
     "shields": 60,
-    "speed": 4.25,
+    "speed": 5.95,
     "armor": 0,
     "types": ["Light", "Mechanical"],
     "weapons": [
@@ -144,7 +144,7 @@
             "Light": 12
           }
         },
-        "period": 1.1,
+        "period": 0.79,
         "targets": ["Air"],
         "level": {
           "base": 1,
@@ -164,7 +164,7 @@
     "cost": 240,
     "life": 200,
     "shields": 100,
-    "speed": 2.25,
+    "speed": 3.15,
     "armor": 1,
     "types": ["Armored", "Mechanical"],
     "weapons": [
@@ -177,7 +177,7 @@
             "Armored": 50
           }
         },
-        "period": 1.45,
+        "period": 1.04,
         "targets": ["Ground"],
         "level": {
           "base": 2,
@@ -197,7 +197,7 @@
     "cost": 125,
     "life": 40,
     "shields": 20,
-    "speed": 1.88,
+    "speed": 2.62,
     "armor": 0,
     "types": ["Light", "Mechanical", "Detector"],
     "weapons": [],
@@ -211,7 +211,7 @@
     "cost": 425,
     "life": 200,
     "shields": 150,
-    "speed": 2,
+    "speed": 2.8,
     "armor": 1,
     "types": ["Armored", "Mechanical", "Massive"],
     "weapons": [
@@ -224,7 +224,7 @@
             "Structure": 150
           }
         },
-        "period": 2,
+        "period": 1.43,
         "targets": ["Ground"],
         "level": {
           "base": 5,
@@ -244,7 +244,7 @@
     "cost": 390,
     "life": 300,
     "shields": 150,
-    "speed": 1.88,
+    "speed": 2.62,
     "armor": 2,
     "types": ["Armored", "Mechanical", "Massive"],
     "weapons": [
@@ -254,7 +254,7 @@
         "damage": {
           "base": 60
         },
-        "period": 2.8,
+        "period": 2,
         "targets": ["Ground"],
         "level": {
           "base": 5
@@ -266,7 +266,7 @@
         "damage": {
           "base": 60
         },
-        "period": 2.8,
+        "period": 2,
         "targets": ["Air"],
         "level": {
           "base": 5
@@ -2203,14 +2203,14 @@
     "upgrades": ["Aerial Burst Sacs"]
   },
   {
-    "name": "Primal Ultralisk",
+    "name": "Primal Ultralisk (Dehaka)",
     "commanders": ["Dehaka"],
     "tier": 3,
     "cost": 275,
     "life": 625,
     "speed": 4.13,
     "armor": 2,
-    "types": ["Armored", "Biological", "Massive"],
+    "types": ["Armored", "Biological", "Massive", "Frenzied"],
     "weapons": [
       {
         "name": "Kaiser Blades",
@@ -2262,7 +2262,7 @@
     "life": 1000,
     "speed": 4.13,
     "armor": 2,
-    "types": ["Armored", "Biological", "Massive"],
+    "types": ["Armored", "Biological", "Massive", "Frenzied"],
     "weapons": [
       {
         "name": "Kaiser Blades",
@@ -5806,6 +5806,24 @@
         "targets": ["Ground"],
         "level": {
           "base": 1
+        }
+      },
+      {
+        "name": "Solar Beam",
+        "range": 8,
+        "damage": {
+          "base": 10,
+          "versus": {
+            "Armored": 16
+          }
+        },
+        "period": 0.36,
+        "targets": ["Air"],
+        "level": {
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
         }
       }
     ],
