@@ -2651,5 +2651,20 @@
     "commanders": ["Dehaka"],
     "requirements": ["Primal Wurm"],
     "description": "Unearths a primal wurm which detects cloaked and burrowed units. Lasts 8 seconds. Wurms are invulnerable. Cannot attack structures. Charges are refilled when wave spawns."
+  },
+  {
+    "name": "Orbital Scan",
+    "units": ["Builder - Raynor"],
+    "commanders": ["Raynor"],
+    "requirements": ["Tier 2"],
+    "description": "Detects cloaked and burrowed units. Lasts 15 seconds. Refreshes every time your wave spawns. 2 Charges."
+  },
+  {
+    "name": "Supply Drop",
+    "units": ["Builder - Raynor"],
+    "commanders": ["Raynor"],
+    "requirements": [],
+    "cooldown": 120,
+    "description": "Grants 200 minerals. Mineral income is then reduced till full amount is paid."
   }
 ]

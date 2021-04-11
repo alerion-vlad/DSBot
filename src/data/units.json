@@ -1002,7 +1002,7 @@
         "damage": {
           "base": 15
         },
-        "period": 0,
+        "period": 1.18,
         "targets": ["Ground"],
         "level": {
           "base": 2
