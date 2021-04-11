@@ -42,7 +42,7 @@
     "description": "Phoenix Graviton Beam affects two enemies at once.."
   },
   {
-    "name": "Anion Pulse Crystals (Artanis)",
+    "name": "Anion Pulse-Crystals (Artanis)",
     "commanders": ["Artanis"],
     "cost": 125,
     "requirements": [],
@@ -1161,7 +1161,7 @@
     "commanders": ["Alarak"],
     "cost": 100,
     "requirements": [],
-    "description": "Ascendants gain 25% ability damage and +100 shields every time they use sacrifice."
+    "description": "Ascendants gain 25% ability damage and +100 shields every time they use Sacrifice."
   },
   {
     "name": "Chaotic Attunement",
@@ -1748,7 +1748,7 @@
   {
     "name": "Corrosive Spray",
     "commanders": ["Abathur"],
-    "requirements": ["Tier 3"],
+    "requirements": [],
     "cost": 150,
     "description": "Devourer attacks deal area damage."
   },

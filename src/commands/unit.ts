@@ -52,6 +52,10 @@ const unit = (message: Discord.Message, args: any) => {
   }
   unitInfo += `\n **Speed:** ${unit.speed}\n**Armor:** ${armors.join("/")}`;
 
+  if(unit.shield_armor){
+    unitInfo += `\n**Shield Armor:** ${unit.shield_armor}`;
+  }
+
   const weaponData = unit.weapons.map((weapon) => {
     let baseDamage = [weapon.damage.base];
     const baseLevel = weapon.level.base;

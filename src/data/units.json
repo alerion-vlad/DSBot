@@ -985,7 +985,7 @@
     "upgrades": ["Phasing Armor (Mirage)", "Anion Pulse-Crystals (Karax)"]
   },
   {
-    "name": "Purifier Colossus",
+    "name": "Purifier Colossus (Karax)",
     "commanders": ["Karax"],
     "tier": 3,
     "cost": 450,
@@ -1294,7 +1294,7 @@
     "tier": 2,
     "cost": 115,
     "life": 200,
-    "speed": 1.88,
+    "speed": 2.62,
     "armor": 1,
     "types": ["Armored", "Biological", "Detector"],
     "weapons": [],
@@ -2030,8 +2030,7 @@
         "name": "Acid Saliva",
         "range": 4,
         "damage": {
-          "base": 16,
-          "versus": {}
+          "base": 16
         },
         "period": 1.43,
         "targets": ["Ground"],
@@ -2306,7 +2305,7 @@
     ]
   },
   {
-    "name": "Primal Guardian",
+    "name": "Primal Guardian (Dehaka)",
     "commanders": ["Dehaka"],
     "tier": 3,
     "cost": 350,
@@ -4449,7 +4448,7 @@
     ]
   },
   {
-    "name": "Swarm Queen",
+    "name": "Swarm Queen (Abathur)",
     "commanders": ["Abathur"],
     "tier": 1,
     "cost": 115,
@@ -4462,7 +4461,7 @@
     "types": ["Armored", "Biological", "Psionic"],
     "weapons": [
       {
-        "name": "Claws",
+        "name": "Talons",
         "range": 5,
         "count": 2,
         "damage": {
@@ -4471,7 +4470,7 @@
             "Armored": 6
           }
         },
-        "period": 0.69,
+        "period": 0.71,
         "targets": ["Ground"],
         "level": {
           "base": 1,
@@ -4482,11 +4481,11 @@
       },
       {
         "name": "Acid Spine",
-        "range": 8,
+        "range": 7,
         "damage": {
           "base": 9
         },
-        "period": 0.69,
+        "period": 0.71,
         "targets": ["Air"],
         "level": {
           "base": 1
@@ -4502,7 +4501,7 @@
     "tier": 2,
     "cost": 175,
     "life": 120,
-    "speed": 2.75,
+    "speed": 3.85,
     "armor": 1,
     "types": ["Biological"],
     "weapons": [
@@ -4523,7 +4522,7 @@
     "upgrades": ["Bloated Bile Ducts", "Potent Bile"]
   },
   {
-    "name": "Swarm Host",
+    "name": "Swarm Host (Abathur)",
     "commanders": ["Abathur"],
     "tier": 2,
     "cost": 250,
@@ -4534,11 +4533,11 @@
     "weapons": [
       {
         "name": "Acid Spit (Locust)",
-        "range": 2,
+        "range": 3,
         "damage": {
           "base": 10
         },
-        "period": 0.86,
+        "period": 0.43,
         "targets": ["Ground"],
         "level": {
           "base": 1
@@ -4554,7 +4553,7 @@
     "tier": 2,
     "cost": 85,
     "life": 120,
-    "speed": 4,
+    "speed": 5.6,
     "armor": 0,
     "types": ["Light", "Biological"],
     "weapons": [
@@ -4564,7 +4563,7 @@
         "damage": {
           "base": 9
         },
-        "period": 0.78,
+        "period": 1.09,
         "targets": ["Ground", "Air"],
         "level": {
           "base": 1
@@ -4580,12 +4579,12 @@
     "upgrades": ["Rapid Regeneration", "Vicious Glave", "Sundering Glave"]
   },
   {
-    "name": "Guardian",
+    "name": "Guardian (Abathur)",
     "commanders": ["Abathur"],
     "tier": 3,
     "cost": 235,
     "life": 150,
-    "speed": 2.5,
+    "speed": 3.5,
     "armor": 2,
     "types": ["Armored", "Biological"],
     "weapons": [
@@ -4611,7 +4610,7 @@
     "tier": 2,
     "cost": 285,
     "life": 250,
-    "speed": 3.25,
+    "speed": 4.55,
     "armor": 2,
     "types": ["Armored", "Biological", "Massive"],
     "weapons": [
@@ -4649,7 +4648,7 @@
     "life": 150,
     "energy_start": 50,
     "energy_max": 200,
-    "speed": 2.953,
+    "speed": 4.13,
     "armor": 1,
     "types": ["Armored", "Biological", "Psionic"],
     "weapons": [
@@ -4657,12 +4656,18 @@
         "name": "Acid Spit",
         "range": 6,
         "damage": {
-          "base": 10
+          "base": 10,
+          "versus": {
+            "Armored": 15
+          }
         },
         "period": 1.07,
         "targets": ["Air"],
         "level": {
-          "base": 1
+          "base": 1,
+          "versus": {
+            "Armored": 1
+          }
         }
       }
     ],
@@ -4677,18 +4682,19 @@
     "upgrades": ["Virulent Microbes"]
   },
   {
-    "name": "Brutalisk",
+    "name": "Brutalisk (Abathur)",
     "commanders": ["Abathur"],
     "tier": 3,
     "cost": 650,
     "life": 1500,
-    "speed": 3,
+    "speed": 4.2,
     "armor": 2,
     "types": ["Armored", "Biological", "Massive", "Heroic"],
     "weapons": [
       {
         "name": "Brutalize",
-        "range": 0,
+        "range": 1,
+        "count": 2,
         "damage": {
           "base": 30
         },
@@ -4720,13 +4726,13 @@
     "tier": 3,
     "cost": 850,
     "life": 1000,
-    "speed": 2,
+    "speed": 2.8,
     "armor": 2,
     "types": ["Massive", "Biological", "Heroic"],
     "weapons": [
       {
         "name": "Tentacles",
-        "range": 3,
+        "range": 5,
         "damage": {
           "base": 20
         },
@@ -4738,7 +4744,7 @@
       },
       {
         "name": "Bile Swarm",
-        "range": 6,
+        "range": 9,
         "count": 4,
         "damage": {
           "base": 9,
@@ -5319,7 +5325,7 @@
         }
       }
     ],
-    "abilities": ["Charge (Legionaire)", "Kadalis"],
+    "abilities": ["Charge (Legionaire)", "Kaldalis"],
     "upgrades": ["Charge (Fenix)"]
   },
   {
@@ -5671,7 +5677,7 @@
     "upgrades": ["Cloaking Module (Disruptor)", "Purification Echo"]
   },
   {
-    "name": "Colossus",
+    "name": "Colossus (Fenix)",
     "commanders": ["Fenix"],
     "tier": 3,
     "cost": 300,
