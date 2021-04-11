@@ -3072,7 +3072,7 @@
     "name": "Widow Mine",
     "commanders": ["Han and Horner"],
     "tier": 2,
-    "cost": 165,
+    "cost": 160,
     "life": 90,
     "speed": 3.94,
     "armor": 0,
