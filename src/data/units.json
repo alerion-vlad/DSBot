@@ -484,7 +484,7 @@
         }
       }
     ],
-    "abilities": ["Cloak (Infested Banshee)", "Burrow"],
+    "abilities": ["Cloak (Infested Banshee)", "Burrow (Infested Banshee)"],
     "upgrades": ["Rapid Hibernation", "Braced Exoskeleton"]
   },
   {

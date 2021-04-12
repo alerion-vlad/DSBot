@@ -1192,16 +1192,27 @@
   },
   {
     "name": "Cloak (Dusk Wings)",
-    "units": ["Duskwing"],
+    "units": ["Dusk Wings"],
     "commanders": ["Raynor"],
     "requirements": [],
     "cooldown": 4,
     "duration": 0,
     "cost": {
       "energy": 1.4,
-      "life": 0
     },
     "description": "Cloaks a unit, preventing enemy units from seeing or attacking it. Can only be seen by detectors or effects. Drains 1.4 energy per second."
+  },
+  {
+    "name": "Cloak (Infested Banshee)",
+    "units": ["Infested Banshee"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 4,
+    "duration": 0,
+    "cost": {
+      "energy": 1.4,
+    },
+    "description": "Cloaks a unit, preventing enemy units from seeing or attacking it. Can only be seen by detectors or effects. Ranged units gain +2 range. Drains 1.4 energy per second."
   },
   {
     "name": "Shockwave Missile Battery",
