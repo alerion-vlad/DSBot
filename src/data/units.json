@@ -1041,12 +1041,12 @@
     "upgrades": ["Repair Drones", "Graviton Catapult"]
   },
   {
-    "name": "Swarmling (Kerrigan)",
+    "name": "Raptorling (Kerrigan)",
     "commanders": ["Kerrigan"],
     "tier": 1,
     "cost": 25,
     "life": 35,
-    "speed": 2.95,
+    "speed": 4.13,
     "armor": 0,
     "types": ["Light", "Biological"],
     "weapons": [
@@ -1056,7 +1056,7 @@
         "damage": {
           "base": 7
         },
-        "period": 0.7,
+        "period": 0.5,
         "targets": ["Ground"],
         "level": {
           "base": 1
@@ -1074,7 +1074,7 @@
     "life": 175,
     "energy_start": 25,
     "energy_max": 200,
-    "speed": 0.94,
+    "speed": 1.31,
     "armor": 1,
     "types": ["Armored", "Biological", "Psionic"],
     "weapons": [
@@ -1084,7 +1084,7 @@
         "damage": {
           "base": 9
         },
-        "period": 1,
+        "period": .71,
         "targets": ["Air"],
         "level": {
           "base": 1
@@ -1100,7 +1100,7 @@
             "Armored": 6
           }
         },
-        "period": 1,
+        "period": .71,
         "targets": ["Ground"],
         "level": {
           "base": 1,
@@ -1119,7 +1119,7 @@
     "tier": 2,
     "cost": 85,
     "life": 80,
-    "speed": 2.25,
+    "speed": 3.15,
     "armor": 0,
     "types": ["Light", "Biological"],
     "weapons": [
@@ -1129,7 +1129,7 @@
         "damage": {
           "base": 12
         },
-        "period": 0.82,
+        "period": 0.59,
         "targets": ["Ground", "Air"],
         "level": {
           "base": 1
@@ -1145,7 +1145,7 @@
     "tier": 2,
     "cost": 310,
     "life": 200,
-    "speed": 2.95,
+    "speed": 4.13,
     "armor": 1,
     "types": ["Armored", "Biological"],
     "weapons": [
@@ -1158,7 +1158,7 @@
             "Armored": 30
           }
         },
-        "period": 2,
+        "period": 1.43,
         "targets": ["Ground"],
         "level": {
           "base": 2,
@@ -1177,7 +1177,7 @@
     "tier": 2,
     "cost": 125,
     "life": 120,
-    "speed": 4,
+    "speed": 5.6,
     "armor": 0,
     "types": ["Light", "Biological"],
     "weapons": [
@@ -1187,8 +1187,8 @@
         "damage": {
           "base": 9
         },
-        "period": 1.52,
-        "targets": ["Ground"],
+        "period": 1.09,
+        "targets": ["Ground", "Air"],
         "level": {
           "base": 1
         }
@@ -1203,7 +1203,7 @@
     "tier": 3,
     "cost": 350,
     "life": 500,
-    "speed": 2.95,
+    "speed": 4.13,
     "armor": 2,
     "types": ["Armored", "Biological", "Massive", "Frenzied"],
     "weapons": [
@@ -1213,8 +1213,8 @@
         "damage": {
           "base": 35
         },
-        "period": 0.86,
-        "targets": ["Ground", "Air"],
+        "period": 0.61,
+        "targets": ["Ground"],
         "level": {
           "base": 3
         }
@@ -1229,7 +1229,7 @@
     "tier": 3,
     "cost": 325,
     "life": 225,
-    "speed": 1.88,
+    "speed": 2.62,
     "armor": 1,
     "types": ["Armored", "Biological", "Massive"],
     "weapons": [
@@ -1239,7 +1239,7 @@
         "damage": {
           "base": 20
         },
-        "period": 2.5,
+        "period": 1.79,
         "targets": ["Ground"],
         "level": {
           "base": 2
@@ -1257,7 +1257,7 @@
     "life": 600,
     "energy_start": 100,
     "energy_max": 100,
-    "speed": 2.25,
+    "speed": 3.15,
     "armor": 2,
     "types": ["Biological", "Heroic", "Map Boss"],
     "weapons": [
@@ -1267,7 +1267,7 @@
         "damage": {
           "base": 40
         },
-        "period": 1.5,
+        "period": 1.07,
         "targets": ["Ground", "Air"],
         "level": {
           "base": 0
@@ -2641,7 +2641,7 @@
         "period": 1.07,
         "targets": ["Ground"],
         "level": {
-          "base": 3
+          "base": 0
         }
       },
       {
@@ -2653,7 +2653,7 @@
         "period": 1.07,
         "targets": ["Air"],
         "level": {
-          "base": 3
+          "base": 0
         }
       }
     ],
@@ -3459,7 +3459,7 @@
     "name": "Viking",
     "commanders": ["Raynor"],
     "tier": 2,
-    "cost": 180,
+    "cost": 185,
     "life": 125,
     "speed": 3.85,
     "armor": 0,
@@ -3510,7 +3510,7 @@
     "name": "Siege Tank (Raynor)",
     "commanders": ["Raynor"],
     "tier": 2,
-    "cost": 230,
+    "cost": 220,
     "life": 160,
     "speed": 3.15,
     "armor": 1,
@@ -3615,7 +3615,7 @@
         "period": 0.21,
         "targets": ["Ground"],
         "level": {
-          "base": 0
+          "base": 2
         }
       },
       {
@@ -3678,7 +3678,7 @@
         "level": {
           "base": 0,
           "versus": {
-            "Light": 40
+            "Light": 0
           }
         }
       }
@@ -4771,8 +4771,8 @@
     "tier": 1,
     "cost": 45,
     "life": 45,
-    "speed": 0,
-    "armor": 4.13,
+    "speed": 4.13,
+    "armor": 0,
     "types": ["Light", "Biological"],
     "weapons": [
       {
@@ -4807,7 +4807,7 @@
     "weapons": [
       {
         "name": "B-2 High-Cal LMG",
-        "range": 6,
+        "range": 5,
         "damage": {
           "base": 12
         },
@@ -4828,7 +4828,7 @@
     "cost": 105,
     "life": 145,
     "speed": 4.13,
-    "armor": 0,
+    "armor": 1,
     "types": ["Armored", "Biological"],
     "weapons": [
       {
@@ -4999,7 +4999,7 @@
     "name": "Imperial Witness",
     "commanders": ["Mengsk"],
     "tier": 2,
-    "cost": 250,
+    "cost": 275,
     "life": 350,
     "speed": 3.15,
     "armor": 1,
@@ -5261,8 +5261,8 @@
             "Massive": 71
           }
         },
-        "period": 0,
-        "targets": ["Ground"],
+        "period": 1.43,
+        "targets": ["Air"],
         "level": {
           "base": 5.25,
           "versus": {
@@ -5280,7 +5280,7 @@
             "Massive": 68
           }
         },
-        "period": 0,
+        "period": .71,
         "targets": ["Ground"],
         "level": {
           "base": 4.5,
@@ -5840,8 +5840,8 @@
     "energy_start": 500,
     "energy_max": 500,
     "speed": 4.2,
-    "armor": 3,
-    "shield_armor": 3,
+    "armor": 4,
+    "shield_armor": 4,
     "types": ["Mechanical", "Heroic", "Map Boss"],
     "weapons": [
       {
@@ -5854,7 +5854,7 @@
         "period": 1.07,
         "targets": ["Ground"],
         "level": {
-          "base": 3
+          "base": 0
         }
       }
     ],
@@ -5885,7 +5885,7 @@
         "period": 1.07,
         "targets": ["Ground", "Air"],
         "level": {
-          "base": 5
+          "base": 0
         }
       }
     ],
@@ -5916,7 +5916,7 @@
         "period": 1.07,
         "targets": ["Ground", "Air"],
         "level": {
-          "base": 3
+          "base": 0
         }
       }
     ],
