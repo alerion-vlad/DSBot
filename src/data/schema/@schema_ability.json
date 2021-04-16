@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "units": [],
+  "commanders": ["Mengsk"],
+  "requirements": [],
+  "cooldown": 0,
+  "duration": 0,
+  "cost": {
+    "energy": 0,
+    "life": 0
+  },
+  "description": ""
+}

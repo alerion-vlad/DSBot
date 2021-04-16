@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "commanders": ["Mengsk"],
+  "tier": 0,
+  "cost": 0,
+  "life": 0,
+  "shields": 0,
+  "energy_start": 0,
+  "energy_max": 0,
+  "speed": 0,
+  "armor": 0,
+  "types": [],
+  "weapons": [
+    {
+      "name": "",
+      "range": 0,
+      "count": 0,
+      "damage": {
+        "base": 0,
+        "versus": {}
+      },
+      "period": 0,
+      "targets": ["Ground"],
+      "level": {
+        "base": 0
+      }
+    }
+  ],
+  "abilities": [],
+  "upgrades": []
+}
