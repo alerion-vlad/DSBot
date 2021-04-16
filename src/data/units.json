@@ -1084,7 +1084,7 @@
         "damage": {
           "base": 9
         },
-        "period": .71,
+        "period": 0.71,
         "targets": ["Air"],
         "level": {
           "base": 1
@@ -1100,7 +1100,7 @@
             "Armored": 6
           }
         },
-        "period": .71,
+        "period": 0.71,
         "targets": ["Ground"],
         "level": {
           "base": 1,
@@ -5280,7 +5280,7 @@
             "Massive": 68
           }
         },
-        "period": .71,
+        "period": 0.71,
         "targets": ["Ground"],
         "level": {
           "base": 4.5,
