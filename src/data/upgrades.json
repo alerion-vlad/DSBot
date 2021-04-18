@@ -1259,7 +1259,7 @@
     "commanders": ["Han and Horner"],
     "cost": 150,
     "requirements": [],
-    "description": "Reduces Sentinel Missile cooldown by 14 seconds. When killed the Widow Mine will launch a missile which deals 40 (+40 vs. Shields) area damage."
+    "description": "Reduces Sentinel Missile cooldown by 14 seconds. When killed the Widow Mine will launch a missile which deals 40 (+40 vs. Shields) area damage. Affects ground units only."
   },
   {
     "name": "WILD Missiles",
