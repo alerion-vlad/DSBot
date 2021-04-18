@@ -1065,7 +1065,7 @@
       }
     ],
     "abilities": [],
-    "upgrades": ["Shredding Claws", "Hardened Carapace"]
+    "upgrades": ["Shredding Claws", "Hardened Carapace", "Adrenal Glands", "Metabolic Boost"]
   },
   {
     "name": "Queen",
@@ -2574,7 +2574,7 @@
     "life": 500,
     "speed": 4.13,
     "armor": 0,
-    "types": ["Biological", "Psionic", "Heroic"],
+    "types": ["Biological", "Psionic", "Heroic", "Map Boss"],
     "weapons": [
       {
         "name": "C-10b Canister Rifle",
