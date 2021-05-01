@@ -81,7 +81,7 @@
     "units": ["Queen"],
     "commanders": ["Kerrigan", "Zagara"],
     "requirements": [],
-    "cooldown": 6,
+    "cooldown": 4,
     "cost": {
       "energy": 50
     },
@@ -92,15 +92,15 @@
     "units": ["Hydralisk"],
     "commanders": ["Kerrigan"],
     "requirements": ["Frenzy"],
-    "cooldown": 21,
-    "description": "Increases attack speed by 50% for 14 seconds."
+    "cooldown": 15,
+    "description": "Increases attack speed by 50% for 10 seconds."
   },
   {
     "name": "Burrow Charge (Torrasque)",
     "units": ["Torrasque"],
     "commanders": ["Kerrigan"],
     "requirements": ["Burrow Charge"],
-    "cooldown": 10,
+    "cooldown": 7,
     "description": "Burrow and charge towards a unit. Upon unburrowing, all units in the vicinity are knocked back and dealt normal attack damage."
   },
   {
@@ -108,7 +108,7 @@
     "units": ["Lurker"],
     "commanders": ["Kerrigan"],
     "requirements": [],
-    "cooldown": 3,
+    "cooldown": 2,
     "description": "Burrows the lurker underground. Burrowed lurkers are unable to move, but are able to attack. They cannot be seen without detection."
   },
   {
@@ -136,6 +136,7 @@
     "units": ["Kerrigan"],
     "commanders": ["Kerrigan"],
     "requirements": [],
+    "cooldown": 4,
     "cost": {
       "energy": 50
     },
@@ -145,7 +146,7 @@
     "name": "Immobilization Wave",
     "units": ["Kerrigan"],
     "commanders": ["Kerrigan"],
-    "requirements": [],
+    "requirements": ["Tier 3"],
     "cooldown": 180,
     "description": "Deals 10 (100 vs Air) damage to enemies in a large area around Kerrigan, and stuns them for 2 seconds. Heroic units are slowed."
   },
@@ -154,7 +155,7 @@
     "units": ["Builder - Kerrigan"],
     "commanders": ["Kerrigan"],
     "requirements": [],
-    "cooldown": 168,
+    "cooldown": 120,
     "description": "Drops in an invulnerable Creep Tumor. Zerg move faster on creep while in combat. The creep grants +10% weapon speed to Kerrigan's forces."
   },
   {
@@ -162,7 +163,7 @@
     "units": ["Builder - Kerrigan"],
     "commanders": ["Kerrigan"],
     "requirements": [],
-    "cooldown": 168,
+    "cooldown": 120,
     "description": "Marks an enemy unit. After it dies, Kerrigan will convert it into 100 minerals."
   },
   {
@@ -170,7 +171,7 @@
     "units": ["Torrasque"],
     "commanders": ["Kerrigan"],
     "requirements": [],
-    "duration": 7,
+    "duration": 5,
     "description": "The Torrasque becomes an egg upon death. If the egg is not destroyed within 7 seconds, it will be reborn."
   },
   {
@@ -213,7 +214,7 @@
     "units": ["Zagara"],
     "commanders": ["Zagara"],
     "requirements": [],
-    "cooldown": 14,
+    "cooldown": 10,
     "cost": {
       "energy": 125
     },
@@ -238,16 +239,16 @@
     "units": ["Builder - Zagara"],
     "commanders": ["Zagara"],
     "requirements": [],
-    "cooldown": 336,
-    "description": "Friendly units gain 25% attack and 25% movement speed for 14 seconds."
+    "cooldown": 240,
+    "description": "Friendly units gain 25% attack and 25% movement speed for 10 seconds."
   },
   {
     "name": "Corruption",
     "units": ["Corruptor"],
     "commanders": ["Zagara"],
     "requirements": [],
-    "cooldown": 14,
-    "description": "Covers the target unit in Zerg slime, increasing the damage taken by 35% for 30 seconds."
+    "cooldown": 10,
+    "description": "Covers the target unit in Zerg slime, increasing the damage taken by 35% for 21 seconds."
   },
   {
     "name": "Infested Marine Cargo",
@@ -344,7 +345,7 @@
     "name": "Black Hole",
     "units": ["Builder - Vorazun"],
     "commanders": ["Vorazun"],
-    "requirements": ["Tier 2"],
+    "requirements": [],
     "cooldown": 240,
     "description": "Stuns enemy units in the target area for 6 seconds."
   },
@@ -503,7 +504,7 @@
     "commanders": ["Karax"],
     "requirements": [],
     "cooldown": 21,
-    "description": "Makes the target unit float in the air, disabling its abilities. Effect lasts up to 7 seconds."
+    "description": "Makes the target unit float in the air, disabling its abilities. Effect lasts up to 7 seconds. Massives are immune."
   },
   {
     "name": "Purifier Beam",
@@ -990,14 +991,14 @@
     "units": ["Assault Galleon"],
     "commanders": ["Han and Horner"],
     "requirements": ["Tier 3"],
-    "description": "Retrofits the Assault Galleon with a Drone hangar bay that automatically builds and deploys Assault drones.\nCost: 150 Minerals"
+    "description": "Retrofits the Assault Galleon with a Drone hangar bay that automatically builds and deploys Assault drones.\nCost: 125 Minerals"
   },
   {
     "name": "Train Reaper",
     "units": ["Assault Galleon"],
     "commanders": ["Han and Horner"],
     "requirements": [],
-    "duration": 15,
+    "duration": 10,
     "description": "Trains a Reaper. Raider."
   },
   {
@@ -1427,7 +1428,7 @@
     "name": "Tactical Stealth Suit",
     "units": ["Nova"],
     "commanders": ["Nova"],
-    "requirements": ["Tier 2", "Stealth Mode"],
+    "requirements": ["Tier 3", "Stealth Mode"],
     "description": "Allows Nova to remain permanently cloaked."
   },
   {
@@ -1491,7 +1492,7 @@
     "commanders": ["Nova"],
     "requirements": [],
     "cooldown": 40,
-    "description": "Deploys a drone which restores life to nearby Biological and Mechanical units."
+    "description": "Deploys a drone which restores +20 life per second to nearby Biological and Mechanical units."
   },
   {
     "name": "Predator Missile",
@@ -2079,7 +2080,7 @@
     "units": ["Aegis Guard"],
     "commanders": ["Mengsk"],
     "requirements": [],
-    "description": "The Aegis Guard requires 450/900/1350 total EXP for each of its ranks. It gains +50 HP per Rank."
+    "description": "The Aegis Guard requires 450/900/1350 total EXP for each of its ranks. It gains +75 HP per Rank."
   },
   {
     "name": "Veterancy (Emperor's Shadow)",
@@ -2093,7 +2094,7 @@
     "units": ["Blackhammer"],
     "commanders": ["Mengsk"],
     "requirements": [],
-    "description": "The Blackhammer requires 700/1400/2100 total EXP for each of its ranks.\nIt gains +150 HP per Rank."
+    "description": "The Blackhammer requires 725/1450/2175 total EXP for each of its ranks.\nIt gains +150 HP per Rank."
   },
   {
     "name": "Veterancy (Sky Fury)",
