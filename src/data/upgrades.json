@@ -116,14 +116,14 @@
     "commanders": ["Kerrigan", "Zagara"],
     "cost": 75,
     "requirements": ["Tier 3"],
-    "description": "Increases the attack speed of Raptorlings by 40%"
+    "description": "Increases the attack speed of Zerglings by 40%"
   },
   {
     "name": "Shredding Claws",
     "commanders": ["Kerrigan", "Zagara"],
     "cost": 100,
     "requirements": [],
-    "description": "Raptorling attacks remove their target's armor for 14 seconds."
+    "description": "Zergling attacks remove their target's armor for 10 seconds."
   },
   {
     "name": "Heroic Fortitude (Kerrigan)",
@@ -172,7 +172,7 @@
     "commanders": ["Kerrigan"],
     "cost": 100,
     "requirements": [],
-    "description": "Hydralisks gain the Frenzy ability, increasing attack speed by 50% for 14 seconds."
+    "description": "Hydralisks gain the Frenzy ability, increasing attack speed by 50% for 15 seconds."
   },
   {
     "name": "Ancillary Carapace",
@@ -474,7 +474,7 @@
     "name": "Void Stasis",
     "commanders": ["Vorazun"],
     "cost": 100,
-    "requirements": [],
+    "requirements": ["Tier 3"],
     "description": "Dark Templar gain the ability to phase a unit or structure out of existence for 5 seconds."
   },
   {
@@ -1259,7 +1259,7 @@
     "commanders": ["Han and Horner"],
     "cost": 150,
     "requirements": [],
-    "description": "Reduces Sentinel Missile cooldown by 14 seconds. When killed the Widow Mine will launch a missile which deals 40 (+40 vs. Shields) area damage."
+    "description": "Reduces Sentinel Missile cooldown by 14 seconds. When killed the Widow Mine will launch a missile which deals 40 (+40 vs. Shields) area damage. Affects ground units only."
   },
   {
     "name": "WILD Missiles",
@@ -1315,7 +1315,7 @@
     "commanders": ["Raynor"],
     "cost": 50,
     "requirements": [],
-    "description": "Marines get 50 life."
+    "description": "Marines get 10 life."
   },
 
   {
