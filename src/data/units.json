@@ -332,7 +332,7 @@
       }
     ],
     "abilities": ["Explode", "Disable Structure Attack"],
-    "upgrades": ["Anaerobic Enhancement", "Broodling Gestation"]
+    "upgrades": ["Anaerobic Enhancement", "Broodling Gestation", "Acidic Enzymes"]
   },
   {
     "name": "Infested Marine",
@@ -397,7 +397,7 @@
       }
     ],
     "abilities": ["Infested Marine Cargo"],
-    "upgrades": []
+    "upgrades": ["Calcified Armor"]
   },
   {
     "name": "Infested Diamondback",
@@ -792,7 +792,7 @@
       }
     ],
     "abilities": ["Stasis Ward", "Activate Pulsar Beam"],
-    "upgrades": ["Stealth Drive"]
+    "upgrades": ["Stealth Drive", "Stasis Calibration"]
   },
   {
     "name": "Void Ray",
@@ -948,7 +948,7 @@
         }
       }
     ],
-    "abilities": ["Shadow Cannon", "Barrier"],
+    "abilities": ["Shadow Cannon", "Barrier(Annhilator)"],
     "upgrades": ["Shadow Cannon"]
   },
   {
@@ -1328,7 +1328,7 @@
     "abilities": [],
     "upgrades": [
       "Metabolic Boost",
-      "Hardened Carapace",
+      "Hardened Carapace(Zagara)",
       "Adrenal Glands",
       "Shredding Claws"
     ]
@@ -1417,7 +1417,7 @@
       }
     ],
     "abilities": ["Baneling Barrage"],
-    "upgrades": ["Heroic Fortitude", "Medusa Blades"]
+    "upgrades": ["Heroic Fortitude(Zagara)", "Medusa Blades"]
   },
   {
     "name": "Roach (Zagara)",
@@ -2394,7 +2394,7 @@
     "abilities": ["Demolition Charge"],
     "upgrades": [
       "LarsCorp G7 Charges",
-      "Moebius Retraint Matrix",
+      "Moebius Restraint Matrix",
       "Procyon Shade Suit",
       "Enhanced Hostilities Kit"
     ]
@@ -5297,9 +5297,10 @@
       "Assault Mode (Sky Fury)",
       "Royal Munitions",
       "Tactical Realignment",
-      "Evasive Maneuvers"
+      "Evasive Maneuvers",
+      "Phoenix Protocol"
     ],
-    "upgrades": ["Aesir Turbines"]
+    "upgrades": ["Aesir Turbines", "Smart Servos(Mengsk)"]
   },
   {
     "name": "Legionnaire",
