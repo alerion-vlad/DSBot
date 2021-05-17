@@ -250,6 +250,23 @@
     "cooldown": 10,
     "description": "Covers the target unit in Zerg slime, increasing the damage taken by 35% for 21 seconds."
   },
+    {
+    "name": "Infest Structure",
+    "units": ["Builder - Stukov"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 252,
+    "description": "Heals a friendly structure for 500 life, and spawns 40 broodlings over 14 seconds."
+  },
+  {
+    "name": "Contamination",
+    "units": ["Builder - Stukov"],
+    "commanders": ["Stukov"],
+    "requirements": [],
+    "cooldown": 252,
+    "description": "Disables enemy structures (powerful structures are slowed). Lasts 20 seconds."
+  },
+
   {
     "name": "Infested Marine Cargo",
     "units": ["Infested Bunker"],
@@ -520,6 +537,14 @@
     "commanders": ["Karax"],
     "requirements": [],
     "description": "Builds interceptors that automatically attack the Carrier's target. Carriers may not attack without interceptors."
+  },
+   {
+    "name": "Barrier(Annihilator)",
+    "units": ["Annihilator"],
+    "commanders": ["Karax"],
+    "requirements": [],
+    "cooldown": 32,
+    "description": "Absorbs up to 100 damage. Lasts for 7 seconds."
   },
   {
     "name": "Lock On",
@@ -2408,8 +2433,8 @@
   },
   {
     "name": "Barrier",
-    "units": ["Immortal (Fenix)", "Taldarin", "Annihilator"],
-    "commanders": ["Fenix", "Karax"],
+    "units": ["Immortal (Fenix)", "Taldarin"],
+    "commanders": ["Fenix"],
     "requirements": [],
     "cooldown": 43,
     "description": "Absorbs up to 100 damage. Lasts for 7 seconds."
