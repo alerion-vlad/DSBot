@@ -1293,7 +1293,7 @@
     "cooldown": 4,
     "duration": 0,
     "cost": {
-      "energy": 1.4,
+      "energy": 1.4
     },
     "description": "Cloaks a unit, preventing enemy units from seeing or attacking it. Can only be seen by detectors or effects. Drains 1.4 energy per second."
   },
@@ -1305,7 +1305,7 @@
     "cooldown": 4,
     "duration": 0,
     "cost": {
-      "energy": 1.4,
+      "energy": 1.4
     },
     "description": "Cloaks a unit, preventing enemy units from seeing or attacking it. Can only be seen by detectors or effects. Ranged units gain +2 range. Drains 1.4 energy per second."
   },

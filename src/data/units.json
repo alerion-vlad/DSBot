@@ -1511,7 +1511,7 @@
             "Armored": 40
           }
         },
-        "period": .86,
+        "period": 0.86,
         "targets": ["Ground"],
         "level": {
           "base": 2,

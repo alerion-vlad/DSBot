@@ -231,7 +231,7 @@
     "requirements": [],
     "description": "Brood Lords move twice as fast, and gain +100 life."
   },
-  {!
+  {
     "name": "Heroic Fortitude (Zagara)",
     "commanders": ["Zagara"],
     "cost": 75,
