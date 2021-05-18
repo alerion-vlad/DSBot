@@ -78,7 +78,7 @@
   },
   {
     "name": "Transfusion",
-    "units": ["Queen"],
+    "units": ["Queen", "Queen(Zagara)"],
     "commanders": ["Kerrigan", "Zagara"],
     "requirements": [],
     "cooldown": 4,
@@ -94,6 +94,22 @@
     "requirements": ["Frenzy"],
     "cooldown": 15,
     "description": "Increases attack speed by 50% for 10 seconds."
+  },
+   {
+    "name": "Upgrade to Lurker",
+    "units": ["Hydralisk"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cost": 225,
+    "description": "Morph into a Lurker."
+  },
+     {
+    "name": "Upgrade to Broodlord",
+    "units": ["Brood Mutalisk"],
+    "commanders": ["Kerrigan"],
+    "requirements": [],
+    "cost": 200,
+    "description": "Morph into a Broodlord."
   },
   {
     "name": "Burrow Charge (Torrasque)",
@@ -146,8 +162,8 @@
     "name": "Immobilization Wave",
     "units": ["Kerrigan"],
     "commanders": ["Kerrigan"],
-    "requirements": ["Tier 3"],
-    "cooldown": 180,
+    "requirements": [],
+    "cooldown": 120,
     "description": "Deals 10 (100 vs Air) damage to enemies in a large area around Kerrigan, and stuns them for 2 seconds. Heroic units are slowed."
   },
   {
@@ -363,7 +379,7 @@
     "units": ["Builder - Vorazun"],
     "commanders": ["Vorazun"],
     "requirements": [],
-    "cooldown": 240,
+    "cooldown": 300,
     "description": "Stuns enemy units in the target area for 6 seconds."
   },
   {
@@ -654,7 +670,7 @@
     "units": ["Creeper Host"],
     "commanders": ["Dehaka"],
     "requirements": [],
-    "cooldown": 21,
+    "cooldown": 20,
     "description": "Siege unit that attacks by spawning Explosive Creeper minions. Creepers last 10 seconds."
   },
   {
@@ -796,6 +812,13 @@
     "cooldown": 40,
     "description": "Deals 75 damage to enemy units in the target area."
   },
+    {
+    "name": "First Ones On The House",
+    "units": ["Builder - Tychus"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "description": "Tychus starts with an additional 325 minerals."
+  },
   {
     "name": "Demolition Charge",
     "units": ["Crooked Sam"],
@@ -836,12 +859,20 @@
     "cooldown": 21,
     "description": "Places a structure on the ground that heals your units for 2.8% of their life every second."
   },
+   {
+    "name": "Secret Stash Stimpack",
+    "units": ["Kev \"Rattlesnake\" West"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 21,
+    "description": "Heals Rattlesnake for 3 life per second and increases his attack and movement speed for 11 seconds."
+  },
   {
     "name": "Ultrasonic Pulse",
     "units": ["Nux"],
     "commanders": ["Tychus"],
     "requirements": [],
-    "cooldown": 21,
+    "cooldown": 11,
     "description": "Fires pulses of ultrasonic energy that lasts 6 seconds, causing 20 damage/second to enemy units in the target area."
   },
   {
@@ -851,6 +882,14 @@
     "requirements": [],
     "cooldown": 29,
     "description": "Temporarily take control of target unit and increases its damage by 50%. Dominated units self-destruct after 5 seconds."
+  },
+    {
+    "name": "Psi Projector",
+    "units": ["Vega"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 7,
+    "description": "Brings up to 5 enemy air units to the ground, allowing units to attack them as if they were ground units."
   },
   {
     "name": "Super Heal",
@@ -866,6 +905,14 @@
     "requirements": [],
     "cooldown": 43,
     "description": "Instantly heals your nearby units for 200 life, plus 100 life over 7 seconds. Also increases their damage by 25%."
+  },
+    {
+    "name": "XM-77 Matrix Generator",
+    "units": ["Lt. Layna Nikara"],
+    "commanders": ["Tychus"],
+    "requirements": [],
+    "cooldown": 11,
+    "description": "Enables Lt. Nikara to surround a target friendly unit with a shield that can absorb 400 damage over 14 seconds."
   },
   {
     "name": "Devotion",
@@ -903,7 +950,7 @@
     "units": ["Ascendant"],
     "commanders": ["Alarak"],
     "requirements": [],
-    "cooldown": 10,
+    "cooldown": 5,
     "cost": {
       "energy": 150
     },
@@ -926,7 +973,15 @@
     "commanders": ["Alarak"],
     "requirements": [],
     "cooldown": 30,
-    "description": "Sacrifices a Supplicant, restoring all energy and granting +100 shields and +25% damage.\nNote: May be bugged, doesn't grant shields."
+    "description": "Sacrifices a Supplicant, restoring all energy and granting +100 shields and +25% damage."
+  }, 
+  {
+    "name": "Ritual of Binding",
+    "units": ["Ascendant"],
+    "commanders": ["Alarak"],
+    "requirements": [],
+    "cooldown": 120,
+    "description": "Destroys a Supplicant in your staging area permanently gaining 1 stack of Sacrifice. Sacrifice grants 100 shields and 25% ability damage."
   },
   {
     "name": "Destruction Beam",
@@ -976,9 +1031,9 @@
     "name": "Jet Pack Overdrive",
     "units": ["Reaper"],
     "commanders": ["Han and Horner"],
-    "requirements": ["Jet Pack Overdrive"],
-    "cooldown": 14,
-    "description": "Allows the reaper to fly for 7 seconds. While flying, the reaper can attack air units."
+    "requirements": ["Jet Pack Overdrive", "Tier 2"],
+    "cooldown": 15,
+    "description": "Allows the reaper to fly for 10 seconds. While flying, the reaper can attack air units."
   },
   {
     "name": "Combat Drugs",
@@ -1114,6 +1169,20 @@
     "cooldown": 14,
     "description": "Launches 5 rockets at the target unit. Each rocket deals 25 (40 vs. Armored) damage."
   },
+    {
+    "name": "Fighter Mode",
+    "units": ["Deimos Viking"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "description": "Transforms this Viking into Fighter Mode. In this mode Vikings can fly, but can only attack air targets."
+  },
+    {
+    "name": "Assault Mode",
+    "units": ["Deimos Viking"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "description": "Transforms this Viking into Assault Mode. In this mode Vikings can move on the ground, but can only attack ground targets."
+  },
   {
     "name": "Analyze Weakness",
     "units": ["Theia Raven"],
@@ -1217,7 +1286,7 @@
     "description": "Spider Mines pursue enemy units that come in range and detonante for heavy area damage. Buried spider mines could only be seen by enemy detectors. "
   },
   {
-    "name": "Cloak (Dusk Wings)",
+    "name": "Cloak(Dusk Wings)",
     "units": ["Dusk Wings"],
     "commanders": ["Raynor"],
     "requirements": [],
@@ -1422,6 +1491,14 @@
       "energy": 50
     },
     "description": "Deals 50 (100 vs Light) damage to enemy ground units in a wide arc."
+  },
+    {
+    "name": "Defensive Drone",
+    "units": ["Builder - Nova"],
+    "commanders": ["Nova"],
+    "requirements": ["Tier 3"],
+    "cooldown": 120,
+    "description": "Provides friendly units with shields that absorb up to 200 damage. Lasts 10 seconds."
   },
   {
     "name": "Phase Reactor Suit",
@@ -2270,6 +2347,13 @@
     "requirements": ["Rank 3"],
     "description": "When this unit takes fatal damage, the Sky Fury transforms to Fighter Mode, and temporarily gains a barrier that absorbs 400 damage for 11 seconds. Can only occur once every 64 seconds."
   },
+    {
+    "name": "Evasive Maneuvers",
+    "units": ["Sky Fury"],
+    "commanders": ["Mengsk"],
+    "requirements": ["Rank 3"],
+    "description": "This unit take 40% reduced damage from weapon attacks."
+  },
   {
     "name": "Veterancy",
     "units": ["Builder - Mengsk"],
@@ -2308,6 +2392,14 @@
     "commanders": ["Zagara"],
     "requirements": [],
     "description": "The Roach regenerates life very quickly when burrowed."
+  },
+    {
+    "name": "Splitterling",
+    "units": ["Builder - Zagara"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "cooldown": 90,
+    "description": "Zag periodically gains free splitterlings."
   },
   {
     "name": "Burrow (Roach)",
@@ -2352,8 +2444,7 @@
     "units": ["Builder - Artanis"],
     "commanders": ["Artanis"],
     "requirements": [],
-    "cooldown": 90,
-    "description": "Permanently empowers a unit. Upon death, it will become temporarily invulnerable, then recover 50 life and shields."
+    "description": "Permanently empowers a unit. Upon death, it will become temporarily invulnerable, then recover 15% life and shields. Generates 2 charges per second. Empowering a unit costs charges equal to its cost."
   },
   {
     "name": "Charge (Legionaire)",
