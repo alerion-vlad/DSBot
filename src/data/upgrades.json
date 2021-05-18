@@ -106,11 +106,12 @@
   },
   {
     "name": "Hardened Carapace",
-    "commanders": ["Kerrigan", "Zagara"],
+    "commanders": ["Kerrigan"],
     "cost": 50,
     "requirements": ["Tier 2"],
     "description": "Raptorlings gain +10 life."
   },
+ 
   {
     "name": "Adrenal Glands",
     "commanders": ["Kerrigan", "Zagara"],
@@ -149,7 +150,7 @@
   {
     "name": "Ability Efficiency",
     "commanders": ["Kerrigan"],
-    "cost": 100,
+    "cost": 50,
     "requirements": ["Tier 3"],
     "description": "Kerrigan has reduced cost for her abilities."
   },
@@ -230,12 +231,12 @@
     "requirements": [],
     "description": "Brood Lords move twice as fast, and gain +100 life."
   },
-  {
+  {!
     "name": "Heroic Fortitude (Zagara)",
     "commanders": ["Zagara"],
     "cost": 75,
     "requirements": [],
-    "description": "Kerrigan gains +200% life and +100% life regeneration."
+    "description": "Zagara gains +200% life and +100% life regeneration."
   },
   {
     "name": "Centrifugal Hooks",
@@ -286,6 +287,13 @@
     "requirements": ["Tier 3"],
     "description": "Bile Launchers gain increased range."
   },
+    {
+    "name": "Hardened Carapace(Zagara)",
+    "commanders": ["Zagara"],
+    "cost": 100,
+    "requirements": [],
+    "description": "Swarmlings gain +10 life."
+  },
   {
     "name": "Anaerobic Enhancement",
     "commanders": ["Stukov"],
@@ -317,7 +325,7 @@
   {
     "name": "Saturated Cultures",
     "commanders": ["Stukov"],
-    "cost": 125,
+    "cost": 75,
     "requirements": [],
     "description": "Infested Diamondback Fungal Snare cooldown is reduced by 15 seconds."
   },
@@ -376,22 +384,6 @@
     "cost": 125,
     "requirements": ["Tier 2"],
     "description": "Infested Bunkers gain +3 armor."
-  },
-  {
-    "name": "Infest Structure",
-    "units": ["Builder - Stukov"],
-    "commanders": ["Stukov"],
-    "requirements": [],
-    "cooldown": 252,
-    "description": "Heals a friendly structure for 500 life, and spawns 40 broodlings over 14 seconds."
-  },
-  {
-    "name": "Contamination",
-    "units": ["Builder - Stukov"],
-    "commanders": ["Stukov"],
-    "requirements": [],
-    "cooldown": 252,
-    "description": "Disables enemy structures (powerful structures are slowed). Lasts 20 seconds."
   },
   {
     "name": "Shadow Charge",
@@ -494,14 +486,14 @@
   {
     "name": "Prismatic Range",
     "commanders": ["Vorazun"],
-    "cost": 75,
+    "cost": 125,
     "requirements": [],
     "description": "Void Ray weapon range increases as it continues to attack."
   },
   {
     "name": "Mind Control",
     "commanders": ["Vorazun"],
-    "cost": 50,
+    "cost": 100,
     "requirements": ["Tier 3"],
     "description": "Dark Archon gain the ability to take control of a targeted unit for 8 seconds. Heroic units are immune."
   },
@@ -613,7 +605,7 @@
   {
     "name": "Infernal Pre-Igniter",
     "commanders": ["Swann"],
-    "cost": 150,
+    "cost": 100,
     "requirements": [],
     "description": "Improves the Hellion's Infernal Flamethrower to deal +5 damage vs. light units and the Hellbat's Napalm Spray to deal +12 damage vs. light units."
   },
@@ -641,7 +633,7 @@
   {
     "name": "Regenerative Bio-Steel",
     "commanders": ["Swann"],
-    "cost": 75,
+    "cost": 50,
     "requirements": [],
     "description": "Vehicles and Ships regain 2.8 life per second."
   },
@@ -1033,7 +1025,7 @@
   {
     "name": "N3 Networking",
     "commanders": ["Tychus"],
-    "cost": 200,
+    "cost": 150,
     "requirements": ["Tier 3"],
     "description": "All nearby Outlaws have their primary ability charge-up times and cooldowns reduced by 20%."
   },
@@ -1092,6 +1084,27 @@
     "cost": 300,
     "requirements": ["Tier 3"],
     "description": "Enables Lt. Nikara to surround a target friendly unit with a shield that can absorb 400 damage over 14 seconds."
+  },
+   {
+    "name": "ITC-E Triggers",
+    "commanders": ["Tychus"],
+    "cost": 300,
+    "requirements": [],
+    "description": "Increases the attack speed of Tychus, Crooked Sam, and Sirius by 25%."
+  },
+  {
+    "name": "Endurance Suppliments",
+    "commanders": ["Tychus"],
+    "cost": 300,
+    "requirements": [],
+    "description": "Increases the life of Blaze, Cannonball, and Rattlesnake by 25%."
+  },
+  {
+    "name": "Flashforce GDM Visor",
+    "commanders": ["Tychus"],
+    "cost": 100,
+    "requirements": [],
+    "description": " Provides Vega, Nux, and Nikara with detection allowing them to see cloaked and burrowed units."
   },
   {
     "name": "Blood Shields",
@@ -1308,7 +1321,7 @@
     "commanders": ["Han and Horner"],
     "cost": 100,
     "requirements": [],
-    "description": "Sovereign Battlecruiser</c> weapons systems are upgraded to a powerful particle cannon that deals 200 damage per attack."
+    "description": "Sovereign Battlecruiser weapons systems are upgraded to a powerful particle cannon that deals 200 damage per attack."
   },
   {
     "name": "Combat Shield",
@@ -1802,7 +1815,7 @@
     "description": "Allows Shock Divisions to fire at air units at a reduced rate while being carried by an Imperial Intercessor. The Imperial Intercessor's abilities are disabled while the Shock Division is on board."
   },
   {
-    "name": "Smart Servos",
+    "name": "Smart Servos(Mengsk)",
     "commanders": ["Mengsk"],
     "cost": 100,
     "requirements": [],
@@ -1844,14 +1857,14 @@
     "description": "Earthsplitter attack speed increased to fire once every 10.7 seconds."
   },
   {
-    "name": "Garrison Level 1",
+    "name": "Garrison Level 2",
     "commanders": ["Mengsk"],
     "cost": 250,
     "requirements": [],
     "description": "Earthsplitter attack speed increased to fire once every 7.2 seconds."
   },
   {
-    "name": "Garrison Level 1",
+    "name": "Garrison Level 3",
     "commanders": ["Mengsk"],
     "cost": 350,
     "requirements": [],
