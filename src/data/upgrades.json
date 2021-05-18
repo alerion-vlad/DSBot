@@ -150,7 +150,7 @@
   {
     "name": "Ability Efficiency",
     "commanders": ["Kerrigan"],
-    "cost": 100,
+    "cost": 50,
     "requirements": ["Tier 3"],
     "description": "Kerrigan has reduced cost for her abilities."
   },
@@ -325,7 +325,7 @@
   {
     "name": "Saturated Cultures",
     "commanders": ["Stukov"],
-    "cost": 125,
+    "cost": 75,
     "requirements": [],
     "description": "Infested Diamondback Fungal Snare cooldown is reduced by 15 seconds."
   },
@@ -486,14 +486,14 @@
   {
     "name": "Prismatic Range",
     "commanders": ["Vorazun"],
-    "cost": 75,
+    "cost": 125,
     "requirements": [],
     "description": "Void Ray weapon range increases as it continues to attack."
   },
   {
     "name": "Mind Control",
     "commanders": ["Vorazun"],
-    "cost": 50,
+    "cost": 100,
     "requirements": ["Tier 3"],
     "description": "Dark Archon gain the ability to take control of a targeted unit for 8 seconds. Heroic units are immune."
   },
@@ -605,7 +605,7 @@
   {
     "name": "Infernal Pre-Igniter",
     "commanders": ["Swann"],
-    "cost": 150,
+    "cost": 100,
     "requirements": [],
     "description": "Improves the Hellion's Infernal Flamethrower to deal +5 damage vs. light units and the Hellbat's Napalm Spray to deal +12 damage vs. light units."
   },
@@ -633,7 +633,7 @@
   {
     "name": "Regenerative Bio-Steel",
     "commanders": ["Swann"],
-    "cost": 75,
+    "cost": 50,
     "requirements": [],
     "description": "Vehicles and Ships regain 2.8 life per second."
   },
