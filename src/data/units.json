@@ -1413,6 +1413,37 @@
     "upgrades": ["Corrosive Acid", "Rupture", "Centrifugal Hooks"]
   },
   {
+    "name": "Splitterling Spawn",
+    "commanders": ["Zagara"],
+    "life": 20,
+    "speed": 4.13,
+    "armor": 0,
+    "types": ["Biological"],
+    "weapons": [
+      {
+        "name": "Volatile Burst",
+        "range": 0,
+        "damage": {
+          "base": 5,
+          "versus": {
+            "Structure" 10,
+          }
+        },
+        "period": 1,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+"Explode", "Disable Structure Attack"
+    ],
+    "upgrades": [
+"Corrosive Acid", "Rupture"
+    ]
+  },
+  {
     "name": "Hunter Killer",
     "commanders": ["Zagara"],
     "tier": 3,
@@ -4466,6 +4497,97 @@
     ],
     "upgrades": ["Stetmato Cannon", "Mecha Locuscepter Bays"]
   },
+   {
+    "name": "Mecha Broodling",
+    "commanders": ["Stetmann"],
+    "life": 30,
+    "speed": 5.37,
+    "armor": 0,
+    "types": ["Light", "Mechanical", "Summoned" ],
+    "weapons": [
+      {
+        "name": "Mecha Needle Claws",
+        "range": 0,
+        "damage": {
+          "base": 4,
+          "versus": {
+          }
+        },
+        "period": .46,
+        "targets": ["Ground"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": [
+
+    ],
+    "upgrades": [
+
+    ]
+  },
+  {
+    "name": "Mecha Roach",
+    "commanders": ["Stetmann"],
+    "life": 110,
+    "speed": 4.2,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Summoned" ],
+    "weapons": [
+      {
+        "name": "Acid Saliva",
+        "range": 4,
+        "damage": {
+          "base": 12,
+          "versus": {
+            "Light": 24,
+          }
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+
+    ],
+    "upgrades": [
+
+    ]
+  },
+  {
+    "name": "Mecha Ravager",
+    "commanders": ["Stetmann"],
+    "life": 120,
+    "speed": 4.2,
+    "armor": 1,
+    "types": ["Mechanical", "Summoned"],
+    "weapons": [
+      {
+        "name": "Mecha Plasma Discharge",
+        "range": 6,
+        "damage": {
+          "base": 16,
+          "versus": {
+          }
+        },
+        "period": 1.4,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+      "Environmentally Unfriendly Eruption"
+    ],
+    "upgrades": [
+
+    ]
+  },
   {
     "name": "Vile Roach (Abathur)",
     "commanders": ["Abathur"],
@@ -4814,6 +4936,41 @@
     ],
     "upgrades": [],
     "abilities": []
+  },
+  {
+    "name": "Earthsplitter Ordnance",
+    "commanders": ["Mengsk"],
+    "tier": 3,
+    "cost": 250,
+    "life": 400,
+    "armor": 1,
+    "types": ["Mechanical", "Armored", "Structure"],
+    "weapons": [
+      {
+        "name": "Bombardment",
+        "range": 50,
+        "damage": {
+          "base": 100,
+          "versus": {
+          }
+        },
+        "period": 21.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": [
+    "Bombardment",
+    ],
+    "upgrades": [
+    "Neosteel Fortified Armor",
+    "Hemispheric Accelerants",
+    "Garrison Level 1",
+    "Garrison Level 2",
+    "Garrison Level 3"
+    ]
   },
   {
     "name": "Dominion Trooper",
