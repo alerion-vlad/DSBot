@@ -213,14 +213,14 @@
   },
   {
     "name": "Explode",
-    "units": ["Splitterling"],
+    "units": ["Splitterling", "Splitterling Spawn"],
     "commanders": ["Zagara"],
     "requirements": [],
     "description": "The Baneling detonates where it is standing, damaging nearby units and structures."
   },
   {
     "name": "Disable Building Attack",
-    "units": ["Splitterling"],
+    "units": ["Splitterling", "Splitterling Spawn"],
     "commanders": ["Zagara"],
     "requirements": [],
     "description": "Prevents Banelings from automatically targeting structures."
@@ -1651,6 +1651,14 @@
     "cooldown": 1,
     "description": "Stetmann's units gain +5 Egonergy regen per second."
   },
+   {
+    "name": "Environmentally Unfriendly Eruption",
+    "units": ["Mecha Ravager"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 6,
+    "description": "Launch a missile in a target location, dealing 60 damage to enemy units in target area on impact."
+  },
   {
     "name": "Morph to Mecha Baneling",
     "units": ["Mecha Zergling"],
@@ -2198,6 +2206,13 @@
     "requirements": [],
     "description": "The Blackhammer requires 725/1450/2175 total EXP for each of its ranks.\nIt gains +150 HP per Rank."
   },
+    {
+    "name": "Bombardment",
+    "units": ["Earthsplitter Ordnance"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "Bombards a target location dealing 100 damage to enemy ground units."
+  },
   {
     "name": "Veterancy (Sky Fury)",
     "units": ["Sky Fury"],
@@ -2399,7 +2414,7 @@
     "commanders": ["Zagara"],
     "requirements": [],
     "cooldown": 90,
-    "description": "Zag periodically gains free splitterlings."
+    "description": "Zagara periodically gains free splitterlings."
   },
   {
     "name": "Burrow (Roach)",
