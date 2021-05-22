@@ -1488,7 +1488,7 @@
         "damage": {
           "base": 5,
           "versus": {
-            "Structure" 10,
+            "Structure" 10
           }
         },
         "period": 1,
@@ -2659,7 +2659,7 @@
           "versus": {
           }
         },
-        "period": .55,
+        "period": 0.55,
         "targets": ["Air", "Ground"],
         "level": {
           "base": 2
