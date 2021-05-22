@@ -889,6 +889,38 @@
     "upgrades": ["Charge (Sentinel)", "Reconstruction"]
   },
   {
+    "name": "Khaydarin Monolith",
+    "commanders": ["Karax"],
+    "tier": 3,
+    "life": 200,
+    "shields": 100,
+    "armor": 1,
+    "types": ["Armored", "Structure", "Mechanical"],
+    "weapons": [
+      {
+        "name": "Khaydarin Beam",
+        "range": 13,
+        "damage": {
+          "base": 100,
+          "versus": {
+          }
+        },
+        "period": 2.14,
+        "targets": ["Air", "Ground"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+       "abilities": [
+
+    ],
+    "upgrades": [
+    "Optimized Ordnance",
+    "Enhanced Targeting"
+    ]
+  },
+  {
     "name": "Energizer",
     "commanders": ["Karax"],
     "tier": 1,
@@ -1298,6 +1330,36 @@
     "upgrades": ["Porous Cartilage"]
   },
   {
+    "name": "Broodling",
+    "commanders": ["Kerrigan", "Stukov"],
+    "life": 30,
+    "speed": 5.37,
+    "armor": 0,
+    "types": ["Light", "Biological", "Summoned" ],
+    "weapons": [
+      {
+        "name": "Needle Claws",
+        "range": "Melee",
+        "damage": {
+          "base": 4,
+          "versus": {
+          }
+        },
+        "period": 0.46,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+
+    ],
+    "upgrades": [
+
+    ]
+  },
+  {
     "name": "Kerrigan",
     "commanders": ["Kerrigan"],
     "tier": 1,
@@ -1442,6 +1504,17 @@
     "upgrades": [
 "Corrosive Acid", "Rupture"
     ]
+  },
+  {
+    "name": "Bile Launcher",
+    "commanders": ["Zagara"],
+    "tier": 3,
+    "life": 400,
+    "armor": 1,
+    "types": ["Armored", "Biological", "Structure"],
+    "weapons": [ ],
+    "abilities": ["Bombardment (Zagara)"],
+    "upgrades": ["Artillery Ducts"  ]
   },
   {
     "name": "Hunter Killer",
@@ -2245,6 +2318,36 @@
     "upgrades": []
   },
   {
+    "name": "Primal Locust",
+    "commanders": ["Dehaka"],
+    "life": 130,
+    "speed": 2.62,
+    "armor": 0,
+    "types": ["Light", "Biological", "Summoned"],
+    "weapons": [
+      {
+        "name": "Spines",
+        "range": 3,
+        "damage": {
+          "base": 10,
+          "versus": {
+          }
+        },
+        "period": 0.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+
+    ],
+    "upgrades": [
+
+    ]
+  },
+  {
     "name": "Creeper Host",
     "commanders": ["Dehaka"],
     "tier": 3,
@@ -2278,6 +2381,38 @@
       "Spawn Explosive Creepers",
       "Evolved Carapace",
       "Evolved Incubation Sacs"
+    ],
+    "upgrades": ["Aerial Burst Sacs"]
+  },
+    {
+    "name": "Explosive Creeper",
+    "commanders": ["Dehaka"],
+    "life": 130,
+    "speed": 3.5,
+    "armor": 0,
+    "types": ["Light", "Biological", "Summoned"],
+    "weapons": [
+      {
+        "name": "Spines",
+        "range": 4,
+        "damage": {
+          "base": 40,
+          "versus": {
+            "Structure": 80,
+          }
+        },
+        "period": 0.57,
+        "targets": ["Ground"],
+        "level": {
+          "base": 4
+             "versus": {
+            "Structure": 8,
+          }
+        }
+      }
+    ],
+    "abilities": [
+
     ],
     "upgrades": ["Aerial Burst Sacs"]
   },
@@ -2503,6 +2638,39 @@
     "abilities": ["Deploy Warhound Turret"],
     "upgrades": [
       "SA-55 Thunderbolt Missiles",
+      "Moebius M34 Terror Rounds",
+      "D99 Detonator",
+      "Umojan Turret Frame"
+    ]
+  },
+  {
+    "name": "Warhound Turret",
+    "commanders": ["Sirius"],
+    "life": 150,
+    "speed": 0,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Summoned", "Structure"],
+    "weapons": [
+      {
+        "name": "Lil' Tom",
+        "range": 7,
+        "damage": {
+          "base": 18,
+          "versus": {
+          }
+        },
+        "period": .55,
+        "targets": ["Air", "Ground"],
+        "level": {
+          "base": 2
+        }
+      }
+    ],
+    "abilities": [
+"SA-55 Thunderbolt Missiles (Warhound Turret)"
+    ],
+    "upgrades": [
+     "SA-55 Thunderbolt Missiles",
       "Moebius M34 Terror Rounds",
       "D99 Detonator",
       "Umojan Turret Frame"
@@ -3136,6 +3304,18 @@
           "base": 2
         }
       }
+         {
+        "name": "Assault Drones",
+        "range": 10,
+        "damage": {
+          "base": 5
+        },
+        "period": 2.14,
+        "targets": ["Ground", "Air"],
+        "level": {
+          "base": 1
+        }
+      }
     ],
     "abilities": [
       "My Significant Other (Han)",
@@ -3470,6 +3650,36 @@
       "Cerberus Mines",
       "Afterburners",
       "Advanced Optics"
+    ]
+  },
+  {
+    "name": "Spider Mine",
+    "commanders": ["Raynor"],
+    "life": 25,
+    "speed": 12.6,
+    "armor": 0,
+    "types": ["Light", "Mechanical", "Structure", "Summoned"],
+    "weapons": [
+      {
+        "name": "Spider Mines",
+        "range": "Melee",
+        "damage": {
+          "base": 70,
+          "versus": {
+          }
+        },
+        "period": .59,
+        "targets": ["Ground"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": [
+
+    ],
+    "upgrades": [
+
     ]
   },
   {
@@ -3987,6 +4197,65 @@
       "Predator Missile"
     ],
     "upgrades": ["Covert Triage"]
+  },
+  {
+    "name": "Bio-Mechanical Repair Drone",
+    "commanders": ["Nova"],
+    "life": 50,
+    "speed": 3.15,
+    "armor": 0,
+    "types": ["Light", "Mechanical", "Summoned"],
+    "weapons": [],
+    "abilities": ["Bio-Mechanical Repair Drone Heal"],
+    "upgrades":["Covert Triage"]
+  },
+  {
+    "name": "Railgun Turret",
+    "commanders": ["Nova"],
+    "life": 400,
+    "shields": 0,
+    "speed": 0,
+    "armor": 1,
+    "types": ["Armored", "Mechanical", "Summoned", "Structure"],
+    "weapons": [
+      {
+        "name": "RGX Perferator",
+        "range": 6,
+        "count": 0,
+        "damage": {
+          "base": 30,
+          "versus": {
+          }
+        },
+        "period": 1.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": [
+
+    ],
+    "upgrades": [
+
+    ]
+  },
+  {
+    "name": "Defensive Drone",
+    "commanders": ["Nova"],
+    "life": 200,
+    "shields": 0,
+    "energy_start": 200,
+    "energy_max": 200,
+    "speed": 0,
+    "armor": 0,
+    "types": ["Light", "Mechanical", "Summoned", "Structure" ],
+    "weapons": [  ],
+    "abilities": ["Defensive Matrix"],
+    "upgrades": [
+
+    ]
   },
   {
     "name": "Holo Decoy",
@@ -4507,13 +4776,13 @@
     "weapons": [
       {
         "name": "Mecha Needle Claws",
-        "range": 0,
+        "range": "Melee",
         "damage": {
           "base": 4,
           "versus": {
           }
         },
-        "period": .46,
+        "period": 0.46,
         "targets": ["Ground"],
         "level": {
           "base": 0
@@ -4717,6 +4986,34 @@
       }
     ],
     "abilities": ["Spawn Locust", "Biomass (2)"],
+    "upgrades": ["Pressurized Glands"]
+  },
+  {
+    "name": "Locust (Abathur)",
+    "commanders": ["Abathur"],
+    "life": 65,
+    "speed": 2.62,
+    "armor": 0,
+    "types": ["Light", "Biological", "Summoned"  ],
+    "weapons": [
+      {
+        "name": "Acid Spit",
+        "range": 3,
+        "damage": {
+          "base": 10,
+          "versus": {
+          }
+        },
+        "period": 0.43,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [
+
+    ],
     "upgrades": ["Pressurized Glands"]
   },
   {
