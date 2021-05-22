@@ -1494,7 +1494,10 @@
         "period": 1,
         "targets": ["Ground"],
         "level": {
-          "base": 1
+          "base": 1,
+         "versus": {
+            "Structure" 1
+          }
         }
       }
     ],
@@ -2404,9 +2407,9 @@
         "period": 0.57,
         "targets": ["Ground"],
         "level": {
-          "base": 4
+          "base": 4,
              "versus": {
-            "Structure": 8,
+            "Structure": 8
           }
         }
       }
@@ -3668,7 +3671,7 @@
           "versus": {
           }
         },
-        "period": .59,
+        "period": 0.59,
         "targets": ["Ground"],
         "level": {
           "base": 0
