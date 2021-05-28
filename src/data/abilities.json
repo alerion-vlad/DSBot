@@ -24,7 +24,7 @@
     "cost": {
       "energy": 50
     },
-    "description": "Drains all energy from the target. Deals 1 damage per point of energy drained."
+    "description": "Drains all energy from the target. Deals 1 damage per point of energy drained. Note: Doesn't have a cooldown despite it saying it does."
   },
   {
     "name": "Psionic Storm",
@@ -213,14 +213,14 @@
   },
   {
     "name": "Explode",
-    "units": ["Splitterling"],
+    "units": ["Splitterling", "Splitterling Spawn"],
     "commanders": ["Zagara"],
     "requirements": [],
     "description": "The Baneling detonates where it is standing, damaging nearby units and structures."
   },
   {
     "name": "Disable Building Attack",
-    "units": ["Splitterling"],
+    "units": ["Splitterling", "Splitterling Spawn"],
     "commanders": ["Zagara"],
     "requirements": [],
     "description": "Prevents Banelings from automatically targeting structures."
@@ -663,7 +663,7 @@
     "commanders": ["Dehaka"],
     "requirements": [],
     "cooldown": 21,
-    "description": "Siege unit that attacks by spawning Primal Locust minions. Primal Locusts last 18 seconds."
+    "description": "Siege unit that attacks by spawning 2 Primal Locust minions. Primal Locusts last 18 seconds."
   },
   {
     "name": "Spawn Explosive Creepers",
@@ -671,7 +671,7 @@
     "commanders": ["Dehaka"],
     "requirements": [],
     "cooldown": 20,
-    "description": "Siege unit that attacks by spawning Explosive Creeper minions. Creepers last 10 seconds."
+    "description": "Siege unit that attacks by spawning 2 Explosive Creeper minions. Creepers last 10 seconds."
   },
   {
     "name": "Evolved Carapace",
@@ -834,6 +834,14 @@
     "requirements": [],
     "cooldown": 15,
     "description": "Deploy an automated defensive turret. Turrets gain the same gear bonuses as Sirius himself. Times out after 10 seconds."
+  },
+    {
+    "name": "SA-55 Thunderbolt Missiles (Warhound Turret)",
+    "units": ["Warhound Turret"],
+    "commanders": ["Tychus"],
+    "requirements": ["SA-55 Thunderbolt Missiles"],
+    "cooldown": 21,
+    "description": "Deal 100 damage to 2 air targets."
   },
   {
     "name": "Oil Spill",
@@ -1500,6 +1508,23 @@
     "cooldown": 120,
     "description": "Provides friendly units with shields that absorb up to 200 damage. Lasts 10 seconds."
   },
+      {
+    "name": "Defensive Matrix",
+    "units": ["Defensive Drone"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "cost": {
+      "energy": 25
+    },
+    "description": "Surrounds the target with a shield that can absorb up to 200 damage. Effect lasts 10 seconds"
+  },
+      {
+    "name": "Bio-Mechanical Repair Drone Heal",
+    "units": ["Bio-Mechanical Repair Drone"],
+    "commanders": ["Nova"],
+    "requirements": [],
+    "description": "Restores 20 life per second to a biological or a mechanical unit."
+  },
   {
     "name": "Phase Reactor Suit",
     "units": ["Nova"],
@@ -1650,6 +1675,14 @@
     "requirements": [],
     "cooldown": 1,
     "description": "Stetmann's units gain +5 Egonergy regen per second."
+  },
+   {
+    "name": "Environmentally Unfriendly Eruption",
+    "units": ["Mecha Ravager"],
+    "commanders": ["Stetmann"],
+    "requirements": [],
+    "cooldown": 6,
+    "description": "Launch a missile in a target location, dealing 60 damage to enemy units in target area on impact."
   },
   {
     "name": "Morph to Mecha Baneling",
@@ -2198,6 +2231,13 @@
     "requirements": [],
     "description": "The Blackhammer requires 725/1450/2175 total EXP for each of its ranks.\nIt gains +150 HP per Rank."
   },
+    {
+    "name": "Bombardment",
+    "units": ["Earthsplitter Ordnance"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "Bombards a target location dealing 100 damage to enemy ground units."
+  },
   {
     "name": "Veterancy (Sky Fury)",
     "units": ["Sky Fury"],
@@ -2394,12 +2434,20 @@
     "description": "The Roach regenerates life very quickly when burrowed."
   },
     {
+    "name": "Bombardment (Zagara)",
+    "units": ["Bile Launcher"],
+    "commanders": ["Zagara"],
+    "requirements": [],
+    "cooldown": 10,
+    "description": "Bombards target locations with bile. Dealing 75 damage to ground and air units in the area."
+  },
+    {
     "name": "Splitterling",
     "units": ["Builder - Zagara"],
     "commanders": ["Zagara"],
     "requirements": [],
     "cooldown": 90,
-    "description": "Zag periodically gains free splitterlings."
+    "description": "Zagara periodically gains free splitterlings."
   },
   {
     "name": "Burrow (Roach)",
