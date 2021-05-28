@@ -539,6 +539,13 @@
     "requirements": [],
     "description": "Defensive Structures gain +25% weapon speed."
   },
+    {
+    "name": "Enhanced Targeting",
+    "commanders": ["Karax"],
+    "cost": 50,
+    "requirements": ["Optimized Ordnance"],
+    "description": "Defensive Structures gain +2 range."
+  },
   {
     "name": "Reclamation",
     "commanders": ["Karax"],
