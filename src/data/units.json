@@ -3,7 +3,7 @@
     "name": "Honor Guard",
     "commanders": ["Artanis"],
     "tier": 1,
-    "cost": 80,
+    "cost": 85,
     "life": 100,
     "shields": 50,
     "speed": 3.15,
@@ -127,7 +127,7 @@
     "name": "Phoenix",
     "commanders": ["Artanis"],
     "tier": 2,
-    "cost": 125,
+    "cost": 130,
     "life": 120,
     "shields": 60,
     "speed": 5.95,
@@ -161,7 +161,7 @@
     "name": "Immortal (Artanis)",
     "commanders": ["Artanis"],
     "tier": 2,
-    "cost": 240,
+    "cost": 230,
     "life": 200,
     "shields": 100,
     "speed": 3.15,
@@ -403,7 +403,7 @@
     "name": "Infested Diamondback",
     "commanders": ["Stukov"],
     "tier": 2,
-    "cost": 190,
+    "cost": 185,
     "life": 250,
     "speed": 4.13,
     "armor": 1,
@@ -558,7 +558,7 @@
     "name": "Infested Siege Tank",
     "commanders": ["Stukov"],
     "tier": 2,
-    "cost": 450,
+    "cost": 425,
     "life": 200,
     "speed": 3.15,
     "armor": 1,
@@ -2560,7 +2560,7 @@
     "life": 600,
     "speed": 4.13,
     "armor": 1,
-    "types": ["Biological", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Heroic", "Map Boss"],
     "weapons": [
       {
         "name": "Sweet Talker",
@@ -2724,7 +2724,7 @@
     "life": 1000,
     "speed": 4.13,
     "armor": 1,
-    "types": ["Biological", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Heroic", "Map Boss"],
     "weapons": [
       {
         "name": "Meteor Smasher",
@@ -2792,7 +2792,7 @@
     "life": 500,
     "speed": 4.13,
     "armor": 0,
-    "types": ["Biological", "Psionic", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Psionic", "Heroic", "Map Boss"],
     "weapons": [
       {
         "name": "AGR-17 Gauss Rifle",
@@ -2823,7 +2823,7 @@
     "life": 500,
     "speed": 4.13,
     "armor": 0,
-    "types": ["Biological", "Psionic", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Psionic", "Heroic", "Map Boss"],
     "weapons": [
       {
         "name": "C-10b Canister Rifle",
@@ -4267,7 +4267,7 @@
     "cost": 575,
     "life": 1000,
     "speed": 3.15,
-    "armor": 2,
+    "armor": 1,
     "types": ["Biological", "Psionic", "Heroic"],
     "weapons": [
       {
@@ -4279,7 +4279,7 @@
         "period": 1.07,
         "targets": ["Ground"],
         "level": {
-          "base": 0
+          "base": 10
         }
       }
     ],
@@ -4936,7 +4936,7 @@
         }
       }
     ],
-    "abilities": ["Rapid Transfusion", "Biomass (1)"],
+    "abilities": ["Rapid Transfusion", "Biomass (2)"],
     "upgrades": ["Bio-Mechanical Transfusion"]
   },
   {
@@ -4962,7 +4962,7 @@
         }
       }
     ],
-    "abilities": ["Corrosive Bile", "Biomass (2)"],
+    "abilities": ["Corrosive Bile", "Biomass (5)"],
     "upgrades": ["Bloated Bile Ducts", "Potent Bile"]
   },
   {
@@ -4988,7 +4988,7 @@
         }
       }
     ],
-    "abilities": ["Spawn Locust", "Biomass (2)"],
+    "abilities": ["Spawn Locust", "Biomass (5)"],
     "upgrades": ["Pressurized Glands"]
   },
   {
@@ -5046,7 +5046,7 @@
       "Upgrade to Guardian",
       "Upgrade to Devourer",
       "Upgrade to Leviathan (Mutalisk)",
-      "Biomass (1)"
+      "Biomass (3)"
     ],
     "upgrades": ["Rapid Regeneration", "Vicious Glave", "Sundering Glave"]
   },
@@ -5073,7 +5073,7 @@
         }
       }
     ],
-    "abilities": ["Upgrade to Leviathan (Guardian)", "Biomass (2)"],
+    "abilities": ["Upgrade to Leviathan (Guardian)", "Biomass (5)"],
     "upgrades": ["Prolonged Dispersion"]
   },
   {
@@ -5108,7 +5108,7 @@
     "abilities": [
       "Corrosive Acid",
       "Upgrade to Leviathan (Devourer)",
-      "Biomass (3)"
+      "Biomass (8)"
     ],
     "upgrades": ["Corrosive Spray"]
   },
@@ -5149,7 +5149,7 @@
       "Parasitic Bomb",
       "Consumption",
       "Upgrade to Leviathan (Viper)",
-      "Biomass (2)"
+      "Biomass (6)"
     ],
     "upgrades": ["Virulent Microbes"]
   },
