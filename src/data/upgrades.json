@@ -810,7 +810,7 @@
     "commanders": ["Dehaka"],
     "cost": 75,
     "requirements": [],
-    "description": "Primal Ultralisk and Tyrannozor attacks have a 20% chance to stun."
+    "description": "Primal Ultralisk and Tyrannozor attacks stun the target for 1 second. This effect can occur every 5 seconds."
   },
   {
     "name": "Healing Adaptation",
