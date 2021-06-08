@@ -989,7 +989,7 @@
     "commanders": ["Alarak"],
     "requirements": [],
     "cooldown": 60,
-    "description": "Destroys a Supplicant in your staging area permanently gaining 1 stack of Sacrifice. Sacrifice grants 100 shields and 25% ability damage."
+    "description": "Destroys a Supplicant in your staging area permanently gaining 1 stack of Sacrifice. Sacrifice grants 100 shields, 25% ability damage and refunds 25 minerals back."
   },
   {
     "name": "Destruction Beam",
