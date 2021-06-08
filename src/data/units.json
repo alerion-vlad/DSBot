@@ -1488,7 +1488,7 @@
         "damage": {
           "base": 5,
           "versus": {
-            "Structure" 10
+            "Structure": 10
           }
         },
         "period": 1,
@@ -1496,7 +1496,7 @@
         "level": {
           "base": 1,
          "versus": {
-            "Structure" 1
+            "Structure": 1
           }
         }
       }
@@ -2401,7 +2401,7 @@
         "damage": {
           "base": 40,
           "versus": {
-            "Structure": 80,
+            "Structure": 80
           }
         },
         "period": 0.57,
@@ -3306,7 +3306,7 @@
         "level": {
           "base": 2
         }
-      }
+      },
          {
         "name": "Assault Drones",
         "range": 10,
@@ -4813,7 +4813,7 @@
         "damage": {
           "base": 12,
           "versus": {
-            "Light": 24,
+            "Light": 24
           }
         },
         "period": 1.43,
@@ -5262,7 +5262,7 @@
       }
     ],
     "abilities": [
-    "Bombardment",
+    "Bombardment"
     ],
     "upgrades": [
     "Neosteel Fortified Armor",
