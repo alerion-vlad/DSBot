@@ -436,7 +436,7 @@
     "commanders": ["Vorazun"],
     "requirements": ["Void Stasis"],
     "cooldown": 15,
-    "description": "Disables an enemy for 5 seconds, rendering it invulnerable and removing any detection it provides."
+    "description": "Disables an enemy for 3 seconds, rendering it invulnerable and removing any detection it provides."
   },
   {
     "name": "Confusion",
@@ -988,7 +988,7 @@
     "units": ["Ascendant"],
     "commanders": ["Alarak"],
     "requirements": [],
-    "cooldown": 120,
+    "cooldown": 60,
     "description": "Destroys a Supplicant in your staging area permanently gaining 1 stack of Sacrifice. Sacrifice grants 100 shields and 25% ability damage."
   },
   {
@@ -2403,28 +2403,44 @@
     "description": "Every mineral Mengsk earns is awarded as XP, split between each of his Royal Guards. While no Royal Guards are in training, excess XP is stored as energy. This ability can be used on a Royal Guard, granting it any stored XP."
   },
   {
-    "name": "Biomass (1)",
-    "units": ["Vile Roach", "Swarm Queen", "Mutalisk"],
-    "commanders": ["Abathur"],
-    "requirements": [],
-    "cooldown": 180,
-    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Vile Roaches gain additional armor. Costs 1 charge to use."
-  },
-  {
     "name": "Biomass (2)",
-    "units": ["Ravager", "Swarm Host", "Viper", "Guardian"],
+    "units": ["Swarm Queen"],
     "commanders": ["Abathur"],
     "requirements": [],
-    "cooldown": 180,
-    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Ravagers gain halved ability cooldowns. Locusts gain the Biomass bonus if their Swarm Host has the buff. Costs 2 charges to use."
+    "cooldown": 60,
+    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Costs 2 charges to use."
   },
   {
     "name": "Biomass (3)",
+    "units": ["Vile Roach", "Mutalisk"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 60,
+    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Vile Roaches gain additional armor. Costs 3 charges to use."
+  },
+  {
+    "name": "Biomass (5)",
+    "units": ["Ravager", "Swarm Host", "Guardian"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 60,
+    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Ravagers gain halved ability cooldowns. Locusts gain the Biomass bonus if their Swarm Host has the buff. Costs 5 charges to use."
+  },
+    {
+    "name": "Biomass (6)",
+    "units": ["Viper"],
+    "commanders": ["Abathur"],
+    "requirements": [],
+    "cooldown": 60,
+    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Costs 6 charges to use."
+  },
+    {
+    "name": "Biomass (8)",
     "units": ["Devourer"],
     "commanders": ["Abathur"],
     "requirements": [],
-    "cooldown": 180,
-    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Costs 3 charges to use."
+    "cooldown": 60,
+    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Costs 8 charges to use."
   },
   {
     "name": "Rapid Regeneration",
